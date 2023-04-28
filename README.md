@@ -13,7 +13,7 @@
  9. Conservation module
  
  
- Instructions for expert users:
+ Instructions for expert users (tested with python3.10 and 3.7 versions)
  
  1. open the terminal, change and open the location in which you would save eNERVE.
  2. git clone https://github.com/francescopatane96/eNERVE.git
