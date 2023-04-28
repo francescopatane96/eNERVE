@@ -45,36 +45,71 @@ def epitope(final_proteins, autoimmunity, mouse, mouse_peptides_sum_limit, antig
 	
         for p, score in zip(final_proteins, protein_scores):
             if score >= epitope_percentile:
+                # create a dir for every protein
+                new_dir_path = working_dir+'{}/'.format(p.accession)
+                if os.path.isfile(new_dir_path):
+                    os.removedirs(new_dir_path)
+                else:
+                    os.makedirs(new_dir_path)
                 # run predictions for MHC I and II epitopes
                 # use 'threads=0' to use all available cores
                 mhci_epitopes = mhci_predictor.predict_sequences(p.sequence, alleles=m1alleles, length=mhci_length,
                                                                  verbose=False, overlap=mhci_overlap)
+                                                                	
+                                                                 
                 mhcii_epitopes = mhcii_predictor.predict_sequences(p.sequence, alleles=m2alleles, length=mhcii_length,
                                                                    verbose=False, overlap=mhcii_overlap)
-                
+                                                                   	
                 mhci_epitopes['protein id'] = p.id
-                #data_i.append(mhci_epitopes)
+                # data_i.append(mhci_epitopes)
                 mhcii_epitopes['protein id'] = p.id
-                #data_ii.append(mhcii_epitopes)
+                # data_ii.append(mhcii_epitopes)
                 
-                mhci_epitopes.to_csv('mhci_epitopes_{}.csv'.format(p.id), index=False)
-                mhcii_epitopes.to_csv('mhcii_epitopes_{}.csv'.format(p.id), index=False)
+                mhci_epitopes.to_csv(new_dir_path+'mhci_epitopes_{}.csv'.format(p.accession), index=False)
+                mhcii_epitopes.to_csv(new_dir_path+'mhcii_epitopes_{}.csv'.format(p.accession), index=False)
                 
                 p.mhci_epitopes = 'Epitopes acquired. See mhci_epitopes.csv'
                 p.mhcii_epitopes = 'Epitopes acquired. See mhcii_epitopes.csv'
                 
-                #promiscuous binders
+                # promiscuous binders mhc1
+                results_mhc1_raw = base.results_from_csv(path=new_dir_path+'mhci_epitopes_{}.csv'.format(p.accession))
+                #filtered_binders1 = mhci_predictor.get_binders(names=results_mhc1_raw)
+                #save filtered binders
+                #filtered_binders1.to_csv(new_dir_path+'MHC1_epitopes_FILTERED{}.csv'.format(p.accession), index=False)
+                # find promiscuous binders
+                pb1 = mhci_predictor.promiscuous_binders()
+                # save pbs
+                pb1.to_csv(new_dir_path+'Promiscuous_binders_MHC1_{}.csv'.format(p.accession), index=False)
                 
-              
+                # promiscuous binders mhc2
+                results_mhc2_raw = base.results_from_csv(path=new_dir_path+'mhcii_epitopes_{}.csv'.format(p.accession))
+                filtered_binders2 = mhcii_predictor.get_binders(names=results_mhc2_raw, cutoff=0.95)
+                # save filtered binders
+                filtered_binders2.to_csv(new_dir_path+'MHC2_epitopes_FILTERED{}.csv'.format(p.accession), index=False)
+                # find promiscuous binders
+                pb2 = mhcii_predictor.promiscuous_binders(cutoff=0.95)
+                # save pbs
+                pb2.to_csv(new_dir_path+'Promiscuous_binders_MHC2_{}.csv'.format(p.accession), index=False)
                 
-    #if len(data_i) > 0:
-        #combined_data_i = pd.concat(data_i)
-        #combined_data_i = combined_data_i.loc[combined_data_i['rank'] == 1]
-        #combined_data_i.to_csv('mhci_epitopes.csv', index=False)
-        
-    #if len(data_ii) > 0:
-        #combined_data_ii = pd.concat(data_ii)
-        #combined_data_ii = combined_data_ii.loc[combined_data_ii['rank'] == 1]
-        #combined_data_ii.to_csv('mhcii_epitopes.csv', index=False)
+                # plot binders in a sequence
+                names_i = mhci_predictor.get_names()
+                for name in names_i:
+                   ax = plotting.plot_tracks([mhci_predictor], name=name)
+                   ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC1_{}.png'.format(p.accession))
+                   
+                names_ii = mhcii_predictor.get_names()
+                for name in names_ii:
+                   ax = plotting.plot_tracks([mhcii_predictor], name=name)
+                   ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC2_{}.png'.format(p.accession))
+                
+                # plot heatmap colored by ranks
+                for name in names_i:
+                   ax = plotting.plot_binder_map(mhci_predictor, name=name)
+                   ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC1_{}.png'.format(p.accession))
+                
+                for name in names_ii:
+                   ax = plotting.plot_binder_map(mhcii_predictor, name=name)
+                   ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC2_{}.png'.format(p.accession))
+                                   
                 
     return final_proteins
