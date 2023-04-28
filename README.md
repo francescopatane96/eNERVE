@@ -19,6 +19,7 @@
  2. git clone https://github.com/francescopatane96/eNERVE.git
  2. cd eNERVE
  3. git clone https://github.com/francescopatane96/DeepFRI.git
+ 3. download pre-trained models from https://users.flatironinstitute.org/~renfrew/DeepFRI_data/newest_trained_models.tar.gz, then uncompress tar.gz file into the DeepFRI directory (tar xvzf trained_models.tar.gz -C /path/to/DeepFRI).
  4. git clone https://github.com/francescopatane96/iFeature.git
  5. pip install git+https://github.com/francescopatane96/tmhmm.py.git
  6. apt-get install ncbi-blast+
