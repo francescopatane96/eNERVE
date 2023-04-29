@@ -3,4 +3,5 @@ epitopepredict == 0.5.0
 seaborn == 0.12.2
 pandas
 requests
-
+joblib
+tensorflow
