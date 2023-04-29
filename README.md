@@ -30,3 +30,7 @@
  
  Usage:
  
+ 
+ References and contacts:
+ eNERVE was developed by Francesco Patanè under the supervision of Prof. Francesco Filippini at University of Padova and in collaboration with Francesco Costa, Nicola Gulmini and Andrea Conte.
+ 
