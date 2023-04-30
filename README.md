@@ -15,14 +15,14 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  
  1. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
  2. Descriptors calculator module: this module uses iFeature library (https://github.com/Superzchen/iFeature) to calculate protein descriptors for every protein in the input proteome;
- 3. Subcellular location module: RandomForest based model to predict the probability of being 'outer' (training dataset from UniProt https://www.uniprot.org/);
+ 3. Subcellular location module: RandomForest based model (scikit-learn) to predict the probability of being 'outer' (training dataset from UniProt https://www.uniprot.org/);
  4. Transmembrane topology prediction module: TMHMM (Hidden markov model based model), predicts the probability of each aminoacid to be 'i', 'o' or 'M'. For more informations, please visit https://github.com/dansondergaard/tmhmm.py ;
  5. Razor module: virtual scissors that the outer protein pieces and rejoin them. This is useful to retrieve the outer segments of proteins with many transmembrane domains and to discard the latter.
  6. Adhesin and adhesin-like predictor module: feed-forward neural network (Tensorflow/Keras). Training dataset obtained from literature and InterPro (https://www.ebi.ac.uk/interpro/);
  7. Antigenicity predictor module: feed-forward neural network (Tensorflow/Keras)
- 8. Autoimmunity and allergenicity module: Alignment based method
+ 8. Autoimmunity and allergenicity module: Alignment based method (ncbi blast+)
  9. Selection and scoring module
- 10. Linear epitope predictor module: Epitopepredict
+ 10. Linear epitope predictor module: epitopepredict (https://github.com/dmnfarrell/epitopepredict)
  11. Conservation module between proteome1 and proteome2, if proteome2 is added to the analysis
  12. Output generation module
  ***
