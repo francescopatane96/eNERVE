@@ -27,7 +27,7 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  12. Output generation module
  ***
  
- # Instructions for stand-alone installation with docker: under development
+ # Instructions for stand-alone use with docker: under development
  
  ***
  # Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in linux/ubuntu/unix os environment):
