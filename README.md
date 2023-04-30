@@ -64,7 +64,7 @@ After venv activation, the terminal will shows virtual environment name between 
                 [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]```
                 
                 where:
-                -h [];
+                -h (help), [];
                 -a (Protein functional annotation with DeepFRI), [True, False, default=True];
                 -ai (autoimmunity and allergenicity module), [True, False, default=True];
                 -tp (topology), [tmhmm];
