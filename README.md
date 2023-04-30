@@ -58,10 +58,11 @@ After venv activation, the terminal will shows virtual environment name between 
 
 ***
 # Usage:
-```usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
+```
+usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 [-mpsl] -p1 [-p2] [-pl] [-rz] [-ig] [-rl] [-s]
                 [-ss] [-tdl] [-ang] [-wd] [-nd] [-id] [-dfd]
-                [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]```
+                [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]
                 
                 where:
                 -h (help), [];
@@ -91,7 +92,8 @@ After venv activation, the terminal will shows virtual environment name between 
                 -m2l (mhc2 ligands length), [9,11,13,15, default=11];
                 -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
-                -prt (epitope binders percentile), [float, default=0.9];
+                -prt (epitope binders percentile), [float, default=0.9]
+```
 
  1. digit ```cd eNERVE```;
  2. create your working directory (where you will put in fasta.file to be analyze and where outputs will be saved);
