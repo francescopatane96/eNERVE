@@ -18,11 +18,12 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  7. Autoimmunity and allergenicity module: Alignment based method
  8. Selection and scoring module
  9. Linear epitope predictor module: Epitopepredict
- 10. Conservation module
+ 10. Conservation module between proteome1 and proteome2, if proteome2 is added to the analysis
  11. Output generation module
  ***
  
- # Instructions for stand-alone installation with docker:
+ # Instructions for stand-alone installation with docker: under development
+ 
  ***
  # Instructions for local installation (tested with python3.10 and 3.7 versions in linux/ubuntu/unix os environment):
  
@@ -38,11 +39,18 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  8. ``` pip install -U scikit-learn ```;
  9. finally, ``` pip install -r requirements.txt ```
 ***
-# Instructions for creating a virtual environment:
+# Instructions for creating a virtual environment (linux/unix/mac os):
+1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
+2. ```cd /path/destination/``` and clone the repository (```git clone ...```)
+3. ```cd eNERVE/code```
+4. create a virtual environment with python module ```venv``` (to avoid dependencies conflitcs) with ```python3 -m venv enerve```
+5. activate your new virtual environment with ```source enerve/bin/activate```
+After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```
+6. Now, you have to install dependencies (from point 2 of the previous section) needed for the pipeline.
 
 ***
 # Usage:
- 1. In the terminal, digit ```python3 nerve.py -arg1 -arg2 -arg(n+1) ... ```
+ 1. In the terminal, digit and run ```python3 nerve.py -arg1 -arg2 -arg(n+1)```
  
  
  ***
