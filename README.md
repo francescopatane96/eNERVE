@@ -34,29 +34,68 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  
  1. Open the terminal, move to the location in which you would save eNERVE (eg. ```cd /home/ubuntu/Desktop/```);
  2. ``` git clone https://github.com/francescopatane96/eNERVE.git ``` ;
- 2. ``` cd eNERVE/code ```;
- 3. ``` git clone https://github.com/francescopatane96/DeepFRI.git ```;
- 3. Download pre-trained models from https://users.flatironinstitute.org/~renfrew/DeepFRI_data/newest_trained_models.tar.gz, then uncompress ```tar.gz file``` into the ```DeepFRI directory``` (```tar xvzf trained_models.tar.gz -C /path/to/DeepFRI```);
- 4. ``` git clone https://github.com/francescopatane96/iFeature.git ``` and ```pip install numpy```;
- 5. ``` pip install git+https://github.com/francescopatane96/tmhmm.py.git ```;
- 6. ``` sudo apt-get install ncbi-blast+ ```;
- 7. ``` pip install tensorflow ```;
- 8. ``` pip install -U scikit-learn ```;
- 9. finally, ``` pip install -r requirements.txt ```
+ 3. ``` cd eNERVE/code ```;
+ 4. ``` git clone https://github.com/francescopatane96/DeepFRI.git ```;
+ 5. Download pre-trained models from https://users.flatironinstitute.org/~renfrew/DeepFRI_data/newest_trained_models.tar.gz, then uncompress ```tar.gz file``` into the ```DeepFRI directory``` (```tar xvzf trained_models.tar.gz -C /path/to/DeepFRI```);
+ 6. ``` git clone https://github.com/francescopatane96/iFeature.git ``` and ```pip install numpy```;
+ 7. ``` pip install git+https://github.com/francescopatane96/tmhmm.py.git ```;
+ 8. ``` sudo apt-get install ncbi-blast+ ```;
+ 9. ``` pip install tensorflow ```;
+ 10. ``` pip install -U scikit-learn ```;
+ 11. finally, ``` pip install -r requirements.txt ```
+ 
 ***
 # Instructions for creating a virtual environment (linux/unix/mac os):
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
 2. ```cd /path/destination/``` and clone the repository (```git clone ...```)
-3. ```cd eNERVE/code```
+3. ```cd eNERVE```
 4. Install ```python3-venv``` package digiting ```sudo apt install python3.10-venv ```
 5. create a virtual environment with python module ```venv``` (to avoid dependencies conflicts) with ```python3 -m venv enerve```
 6. activate your new virtual environment with ```source enerve/bin/activate```
 After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```
-7. Now, you have to install dependencies (from point 2 of the previous section) needed for the pipeline.
+7. ```cd eNERVE/code```
+8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
 
 ***
 # Usage:
- 1. In the terminal, digit and run ```python3 nerve.py -arg1 -arg2 -arg(n+1)```
+```usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
+                [-mpsl] -p1 [-p2] [-pl] [-rz] [-ig] [-rl] [-s]
+                [-ss] [-tdl] [-ang] [-wd] [-nd] [-id] [-dfd]
+                [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]```
+                
+                where:
+                -h [];
+                -a (Protein functional annotation with DeepFRI), [True, False, default=True];
+                -ai (autoimmunity and allergenicity module), [True, False, default=True];
+                -tp (topology), [tmhmm];
+                -ev (e-value for blastp), [float, default=1e-10];
+                -ml (minlength required for shared peptides to be extracted in comparison analysis versus human and/or mouse) [int, default=9];
+                -mm (mismatch, maximal number of not compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module, [int, default=1];
+                -m (mouse autoimmunity and allergenicity module), [True, False, default=True];
+                -mpsl (mouse peptides sum limit, parameter used by selection module. protein with sum of shared peptides of the i protein with mouse proteins/number of aminoacids of the i protein <= mouse peptides sum limit and with absence of match mhc-I and mhc-II mouse ligands are selected), [float, default=0.15];
+                -p1 (proteome 1 fasta filename or path), [filename.fasta] --> required;
+                -p2 (proteome 2 fasta filename or path), [filename.fasta];
+                -rz (razor module), [True, False, default=True];
+                -ig (antigenlimit, cutoff value for antigen module), [float, default=0.80];
+                -rl (min loop length considered in razor module), [int, default=9];
+                -s (selection module), [True, False, default=True];
+                -ss (substitution, maximal number of compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module), [int, default=3];
+                -tdl (transmembrane doms limit) [int, default=30];
+                -ang (antigen module), [True, False, default=True];
+                -wd [path/to/workdir] --> recommended;
+                -nd [path/to/NERVEdir] --> recommended;
+                -id (iFeature directory), [path/to/ifeature_dir, default=./iFeature];
+                -dfd (DeepFri directory), [path/to/deepfri_dir, default=./DeepFRI];
+                -ep (epitope prediction module), [True, False, default=True];
+                -m1l (mhc1 ligands length), [9,10,11, default=9];
+                -m2l (mhc2 ligands length), [9,11,13,15, default=11];
+                -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
+                -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
+                -prt (epitope binders percentile), [float, default=0.9];
+
+ 1.
+ 2. In the terminal, digit and run ```python3 nerve.py``` followed by args**
+ 3. Output will be saved in the working directory at the end of the computation
  
  
  ***
