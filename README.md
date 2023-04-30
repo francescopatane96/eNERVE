@@ -27,7 +27,25 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  12. Output generation module
  ***
  
- # Instructions for stand-alone use with docker: under development
+ ### Instructions for stand-alone usage with docker: under development
+eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems.
+
+1) install Docker following [these instructions](https://docs.docker.com/engine/install/) and [the post-installation procedure](https://docs.docker.com/engine/install/linux-postinstall/)
+2) install docker-compose as explained [here](https://docs.docker.com/compose/install/linux/)
+3) clone repository:
+```
+git clone git@github.com:/francescopatane96/eNERVE.git
+```
+4) cd to docker folder
+```
+cd ./eNERVE/docker
+```
+5) build docker containers. This takes a few minutes
+```
+./build_run.sh
+```
+6) open a browser and navigate to local host: http://localhost:8880
+
  
  ***
  # Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in linux/ubuntu/unix os environment):
