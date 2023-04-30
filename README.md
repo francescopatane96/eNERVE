@@ -11,7 +11,7 @@ eNERVE is designed to assist experimental research activities in vaccine discove
 Are you searching for a bacteria vaccine discovery pipeline? Please visit https://nicolagulmini.github.io/NERVE/ and https://github.com/FranceCosta/NERVE .
  
  ***
- # Pipeline architecture and data flow:
+ ### Pipeline architecture and data flow:
  
  1. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
  2. Descriptors calculator module: this module uses iFeature library (https://github.com/Superzchen/iFeature) to calculate protein descriptors for every protein in the input proteome;
@@ -48,7 +48,7 @@ cd ./eNERVE/docker
 
  
  ***
- # Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in linux/ubuntu/unix os environment):
+ ### Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in linux/ubuntu/unix os environment):
  
  1. Open the terminal, move to the location in which you would save eNERVE (eg. ```cd /home/ubuntu/Desktop/```);
  2. ``` git clone https://github.com/francescopatane96/eNERVE.git ``` ;
@@ -63,7 +63,7 @@ cd ./eNERVE/docker
  11. finally, ``` pip install -r requirements.txt ```
  
 ***
-# Instructions for creating a virtual environment (linux/unix/mac os):
+### Instructions for creating a virtual environment (linux/unix/mac os):
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
 2. ```cd /path/destination/``` and clone the repository (```git clone ...```)
 3. ```cd eNERVE```
@@ -75,7 +75,7 @@ After venv activation, the terminal will shows virtual environment name between 
 8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
 
 ***
-# Usage:
+### Usage:
 ```
 usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 [-mpsl] -p1 [-p2] [-pl] [-rz] [-ig] [-rl] [-s]
@@ -121,7 +121,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
  
  
  ***
-# References and contacts:
+### References and contacts:
  eNERVE was developed by Francesco Patanè during his master thesis and internship under the supervision of Prof. Francesco Filippini, at University of Padova.
  
  Special thanks to Francesco Costa, Nicola Gulmini and Andrea Conte for their help and collaboration in this project.
