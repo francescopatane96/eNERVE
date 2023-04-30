@@ -30,7 +30,7 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  # Instructions for stand-alone installation with docker: under development
  
  ***
- # Instructions for local installation (tested with python3.10 and 3.7 versions in linux/ubuntu/unix os environment):
+ # Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in linux/ubuntu/unix os environment):
  
  1. Open the terminal, move to the location in which you would save eNERVE (eg. ```cd /home/ubuntu/Desktop/```);
  2. ``` git clone https://github.com/francescopatane96/eNERVE.git ``` ;
