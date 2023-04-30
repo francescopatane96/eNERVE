@@ -21,7 +21,10 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  10. Conservation module
  11. Output generation module
  ***
- # Instructions for expert users (tested with python3.10 and 3.7 versions in linux/ubuntu/unix os environment):
+ 
+ # Instructions for stand-alone installation with docker:
+ ***
+ # Instructions for local installation (tested with python3.10 and 3.7 versions in linux/ubuntu/unix os environment):
  
  1. Open the terminal, change and open the location in which you would save eNERVE (eg. ```cd /home/ubuntu/Desktop/```);
  2. ``` git clone https://github.com/francescopatane96/eNERVE.git ``` ;
@@ -34,6 +37,9 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  7. ``` pip install tensorflow ```;
  8. ``` pip install -U scikit-learn ```;
  9. finally, ``` pip install -r requirements.txt ```
+***
+# Instructions for creating a virtual environment:
+
 ***
 # Usage:
  1. In the terminal, digit ```python3 nerve.py -arg1 -arg2 -arg(n+1) ... ```
