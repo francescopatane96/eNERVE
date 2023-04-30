@@ -48,6 +48,6 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  ***
 # References and contacts:
  eNERVE was developed by Francesco Patanè during his master thesis and internship under the supervision of Prof. Francesco Filippini, at University of Padova.
- Thanks to Francesco Costa, Nicola Gulmini and Andrea Conte for their help and collaboration in this project.
+ Thanks to Francesco Costa, Nicola Gulmini and Andrea Conte for their help and collaboration in this project, and to https://github.com/dansondergaard and https://github.com/dmnfarrell/epitopepredict for their pretty and useful tools to predict transmembrane protein topology and linear epitopes.
  
  
