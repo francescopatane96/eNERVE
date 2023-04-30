@@ -48,7 +48,7 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
 2. ```cd /path/destination/``` and clone the repository (```git clone ...```)
 3. ```cd eNERVE/code```
-4. create a virtual environment with python module ```venv``` (to avoid dependencies conflitcs) with ```python3 -m venv enerve```
+4. create a virtual environment with python module ```venv``` (to avoid dependencies conflicts) with ```python3 -m venv enerve```
 5. activate your new virtual environment with ```source enerve/bin/activate```
 After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```
 6. Now, you have to install dependencies (from point 2 of the previous section) needed for the pipeline.
