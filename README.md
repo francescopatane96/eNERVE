@@ -93,9 +93,11 @@ After venv activation, the terminal will shows virtual environment name between 
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
                 -prt (epitope binders percentile), [float, default=0.9];
 
- 1.
- 2. In the terminal, digit and run ```python3 nerve.py``` followed by args**
- 3. Output will be saved in the working directory at the end of the computation
+ 1. digit ```cd eNERVE```;
+ 2. create your working directory (where you will put in fasta.file to be analyze and where outputs will be saved);
+ 3. ```cd code```;
+ 3. In the terminal, digit and run ```python3 nerve.py``` followed by args**;
+ 4. Output files will be saved in the working directory at the end of the computation
  
  
  ***
