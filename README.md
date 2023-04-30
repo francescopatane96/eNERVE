@@ -19,7 +19,7 @@ Are you searching for a bacteria vaccine discovery pipeline? Please visit https:
  4. Transmembrane topology prediction module: TMHMM (Hidden markov model based model), predicts the probability of each aminoacid to be 'i', 'o' or 'M'. For more informations, please visit https://github.com/dansondergaard/tmhmm.py ;
  5. Razor module: virtual scissors that the outer protein pieces and rejoin them. This is useful to retrieve the outer segments of proteins with many transmembrane domains and to discard the latter.
  6. Adhesin and adhesin-like predictor module: feed-forward neural network (Tensorflow/Keras). Training dataset obtained from literature and InterPro (https://www.ebi.ac.uk/interpro/);
- 7. Antigenicity predictor module: feed-forward neural network (Tensorflow/Keras)
+ 7. Antigenicity predictor module: feed-forward neural network (Tensorflow/Keras). Training data obtained from IEDB database (https://www.iedb.org/)
  8. Autoimmunity and allergenicity module: Alignment based method (ncbi blast+)
  9. Selection and scoring module
  10. Linear epitope predictor module: epitopepredict (https://github.com/dmnfarrell/epitopepredict)
@@ -101,6 +101,9 @@ After venv activation, the terminal will shows virtual environment name between 
  ***
 # References and contacts:
  eNERVE was developed by Francesco Patanè during his master thesis and internship under the supervision of Prof. Francesco Filippini, at University of Padova.
- Thanks to Francesco Costa, Nicola Gulmini and Andrea Conte for their help and collaboration in this project, and to https://github.com/dansondergaard and https://github.com/dmnfarrell/epitopepredict for their pretty and useful tools to predict transmembrane protein topology and linear epitopes.
+ 
+ Special thanks to Francesco Costa, Nicola Gulmini and Andrea Conte for their help and collaboration in this project.
+ 
+ This pipeline was also implemented through the use of packages and libraries created by others (iFeature, epitopepredict, tmhmm, ncbi-blast+, tensorflow and many others), so thanks to https://github.com/dansondergaard, https://github.com/dmnfarrell/epitopepredict, https://github.com/francescopatane96/iFeature and thanks to all the open source community for their pretty and useful tools to predict transmembrane protein topology, linear epitopes and so on.
  
  
