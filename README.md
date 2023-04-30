@@ -17,6 +17,7 @@
  8. Selection and scoring module
  9. Linear epitope predictor module: Epitopepredict
  10. Conservation module
+ 11. Output generation module
  ***
  # Instructions for expert users (tested with python3.10 and 3.7 versions in linux/ubuntu/unix os environment):
  
