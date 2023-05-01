@@ -134,8 +134,9 @@ python3 -m venv enerve
 ```
 source enerve/bin/activate
 ```
-After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```
-7. 
+After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```;
+
+7. move to code directory:
 ```
 cd eNERVE/code
 ```
