@@ -34,7 +34,7 @@ eNERVE can be used as a stand-alone version taking advantage of [Docker](https:/
 2) install docker-compose as explained [here](https://docs.docker.com/compose/install/linux/)
 3) open the terminal and digit:
 ```
-docker pull francescopatane/enerve:latest
+sudo docker pull francescopatane/enerve:tag
 ```
 4) create a directory (eg. on Desktop) called 'output' and give it permissions with:
 ```
