@@ -31,7 +31,9 @@ RUN mv /nerve_data/DeepFri.tar.gz DeepFri.tar.gz && \
     tar xvzf ./DeepFri.tar.gz
 
 RUN mv /nerve_data/newest_trained_models.tar.gz trained_models.tar.gz && \
-    tar xvzf trained_models.tar.gz -C ./DeepFri
+    tar xvzf trained_models.tar.gz
+RUN rm -r trained_models.tar.gz
+RUN mv trained_models/* DeepFri && rm -r trained_models
 
 RUN mv /nerve_data/iFeature.tar.gz iFeature.tar.gz && \
     tar xvzf iFeature.tar.gz
