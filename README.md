@@ -186,7 +186,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
  cd eNERVE
  ```
  2. create your working directory (where you will put in fasta.file to be analyze and where outputs will be saved);
- 3. move to ```code``` direcotry:
+ 3. move to ```code``` directory:
  ```
  cd code
  ```
