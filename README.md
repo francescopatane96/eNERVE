@@ -62,15 +62,15 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ```
  cd /home/ubuntu/Desktop/
  ```
- 2.
+ 2. clone the repository on your machine:
  ``` 
  git clone https://github.com/francescopatane96/eNERVE.git
  ``` 
- 3.
+ 3. move to the code directory:
  ``` 
  cd eNERVE/code 
  ```
- 4. 
+ 4. Clone DeepFri repository:
  ``` 
  git clone https://github.com/francescopatane96/DeepFRI.git 
  ```
@@ -78,31 +78,31 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ```
  tar xvzf trained_models.tar.gz -C /path/to/DeepFRI
  ```
- 6. 
+ 6. clone iFeature repository:
  ``` 
  git clone https://github.com/francescopatane96/iFeature.git
  ``` 
- and
+ and install numpy:
  ```
  pip install numpy
  ```
- 7.
+ 7. install tmhmm library:
  ``` 
  pip install git+https://github.com/francescopatane96/tmhmm.py.git 
  ```
- 8. 
+ 8. install ncbi-blast +:
  ``` 
  sudo apt-get install ncbi-blast+ 
  ```
- 9. 
+ 9. install tensorflow:
  ``` 
  pip install tensorflow 
  ```
- 10.
+ 10. install scikit-learn library:
  ``` 
  pip install -U scikit-learn 
  ```
- 11. finally:
+ 11. finally, install remaining dependencies:
  ``` 
  pip install -r requirements.txt 
  ```
@@ -110,32 +110,33 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
 ***
 ### Instructions for creating a virtual environment (linux/unix/mac os):
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
-2. 
+2. move to destination folder:
 ```
 cd /path/destination/
 ``` 
-and clone the repository 
+and clone the repository :
 ```
 git clone https://github.com/francescopatane96/eNERVE.git
 ```
-3.
+3. move to root directory:
 ```
 cd eNERVE
 ```
-4. Install ```python3-venv``` package digiting 
+4. Install ```python3-venv``` package digiting:
 ```
 sudo apt install python3.10-venv
 ```
-5. create a virtual environment with python module ```venv``` (to avoid dependencies conflicts) with 
+5. create a virtual environment with python module ```venv``` (to avoid dependencies conflicts) with: 
 ```
 python3 -m venv enerve
 ```
-6. activate your new virtual environment with 
+6. activate your new virtual environment with: 
 ```
 source enerve/bin/activate
 ```
 After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```
-7. ```
+7. 
+```
 cd eNERVE/code
 ```
 8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
@@ -179,10 +180,20 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -prt (epitope binders percentile), [float, default=0.9]
 ```
 
- 1. digit ```cd eNERVE```;
+ 1. digit:
+ ```
+ cd eNERVE
+ ```
  2. create your working directory (where you will put in fasta.file to be analyze and where outputs will be saved);
- 3. ```cd code```;
- 3. In the terminal, digit and run ```python3 nerve.py``` followed by args**;
+ 3. 
+ ```
+ cd code
+ ```
+ 3. In the terminal, digit and run:
+ ```
+ python3 nerve.py
+ ``` 
+ followed by args**;
  4. Output files will be saved in the working directory at the end of the computation
  
  
