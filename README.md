@@ -185,15 +185,15 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
  cd eNERVE
  ```
  2. create your working directory (where you will put in fasta.file to be analyze and where outputs will be saved);
- 3. 
+ 3. move to ```code``` direcotry:
  ```
  cd code
  ```
  3. In the terminal, digit and run:
  ```
- python3 nerve.py
+ python3 nerve.py -arg1 -arg2 -args**
  ``` 
- followed by args**;
+ 
  4. Output files will be saved in the working directory at the end of the computation
  
  
