@@ -61,38 +61,47 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  1. Open the terminal, move to the location in which you would save eNERVE:
  ```
  cd /home/ubuntu/Desktop/
- ```;
- 2. ``` 
+ ```
+ 2.
+ ``` 
  git clone https://github.com/francescopatane96/eNERVE.git
- ``` ;
- 3. ``` 
+ ``` 
+ 3.
+ ``` 
  cd eNERVE/code 
- ```;
- 4. ``` 
+ ```
+ 4. 
+ ``` 
  git clone https://github.com/francescopatane96/DeepFRI.git 
- ```;
+ ```
  5. Download pre-trained models from [flatironinstitute](https://users.flatironinstitute.org/~renfrew/DeepFRI_data/newest_trained_models.tar.gz), then uncompress ```tar.gz file``` into the ```DeepFRI directory```:
  ```
  tar xvzf trained_models.tar.gz -C /path/to/DeepFRI
- ```;
- 6. ``` 
+ ```
+ 6. 
+ ``` 
  git clone https://github.com/francescopatane96/iFeature.git
- ``` and 
+ ``` 
+ and
  ```
  pip install numpy
- ```;
- 7. ``` 
+ ```
+ 7.
+ ``` 
  pip install git+https://github.com/francescopatane96/tmhmm.py.git 
- ```;
- 8. ``` 
+ ```
+ 8. 
+ ``` 
  sudo apt-get install ncbi-blast+ 
- ```;
- 9. ``` 
+ ```
+ 9. 
+ ``` 
  pip install tensorflow 
- ```;
- 10. ``` 
+ ```
+ 10.
+ ``` 
  pip install -U scikit-learn 
- ```;
+ ```
  11. finally:
  ``` 
  pip install -r requirements.txt 
@@ -101,13 +110,16 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
 ***
 ### Instructions for creating a virtual environment (linux/unix/mac os):
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
-2. ```
+2. 
+```
 cd /path/destination/
-``` and clone the repository 
+``` 
+and clone the repository 
 ```
 git clone https://github.com/francescopatane96/eNERVE.git
-```)
-3. ```
+```
+3.
+```
 cd eNERVE
 ```
 4. Install ```python3-venv``` package digiting 
