@@ -32,19 +32,27 @@ eNERVE can be used as a stand-alone version taking advantage of [Docker](https:/
 
 1) install Docker following [these instructions](https://docs.docker.com/engine/install/) and [the post-installation procedure](https://docs.docker.com/engine/install/linux-postinstall/)
 2) install docker-compose as explained [here](https://docs.docker.com/compose/install/linux/)
-3) clone repository:
+3) open the terminal and digit:
 ```
-git clone git@github.com:/francescopatane96/eNERVE.git
+docker pull francescopatane/enerve:latest
 ```
-4) cd to docker folder
+4) create a directory (eg. on Desktop) called 'output' and give it permissions with:
 ```
-cd ./eNERVE/docker
+chmod 777 /path/to/output
 ```
-5) build docker containers. This takes a few minutes
+5) Run docker image and select a volume for sharing input from local machine and output from virtual machine:
 ```
-./build_run.sh
+sudo docker run --rm -it -v /path/to/fastafile:/workdir -v /path/to/outputdir:/workdir enerve
 ```
-6) open a browser and navigate to local host: http://localhost:8880
+6) go to root folder with:
+```
+cd ..
+```
+7) run eNERVE pipeline with:
+```
+python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
+```
+8) At the end of the computation you will find outputs files in your 'output' directory in the local machine, in this case in your Desktop
 
  
  ***
