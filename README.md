@@ -52,7 +52,7 @@ cd ..
 ```
 python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
 ```
-8) At the end of the computation you will find outputs files in your 'output' directory in the local machine, in this case in your Desktop
+8) At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
 
  
  ***
