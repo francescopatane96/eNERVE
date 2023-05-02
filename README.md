@@ -1,4 +1,6 @@
 # eNERVE v1.0 - Eucaryotic New Enhanced Reverse Vaccinology Environment
+[![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
+[![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)
 
  eNERVE is a dynamic, high-throughput and standalone in silico pipeline for ```PVCs``` (protein vaccine candidates) discovery in ```eukaryotic``` organisms, by a ```reverse vaccinology``` approach. 
  
