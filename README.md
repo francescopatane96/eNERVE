@@ -183,6 +183,13 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
                 -prt (epitope binders percentile), [float, default=0.9]
+                
+example: 
+To run eNERVE with all modules:
+python3 nerve.py -wd /workdir -p1 proteome.fasta
+
+To run eNERVE without annotation (-a) module, mhc1 ligands length of 10, mhc2 ligands length of 15 and epitope percentile of 80:
+python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l 15
 ```
 
  1. digit:
