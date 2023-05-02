@@ -40,21 +40,21 @@ sudo docker pull francescopatane/enerve:tag
 ```
 chmod 777 /path/to/output
 ```
-Then, put your input FASTA files in the directory
+5) Then, put your input FASTA files in the directory;
 
-5) Run docker image and select a volume for sharing input from local machine and output from virtual machine:
+6) Run docker image and select a volume for sharing input from local machine and output from virtual machine:
 ```
 sudo docker run --rm -it -v /path/to/output_direcotry:/workdir -v francescopatane/enerve:tag
 ```
-6) go to root folder with:
+7) go to root folder with:
 ```
 cd ..
 ```
-7) run eNERVE pipeline with:
+8) run eNERVE pipeline with:
 ```
 python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
 ```
-8) At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
+9) At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
 
  
  ***
