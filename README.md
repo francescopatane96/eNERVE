@@ -183,8 +183,10 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
                 -prt (epitope binders percentile), [float, default=0.9]
-                
-example: 
+       
+Remember that required and essential parameters are [-wd] and [-p1]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False
+
+examples: 
 To run eNERVE with all modules:
 python3 nerve.py -wd /workdir -p1 proteome.fasta
 
