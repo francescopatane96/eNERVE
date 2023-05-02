@@ -111,7 +111,7 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  
 ***
 ### Instructions for creating a virtual environment (linux/unix/mac os):
-1. open a terminal or a terminal from an IDE (pyCharm or visual code studio)
+1. open a terminal or a terminal from an IDE (pyCharm or visual code studio);
 2. move to destination folder:
 ```
 cd /path/destination/
@@ -204,7 +204,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
 ### References and contacts:
  eNERVE was developed by ```Francesco Patanè``` during his master thesis and internship under the supervision of Prof. ```Francesco Filippini```, at ```University of Padova```.
  
- Special thanks to ```Francesco Costa``` (https://github.com/FranceCosta), ```Nicola Gulmini``` (https://github.com/nicolagulmini) and ```Andrea Conte``` for their help and collaboration in this project.
+ Special thanks to [Francesco Costa](https://github.com/FranceCosta), [Nicola Gulmini](https://github.com/nicolagulmini) and ```Andrea Conte``` for their help and collaboration in this project.
  
  This pipeline was also implemented through the use of packages and libraries created by others (iFeature, epitopepredict, tmhmm, ncbi-blast+, tensorflow and many others), so thanks to [dansondergaard](https://github.com/dansondergaard), [dmnfarrell](https://github.com/dmnfarrell/epitopepredict), [superzchen](https://github.com/Superzchen/iFeature) for their pretty and useful tools to predict transmembrane protein topology, linear epitopesand, and thanks to all the open source community (in particular, the machine learning one).
  
