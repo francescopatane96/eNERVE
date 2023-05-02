@@ -1,6 +1,6 @@
 # eNERVE v1.0 - Eucaryotic New Enhanced Reverse Vaccinology Environment
 
- eNERVE is a dynamic, high-throughput and standalone in silico pipeline for ```PVCs``` (protein vaccine candidates) discovery in ```eukaryotic``` organisms, by ```reverse vaccinology``` methods. 
+ eNERVE is a dynamic, high-throughput and standalone in silico pipeline for ```PVCs``` (protein vaccine candidates) discovery in ```eukaryotic``` organisms, by a ```reverse vaccinology``` approach. 
  
 The tool is capable of identifying candidate ```antigens``` (immunogens) and their ```epitopes``` with ```ML``` (machine learning) and ```alignment``` analysis methods, using a tree based approach, from entire proteomes as input (```FASTA``` file of proteomes downloaded from Uniprot and other databases or generated from proteome experiments).
 
