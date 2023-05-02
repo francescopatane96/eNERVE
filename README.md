@@ -221,5 +221,11 @@ Have you encountered any problems installing or using the pipeline, or have any 
  ```
 1. Vivona S, Bernante F, Filippini F. NERVE: new enhanced reverse vaccinology environment. BMC Biotechnol. 2006 Jul 18;6:35. doi: 10.1186/1472-6750-6-35. PMID: 16848907; PMCID: PMC1570458.
  ```
- 
+<!--
+
+Thesis project by [MOLBINFO](http://www.bio.unipd.it/molbinfo/). 
+[eNERVE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1570458/) means '*New Enhanced Reverse Vaccinology Environment*', the aim of the eNERVE project is to develop a high performance pipeline for selecting best candidate vaccines to target eukaryotic pathogenic organisms and to update single modules and training sets with new data available in the literature and from public databases.
+
+-->
+
  
