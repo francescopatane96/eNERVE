@@ -40,9 +40,11 @@ sudo docker pull francescopatane/enerve:tag
 ```
 chmod 777 /path/to/output
 ```
+Then, put your input FASTA files in the directory
+
 5) Run docker image and select a volume for sharing input from local machine and output from virtual machine:
 ```
-sudo docker run --rm -it -v /path/to/fastafile:/workdir -v /path/to/outputdir:/workdir enerve
+sudo docker run --rm -it -v /path/to/output_direcotry:/workdir -v francescopatane/enerve:tag
 ```
 6) go to root folder with:
 ```
