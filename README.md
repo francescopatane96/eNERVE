@@ -1,4 +1,5 @@
 # eNERVE v1.0 - Eucaryotic New Enhanced Reverse Vaccinology Environment
+
 [![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
 [![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)
 [](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -115,7 +116,7 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ```
  
 ***
-### Instructions for creating a virtual environment (linux/unix/mac os):
+### Instructions for creating a virtual environment with venv (linux/unix/mac os):
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio);
 2. move to destination folder:
 ```
@@ -148,6 +149,20 @@ After venv activation, the terminal will shows virtual environment name between 
 cd eNERVE/code
 ```
 8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
+
+# We recommend using conda for creating a virtual environment
+
+1. from the terminal, digit: 
+```
+conda create --name enerve python=3.10
+```
+2. Clone the repository;
+
+3. activate the environment:
+```
+conda activate enerve
+```
+4. install dependencies as in previous sections.
 
 ***
 ### Usage:
@@ -206,12 +221,12 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  ```
  cd code
  ```
- 3. In the terminal, digit and run:
+ 4. In the terminal, digit and run:
  ```
  python3 nerve.py -arg1 -arg2 -args**
  ``` 
  
- 4. Output files will be saved in the working directory at the end of the computation
+ 5. Output files will be saved in the working directory at the end of the computation
  
  
  ***
