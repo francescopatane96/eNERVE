@@ -150,7 +150,7 @@ cd eNERVE/code
 ```
 8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
 
-# We recommend using conda for creating a virtual environment
+### We recommend using conda for creating a virtual environment
 
 1. from the terminal, digit: 
 ```
