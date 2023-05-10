@@ -26,12 +26,12 @@ def euntigen(list_of_proteins, working_dir, NERVE_dir) -> list:
     means = np.load(os.path.join(model_dir, 'means_antigen.npy'))
     projection_matrix = np.load(os.path.join(model_dir, 'projection_matrix_antigen.npy'))
 
-    np_config.enable_numpy_behavior()
+    #np_config.enable_numpy_behavior()
     model = load_model(os.path.join(model_dir, 'antigen.h5'), compile=False)
 
 
-    config_antigen = model.get_config()
-    model = tensorflow.keras.Model.from_config(config_antigen)
+    #config_antigen = model.get_config()
+    #model = tensorflow.keras.Model.from_config(config_antigen)
 
 
     for i, p in enumerate(list_of_proteins):
