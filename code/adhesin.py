@@ -19,11 +19,11 @@ def euspaan(list_of_proteins, working_dir, NERVE_dir) -> list:
     std_devs = np.load(os.path.join(model_dir, 'std_devs_adh.npy'))
     means = np.load(os.path.join(model_dir, 'means_adh.npy'))
     projection_matrix = np.load(os.path.join(model_dir, 'projection_matrix_adh.npy'))
-    np_config.enable_numpy_behavior()
+    #np_config.enable_numpy_behavior()
     model = load_model(os.path.join(model_dir, 'adhesin.h5'), compile=False)
 
-    config_adhesin = model.get_config()
-    model = tensorflow.keras.Model.from_config(config_adhesin)
+    #config_adhesin = model.get_config()
+    #model = tensorflow.keras.Model.from_config(config_adhesin)
 
     for p in list_of_proteins:
         data = p.standardize(means, std_devs, projection_matrix)
