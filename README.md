@@ -225,6 +225,7 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  ```
  python3 nerve.py -arg1 -arg2 -args**
  ``` 
+ REMEMBER TO SPECIFY -wd (WORKING_DIR) and -nd (NERVE_DIR). Place your fasta inputs into the wd
  
  5. Output files will be saved in the working directory at the end of the computation
  
