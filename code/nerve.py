@@ -48,9 +48,9 @@ class Args(NamedTuple):
     proteome1:str
     proteome2:str
     padlimit:float
-    loclimit:float
     razor:str
     antigenlimit:float
+    loclimit:float
     min_loop_length:int
     select:str
     substitution:float
@@ -183,13 +183,6 @@ def get_args() -> Args:
                         default=0.51,
                         required=False,
                         )
-    parser.add_argument('-locl', '--loclimit',
-                        metavar='\b',
-                        help="Set the probability of localization (ploc) value cut-off for proteins with 'in' localization in the select module. Thus, these proteins with a pad value < cut-off are discarded (0.-1)",
-                        type=float,
-                        default=0.60,
-                        required=False,
-                        )
     parser.add_argument('-rz', '--razor',
                         metavar='\b',
                         help="Activation (True) or deactivation (False) of the loop-razor module. This module allows the recovery of protein vaccine candidates with more than 0 transmembrane domains, that would otherwise be discarded in the select module. The longest loop with minimum len == 'razlen' aa will replace the original protein sequence for following NERVE steps",
@@ -202,6 +195,13 @@ def get_args() -> Args:
                         help="Cut-off value for euANTIGEN in the select module (0.-1)",
                         type=float,
                         default=0.80,
+                        required=False,
+                        )
+    parser.add_argument('-locl', '--loclimit',
+                        metavar='\b',
+                        help="Set the probability of localization (ploc) value cut-off for proteins with 'in' localization in the select module. Thus, these proteins with a pad value < cut-off are discarded (0.-1)",
+                        type=float,
+                        default=0.60,
                         required=False,
                         )
     parser.add_argument('-rl', '--min_loop_length',
