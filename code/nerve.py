@@ -25,6 +25,7 @@ from Function import *
 from Immunity import *
 from Epitope import *
 from Protein import *
+import requests
 
 
 def dir_path(path:str) -> str:
@@ -47,6 +48,7 @@ class Args(NamedTuple):
     proteome1:str
     proteome2:str
     padlimit:float
+    loclimit:float
     razor:str
     antigenlimit:float
     min_loop_length:int
@@ -81,6 +83,7 @@ class Args(NamedTuple):
                     padlimit: {self.padlimit},
                     razor: {self.razor},
                     antigenlimit: {self.antigenlimit},
+                    loclimit: {self.loclimit},
                     min_loop_length_razorlen: {self.min_loop_length},
                     select: {self.select},
                     substitution: {self.substitution},
@@ -177,7 +180,14 @@ def get_args() -> Args:
                         metavar='\b',
                         help="Set the probability of adhesin (pad) value cut-off for proteins with 'in' localization in the select module. Thus, these proteins with a pad value < cut-off are discarded (0.-1)",
                         type=float,
-                        default=0.80,
+                        default=0.51,
+                        required=False,
+                        )
+    parser.add_argument('-locl', '--loclimit',
+                        metavar='\b',
+                        help="Set the probability of localization (ploc) value cut-off for proteins with 'in' localization in the select module. Thus, these proteins with a pad value < cut-off are discarded (0.-1)",
+                        type=float,
+                        default=0.60,
                         required=False,
                         )
     parser.add_argument('-rz', '--razor',
@@ -309,7 +319,7 @@ def get_args() -> Args:
 
     return Args(args.annotation, args.autoimmunity, args.topology, args.e_value, args.minlength, args.mismatch,
                 args.mouse, args.mouse_peptides_sum_limit, args.proteome1, args.proteome2,
-                args.padlimit, args.razor, args.antigenlimit,
+                args.padlimit, args.razor, args.antigenlimit, args.loclimit,
                 args.min_loop_length, args.select, args.substitution, args.transmem_doms_limit,
                 args.antigen, args.working_dir, args.NERVE_dir, args.iFeature_dir, args.DeepFri_dir, args.epitopes,
                 args.mhci_length, args.mhcii_length, args.mhci_overlap, args.mhcii_overlap, args.epitope_percentile)
@@ -437,7 +447,7 @@ def main():
     # 3.Subcellular localization module
     start = time.time()
     logging.debug('sucellular localization starts with ...')
-    list_of_proteins = euloc(list_of_proteins, args.working_dir, args.NERVE_dir)
+    list_of_proteins = euloc(list_of_proteins, args.working_dir, args.NERVE_dir, args.loclimit)
     end = time.time()
     logging.debug(f'Done run in {end - start} seconds')
 

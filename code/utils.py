@@ -7,6 +7,7 @@ import logging
 from Bio.Seq import Seq
 from Protein import *
 import subprocess
+import requests
 
 def load_fasta_file(fasta_file):
     sequences = []
