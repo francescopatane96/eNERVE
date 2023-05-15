@@ -84,7 +84,7 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ```
  5. Download pre-trained models from [flatironinstitute](https://users.flatironinstitute.org/~renfrew/DeepFRI_data/newest_trained_models.tar.gz), then uncompress ```tar.gz file``` into the ```DeepFRI directory```:
  ```
- tar xvzf trained_models.tar.gz -C /path/to/DeepFRI
+ tar xvzf newest_trained_models.tar.gz -C /path/to/DeepFRI
  ```
  6. clone iFeature repository:
  ``` 
