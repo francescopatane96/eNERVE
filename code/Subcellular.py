@@ -20,7 +20,7 @@ def euloc(list_of_proteins, working_dir, NERVE_dir, loclimit) -> list:
     for p in list_of_proteins:
         data = p.model_raw_data
         data = np.array(data)[None, ...]
-        p.reliability_out = model.predict_proba(data)[0][0]
+        p.reliability_out = model.predict_proba(data)[0][1]
         p.localization = 'out' if p.reliability_out >= loclimit else 'in'
 
 
