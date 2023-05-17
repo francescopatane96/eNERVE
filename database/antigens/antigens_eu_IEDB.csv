@@ -1,0 +1,850 @@
+,,,,,,
+Antigen Name,Antigen IRI,Organism Name,Organism IRI,# Epitopes,# Assays,# References
+Other Onchocerca volvulus protein,https://ontology.iedb.org/taxon-protein/6282-other,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1237,1251,5
+Other Trypanosoma cruzi protein,https://ontology.iedb.org/taxon-protein/5693-other,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,621,643,19
+Uncharacterized protein (UniProt:A0A044UK00),http://www.uniprot.org/uniprot/A0A044UK00,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,431,431,1
+Merozoite surface antigens,http://www.uniprot.org/uniprot/Q8I0U8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,247,255,15
+Glutamate-rich protein GLURP,http://www.uniprot.org/uniprot/Q8IJ56,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,177,207,8
+Erythrocyte binding antigen-140,http://www.uniprot.org/uniprot/Q76NM5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,170,172,2
+"Surface antigen 2 (CA-2), putative (UniProt:Q4DX15)",http://www.uniprot.org/uniprot/Q4DX15,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,163,166,6
+Circumsporozoite protein,http://www.uniprot.org/uniprot/Q7K740,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,146,219,28
+Other Toxoplasma gondii protein,https://ontology.iedb.org/taxon-protein/5811-other,Toxoplasma gondii,http://purl.obolibrary.org/obo/NCBITaxon_5811,128,249,11
+Uncharacterized protein (UniProt:A0A044UVG8),http://www.uniprot.org/uniprot/A0A044UVG8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,116,116,1
+Erythrocyte binding antigen-175,http://www.uniprot.org/uniprot/Q8IBE8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,104,105,4
+PHD-type domain-containing protein,http://www.uniprot.org/uniprot/A0A044SS43,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,104,104,1
+Erythrocyte binding antigen-181,http://www.uniprot.org/uniprot/Q8I2B4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,100,100,1
+High molecular weight rhoptry protein 2,http://www.uniprot.org/uniprot/C0H571,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,94,95,2
+Cytoadherence linked asexual protein 3.2,http://www.uniprot.org/uniprot/O77309,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,94,94,1
+Mature parasite-infected erythrocyte surface antigen,http://www.uniprot.org/uniprot/Q8I492,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,92,92,1
+Gln-rich protein,http://www.uniprot.org/uniprot/A0A044VA40,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,90,99,2
+Cytoadherence linked asexual protein 3.1,http://www.uniprot.org/uniprot/O77310,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,90,90,1
+Asp f 2,http://www.uniprot.org/uniprot/P79017,Aspergillus fumigatus,http://purl.obolibrary.org/obo/NCBITaxon_746128,87,87,2
+Cytoadherence linked asexual protein 2,http://www.uniprot.org/uniprot/O96279,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,86,86,1
+Cytoadherence linked asexual protein 9,http://www.uniprot.org/uniprot/Q8I2G2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,78,78,1
+Apical membrane antigen 1,http://www.uniprot.org/uniprot/Q7KQK5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,77,80,7
+Serine-repeat antigen protein 5,http://www.uniprot.org/uniprot/Q9TY95,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,76,78,6
+Cytoadherence linked asexual protein 8,http://www.uniprot.org/uniprot/A0A143ZVM1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,73,73,1
+Uncharacterized protein (UniProt:A0A044U9P0),http://www.uniprot.org/uniprot/A0A044U9P0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,69,69,1
+Other Plasmodium falciparum (malaria parasite P. falciparum) protein,https://ontology.iedb.org/taxon-protein/5833-other,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,68,103,16
+Uncharacterized protein (UniProt:Q4DEM3),http://www.uniprot.org/uniprot/Q4DEM3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,68,68,1
+60S ribosomal protein L7a,http://www.uniprot.org/uniprot/Q4E3R2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,67,67,1
+Merozoite surface protein MSA180,http://www.uniprot.org/uniprot/Q8IJQ4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,67,67,1
+"Trans-sialidase, putative (UniProt:Q4E0M7)",http://www.uniprot.org/uniprot/Q4E0M7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,62,63,3
+Merozoite surface protein 9,http://www.uniprot.org/uniprot/A0A144A026,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,62,68,4
+High molecular weight rhoptry protein 3,http://www.uniprot.org/uniprot/Q8I395,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,58,58,1
+Methionine--tRNA ligase,http://www.uniprot.org/uniprot/Q8IJ60,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,57,57,1
+Circumsporozoite protein,http://www.uniprot.org/uniprot/A5KB63,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,56,149,9
+Schizont egress antigen-1,http://www.uniprot.org/uniprot/A0A143ZXM2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,56,56,2
+"Peptidase M16, putative",http://www.uniprot.org/uniprot/Q8IIE8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,56,56,1
+"40S ribosomal protein S21, putative",http://www.uniprot.org/uniprot/Q4E3M0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,54,54,1
+Rhoptry-associated protein 1,http://www.uniprot.org/uniprot/Q8ILZ1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,53,53,2
+Merozoite surface antigen 2,http://www.uniprot.org/uniprot/A0A143ZX41,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,50,59,9
+Calcium-binding protein CBP-1,http://www.uniprot.org/uniprot/A0A044V6Z2,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,47,47,1
+Duffy binding-like merozoite surface protein,http://www.uniprot.org/uniprot/Q8IJ52,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,46,48,2
+Uncharacterized protein (UniProt:A0A044RF80),http://www.uniprot.org/uniprot/A0A044RF80,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,46,46,1
+"Merozoite surface protein 7 (MSP7), putative (UniProt:A5K7Y9)",http://www.uniprot.org/uniprot/A5K7Y9,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,46,46,1
+"Endoplasmin, putative",http://www.uniprot.org/uniprot/Q8I0V4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,46,46,1
+Sporozoite threonine and asparagine-rich protein,http://www.uniprot.org/uniprot/Q8IC44,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,42,42,1
+Putative heat-shock protein hsp70 (Fragment),http://www.uniprot.org/uniprot/E9AHH0,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,41,42,1
+Liver stage antigen 1,http://www.uniprot.org/uniprot/A0A143ZZD7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,41,44,3
+"60S ribosomal protein L23a, putative",http://www.uniprot.org/uniprot/Q4DI49,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,40,40,1
+"Merozoite surface protein 7 (MSP7), putative (UniProt:A5K7Z0)",http://www.uniprot.org/uniprot/A5K7Z0,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,40,40,1
+"RAP protein, putative (UniProt:Q8IC11)",http://www.uniprot.org/uniprot/Q8IC11,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,39,39,1
+"Heat shock protein 70 (HSP70), putative (UniProt:Q4DTM8)",http://www.uniprot.org/uniprot/Q4DTM8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,38,42,2
+Merozoite surface protein 3,http://www.uniprot.org/uniprot/Q8IJ55,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,38,54,6
+Uncharacterized protein (UniProt:A0A044R196),http://www.uniprot.org/uniprot/A0A044R196,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,37,37,1
+Sulfhydryl oxidase,http://www.uniprot.org/uniprot/A0A044SAZ1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,37,37,1
+Thrombospondin-related anonymous protein,http://www.uniprot.org/uniprot/Q76NM2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,36,39,2
+G_PROTEIN_RECEP_F1_2 domain-containing protein,http://www.uniprot.org/uniprot/A0A044UMF0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,36,36,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DLD3)",http://www.uniprot.org/uniprot/Q4DLD3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,35,35,2
+"Antigen 332, DBL-like protein",http://www.uniprot.org/uniprot/Q8IHN4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,35,35,1
+Chitinase,http://www.uniprot.org/uniprot/A0A044RRG7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,34,34,1
+Circulating antigen,http://www.uniprot.org/uniprot/A0A044V2F8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,34,34,1
+Merozoite surface protein 8,http://www.uniprot.org/uniprot/Q8I476,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,34,34,1
+RING-type E3 ubiquitin transferase,http://www.uniprot.org/uniprot/A0A044R436,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,33,33,1
+Uncharacterized protein (UniProt:A0A044QNT8),http://www.uniprot.org/uniprot/A0A044QNT8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,32,32,1
+Merozoite surface protein 10,http://www.uniprot.org/uniprot/C6KT44,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,32,32,1
+Merozoite surface protein 6,http://www.uniprot.org/uniprot/Q8IJ54,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,31,41,3
+Uncharacterized protein (UniProt:A0A044V9G2),http://www.uniprot.org/uniprot/A0A044V9G2,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,31,31,1
+MSP7-like protein (UniProt:Q8IDY5),http://www.uniprot.org/uniprot/Q8IDY5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,30,30,1
+Ring-infected erythrocyte surface antigen,http://www.uniprot.org/uniprot/Q8I0U6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,29,117,27
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DV33)",http://www.uniprot.org/uniprot/Q4DV33,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,29,29,1
+Merozoite surface protein 7 (MSP7) (UniProt:A5K7Z7),http://www.uniprot.org/uniprot/A5K7Z7,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,29,29,1
+Immunodominant antigen Ov33-3 (UniProt:P21250),http://www.uniprot.org/uniprot/P21250,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,28,33,2
+"Mucin TcMUCII, putative (UniProt:Q4D3H3)",http://www.uniprot.org/uniprot/Q4D3H3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,28,38,4
+Fructose-bisphosphate aldolase,http://www.uniprot.org/uniprot/A0A044UUD9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,28,28,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E4Z2)",http://www.uniprot.org/uniprot/Q4E4Z2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,27,27,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D040)",http://www.uniprot.org/uniprot/Q4D040,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,27,27,1
+Peptidylglycine monooxygenase,http://www.uniprot.org/uniprot/A0A044U175,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,27,27,1
+MPN domain-containing protein,http://www.uniprot.org/uniprot/A0A044TU88,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,27,27,1
+"CSC1-like protein, putative",http://www.uniprot.org/uniprot/Q8I4T2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,27,27,1
+Merozoite surface protein 11,http://www.uniprot.org/uniprot/Q8IJ48,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,27,27,2
+"Merozoite surface protein 7 (MSP7), putative (UniProt:A5K7Z9)",http://www.uniprot.org/uniprot/A5K7Z9,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,27,27,1
+"RNA-binding protein, putative (UniProt:Q4DY30)",http://www.uniprot.org/uniprot/Q4DY30,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,26,26,1
+Glyceraldehyde-3-phosphate dehydrogenase,http://www.uniprot.org/uniprot/A2DHT2,Trichomonas vaginalis,http://purl.obolibrary.org/obo/NCBITaxon_5722,26,32,2
+"S4, putative",http://www.uniprot.org/uniprot/A5JZX5,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,26,26,1
+Novel immunogenic protein NIP-2,http://www.uniprot.org/uniprot/A0A044QLL7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,26,26,1
+Uncharacterized protein (UniProt:A0A044V9S3),http://www.uniprot.org/uniprot/A0A044V9S3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,26,26,1
+Peroxiredoxin,http://www.uniprot.org/uniprot/Q8IJD0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,26,26,1
+Exported protein 1,http://www.uniprot.org/uniprot/Q8IIF0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,25,40,5
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DGC2)",http://www.uniprot.org/uniprot/Q4DGC2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,25,25,1
+Enolase,http://www.uniprot.org/uniprot/Q5EFD8,Trichomonas vaginalis,http://purl.obolibrary.org/obo/NCBITaxon_5722,25,31,2
+Cathepsin L-like cysteine proteinase,http://www.uniprot.org/uniprot/A0A2K6W829,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,25,25,1
+Col_cuticle_N domain-containing protein (UniProt:A0A044V9I3),http://www.uniprot.org/uniprot/A0A044V9I3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,25,25,1
+MSP7-like protein (UniProt:Q8IDX9),http://www.uniprot.org/uniprot/Q8IDX9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,25,25,1
+Galectin (UniProt:A0A044QNW3),http://www.uniprot.org/uniprot/A0A044QNW3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,24,24,1
+SERPIN domain-containing protein,http://www.uniprot.org/uniprot/A0A044V3Q0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,24,24,1
+Uncharacterized protein (UniProt:A0A044SG03),http://www.uniprot.org/uniprot/A0A044SG03,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,24,24,1
+"GPI ethanolamine phosphate transferase 3, putative",http://www.uniprot.org/uniprot/Q8I5R4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,24,24,1
+"Trans-sialidase, putative (UniProt:Q4DEP9)",http://www.uniprot.org/uniprot/Q4DEP9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,23,23,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E3E7)",http://www.uniprot.org/uniprot/Q4E3E7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,23,24,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DNA4)",http://www.uniprot.org/uniprot/Q4DNA4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,23,23,1
+ZP domain-containing protein (UniProt:A0A044QSA2),http://www.uniprot.org/uniprot/A0A044QSA2,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,23,23,1
+Uncharacterized protein (UniProt:A0A044TX11),http://www.uniprot.org/uniprot/A0A044TX11,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,23,23,1
+Col_cuticle_N domain-containing protein (UniProt:A0A044TIV1),http://www.uniprot.org/uniprot/A0A044TIV1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,23,23,1
+Uncharacterized protein (UniProt:A0A044R153),http://www.uniprot.org/uniprot/A0A044R153,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,23,23,1
+Uncharacterized protein (UniProt:A0A044UW71),http://www.uniprot.org/uniprot/A0A044UW71,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,23,23,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E102)",http://www.uniprot.org/uniprot/Q4E102,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,22,22,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E5T2)",http://www.uniprot.org/uniprot/Q4E5T2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,21,21,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DKW3)",http://www.uniprot.org/uniprot/Q4DKW3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,21,21,1
+Uncharacterized protein (UniProt:A0A044SAV6),http://www.uniprot.org/uniprot/A0A044SAV6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,21,21,1
+Gamma-cystathionase,http://www.uniprot.org/uniprot/A0A044R2U8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,21,21,1
+Mothers against decapentaplegic homolog,http://www.uniprot.org/uniprot/A0A044V1C1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,21,21,1
+Leishmania pifanoi protein,https://ontology.iedb.org/taxon-protein/5682,Leishmania pifanoi,http://purl.obolibrary.org/obo/NCBITaxon_5682,20,29,1
+Structural maintenance of chromosomes protein,http://www.uniprot.org/uniprot/Q4E1T5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,20,20,1
+Glyceraldehyde-3-phosphate dehydrogenase (UniProt:A0A158N7S3),http://www.uniprot.org/uniprot/A0A158N7S3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,20,20,1
+Zinc metalloproteinase,http://www.uniprot.org/uniprot/A0A044VAG6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,20,20,1
+Uncharacterized protein (UniProt:A0A044QWA5),http://www.uniprot.org/uniprot/A0A044QWA5,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,20,20,1
+Uncharacterized protein (UniProt:A0A2K6VRV9),http://www.uniprot.org/uniprot/A0A2K6VRV9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,20,20,1
+MSP7-like protein (UniProt:Q8IDY4),http://www.uniprot.org/uniprot/Q8IDY4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,20,20,1
+Uncharacterized protein (UniProt:A0A044U0M2),http://www.uniprot.org/uniprot/A0A044U0M2,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,19,19,1
+Ig-like domain-containing protein,http://www.uniprot.org/uniprot/A0A044R9D0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,19,19,1
+Glutathione S-transferase 1 (Fragment),http://www.uniprot.org/uniprot/P46434,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,19,19,1
+Merozoite surface protein 3 alpha (MSP3a),http://www.uniprot.org/uniprot/A5KAW0,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,18,18,1
+Uncharacterized protein (UniProt:Q4CY60),http://www.uniprot.org/uniprot/Q4CY60,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,18,19,2
+Tubulin beta chain,http://www.uniprot.org/uniprot/Q4DQP2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,18,18,1
+"Fructose-1,6-bisphosphate aldolase",http://www.uniprot.org/uniprot/A2F6T1,Trichomonas vaginalis,http://purl.obolibrary.org/obo/NCBITaxon_5722,18,19,2
+Uncharacterized protein (UniProt:A0A044UIG6),http://www.uniprot.org/uniprot/A0A044UIG6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,18,18,1
+ZP domain-containing protein (UniProt:A0A044R521),http://www.uniprot.org/uniprot/A0A044R521,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,18,18,1
+1-Cys peroxiredoxin (UniProt:P52570),http://www.uniprot.org/uniprot/P52570,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,18,18,1
+MSP7-like protein (UniProt:C0H5F3),http://www.uniprot.org/uniprot/C0H5F3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,18,18,1
+Other Plasmodium vivax (malaria parasite P. vivax) protein,https://ontology.iedb.org/taxon-protein/5855-other,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,17,26,10
+Merozoite surface protein 4,http://www.uniprot.org/uniprot/Q7KWJ2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,17,17,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DNB3)",http://www.uniprot.org/uniprot/Q4DNB3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,17,17,1
+Uncharacterized protein (Fragment) (UniProt:Q4DPM2),http://www.uniprot.org/uniprot/Q4DPM2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,17,18,2
+Follistatin-like domain-containing protein,http://www.uniprot.org/uniprot/A0A044T7P0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,17,17,1
+Neur_chan_LBD domain-containing protein,http://www.uniprot.org/uniprot/A0A044QU24,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,17,17,1
+Calponin homolog OV9M (UniProt:A0A044V456),http://www.uniprot.org/uniprot/A0A044V456,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,17,17,1
+Uncharacterized protein (UniProt:A0A044VFS3),http://www.uniprot.org/uniprot/A0A044VFS3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,17,17,1
+Merozoite surface protein 5,http://www.uniprot.org/uniprot/C6S3B2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,17,17,1
+"60S acidic ribosomal protein P2, putative (UniProt:Q4DWU6)",http://www.uniprot.org/uniprot/Q4DWU6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,16,40,9
+Sexual stage-specific protein,http://www.uniprot.org/uniprot/Q6ZMA7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,16,19,4
+Actin-1,http://www.uniprot.org/uniprot/P30162,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,16,16,1
+"Surface antigen 2 (CA-2), putative (UniProt:Q4DGM0)",http://www.uniprot.org/uniprot/Q4DGM0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,16,30,3
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D6A6)",http://www.uniprot.org/uniprot/Q4D6A6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,16,16,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E0Z8)",http://www.uniprot.org/uniprot/Q4E0Z8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,16,16,1
+"Mucin TcMUCII, putative (UniProt:Q4E3E1)",http://www.uniprot.org/uniprot/Q4E3E1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,16,17,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D462)",http://www.uniprot.org/uniprot/Q4D462,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,16,16,1
+GMP reductase (UniProt:Q9NJD8),http://www.uniprot.org/uniprot/Q9NJD8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,16,16,1
+Acetyltransf_18 domain-containing protein,http://www.uniprot.org/uniprot/A0A044TDA1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,16,16,1
+"Trans-sialidase, putative (UniProt:Q4DQV8)",http://www.uniprot.org/uniprot/Q4DQV8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,16,1
+Cellulase domain-containing protein,http://www.uniprot.org/uniprot/C1GK29,Paracoccidioides brasiliensis,http://purl.obolibrary.org/obo/NCBITaxon_121759,15,21,2
+SCP-like protein,http://www.uniprot.org/uniprot/W2U161,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,15,23,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D033)",http://www.uniprot.org/uniprot/Q4D033,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E444)",http://www.uniprot.org/uniprot/Q4E444,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4CNY5)",http://www.uniprot.org/uniprot/Q4CNY5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E3F2)",http://www.uniprot.org/uniprot/Q4E3F2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,16,3
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DEM8)",http://www.uniprot.org/uniprot/Q4DEM8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D3Q7)",http://www.uniprot.org/uniprot/Q4D3Q7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+Uncharacterized protein (UniProt:Q4CW66),http://www.uniprot.org/uniprot/Q4CW66,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DTW6)",http://www.uniprot.org/uniprot/Q4DTW6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+"EF-hand protein 5, putative",http://www.uniprot.org/uniprot/Q4CSZ0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4CVH7)",http://www.uniprot.org/uniprot/Q4CVH7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,15,15,1
+Fatty-acid and retinol-binding protein 1 (UniProt:Q25619),http://www.uniprot.org/uniprot/Q25619,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,15,15,1
+Larval 18 kDa protein; Ov64; SLAP-1 protein,http://www.uniprot.org/uniprot/A0A158N7U8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,15,15,1
+Galectin (UniProt:A0A044VHF7),http://www.uniprot.org/uniprot/A0A044VHF7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,15,15,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E1Y0)",http://www.uniprot.org/uniprot/Q4E1Y0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,14,14,1
+"Lipophosphoglycan biosynthetic protein, putative",http://www.uniprot.org/uniprot/Q4DW89,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,14,15,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D6E7)",http://www.uniprot.org/uniprot/Q4D6E7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,14,15,2
+Antigen Sm21.7,http://www.uniprot.org/uniprot/P32070,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,14,15,1
+CHCH domain-containing protein,http://www.uniprot.org/uniprot/A0A2K6WJQ8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,14,14,1
+Superoxide dismutase,http://www.uniprot.org/uniprot/A0A158N7R1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,14,14,1
+Microfilariae surface-associated protein,http://www.uniprot.org/uniprot/Q99099,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,14,14,1
+SMB domain-containing protein,http://www.uniprot.org/uniprot/A0A044RFT9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,14,14,1
+"Sporozoite surface protein 3, putative",http://www.uniprot.org/uniprot/Q8IAV9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,14,14,1
+Leishmanolysin (UniProt:Q4QHH2),http://www.uniprot.org/uniprot/Q4QHH2,Leishmania major,http://purl.obolibrary.org/obo/NCBITaxon_5664,13,26,1
+Serine-rich protein,http://www.uniprot.org/uniprot/C4MBR8,Entamoeba histolytica,http://purl.obolibrary.org/obo/NCBITaxon_5759,13,13,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E1Z5)",http://www.uniprot.org/uniprot/Q4E1Z5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,13,13,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DGQ5)",http://www.uniprot.org/uniprot/Q4DGQ5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,13,13,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DYS6)",http://www.uniprot.org/uniprot/Q4DYS6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,13,13,1
+Lactoylglutathione lyase,http://www.uniprot.org/uniprot/A0A044RAH9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,13,13,1
+Col_cuticle_N domain-containing protein (UniProt:A0A044SF60),http://www.uniprot.org/uniprot/A0A044SF60,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,13,13,1
+Vespid allergen antigen homolog,http://www.uniprot.org/uniprot/A0A044UNG9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,13,13,1
+Peptidyl-prolyl cis-trans isomerase (UniProt:A0A2K6WB53),http://www.uniprot.org/uniprot/A0A2K6WB53,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,13,13,1
+Glutathione S-transferase 2,http://www.uniprot.org/uniprot/P46427,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,13,13,1
+Activation-associated secreted protein-1,http://www.uniprot.org/uniprot/A0A044VD00,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,13,13,1
+Clustered-asparagine-rich protein,http://www.uniprot.org/uniprot/Q8I562,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,12,18,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D1D1)",http://www.uniprot.org/uniprot/Q4D1D1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Mucin TcSMUGS, putative",http://www.uniprot.org/uniprot/Q4CRB0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+Uncharacterized protein (UniProt:Q4DX14),http://www.uniprot.org/uniprot/Q4DX14,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,2
+"40S ribosomal protein S2, putative",http://www.uniprot.org/uniprot/Q4DIZ9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DGM5)",http://www.uniprot.org/uniprot/Q4DGM5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Trans-sialidase, putative (UniProt:Q4DKL5)",http://www.uniprot.org/uniprot/Q4DKL5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4CS02)",http://www.uniprot.org/uniprot/Q4CS02,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D466)",http://www.uniprot.org/uniprot/Q4D466,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DKW6)",http://www.uniprot.org/uniprot/Q4DKW6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E1H5)",http://www.uniprot.org/uniprot/Q4E1H5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,12,12,1
+Uncharacterized protein (UniProt:A0A044UZ11),http://www.uniprot.org/uniprot/A0A044UZ11,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,12,12,1
+Uncharacterized protein (UniProt:A0A044S628),http://www.uniprot.org/uniprot/A0A044S628,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,12,12,1
+Uncharacterized protein (UniProt:A0A2K6VJ98),http://www.uniprot.org/uniprot/A0A2K6VJ98,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,12,12,1
+Merozoite surface protein 7,http://www.uniprot.org/uniprot/Q8IDX8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,12,12,1
+Paramyosin,http://www.uniprot.org/uniprot/P06198,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,11,17,2
+"Cysteine peptidase, putative (UniProt:Q4E0J7)",http://www.uniprot.org/uniprot/Q4E0J7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,13,1
+Duffy receptor,http://www.uniprot.org/uniprot/A5KDR7,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,11,25,3
+Apical merozoite antigen 1,http://www.uniprot.org/uniprot/A5K4Z2,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,11,17,4
+60S acidic ribosomal protein P0 (UniProt:Q4E3A3),http://www.uniprot.org/uniprot/Q4E3A3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,11,1
+Bla g 5,http://www.uniprot.org/uniprot/O18598,Blattella germanica (German cockroach),http://purl.obolibrary.org/obo/NCBITaxon_6973,11,20,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DAF3)",http://www.uniprot.org/uniprot/Q4DAF3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,11,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DVR9)",http://www.uniprot.org/uniprot/Q4DVR9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,11,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D180)",http://www.uniprot.org/uniprot/Q4D180,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,11,1
+Uncharacterized protein (UniProt:Q4CY59),http://www.uniprot.org/uniprot/Q4CY59,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,11,1
+"Mucin TcMUCII, putative (UniProt:Q4DNQ0)",http://www.uniprot.org/uniprot/Q4DNQ0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,11,11,1
+Other Leishmania major protein,https://ontology.iedb.org/taxon-protein/5664-other,Leishmania major,http://purl.obolibrary.org/obo/NCBITaxon_5664,11,11,1
+Peptidyl-prolyl cis-trans isomerase (UniProt:A0A2K6VZ59),http://www.uniprot.org/uniprot/A0A2K6VZ59,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,11,11,1
+Peptidyl-prolyl cis-trans isomerase (UniProt:Q25633),http://www.uniprot.org/uniprot/Q25633,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,11,11,1
+Superoxide dismutase [Cu-Zn],http://www.uniprot.org/uniprot/O18483,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,11,11,1
+Ascaris lumbricoides (common roundworm) protein,https://ontology.iedb.org/taxon-protein/6252,Ascaris lumbricoides (common roundworm),http://purl.obolibrary.org/obo/NCBITaxon_6252,11,20,1
+Gnathostoma binucleatum protein,https://ontology.iedb.org/taxon-protein/61466,Gnathostoma binucleatum,http://purl.obolibrary.org/obo/NCBITaxon_61466,10,11,1
+Uncharacterized protein (Fragment) (UniProt:Q4DXP9),http://www.uniprot.org/uniprot/Q4DXP9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,10,11,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E058)",http://www.uniprot.org/uniprot/Q4E058,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,10,10,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DLB5)",http://www.uniprot.org/uniprot/Q4DLB5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,10,10,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D646)",http://www.uniprot.org/uniprot/Q4D646,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,10,10,1
+OV-17 antigen,http://www.uniprot.org/uniprot/P36991,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,10,11,2
+Translationally-controlled tumor protein homolog,http://www.uniprot.org/uniprot/A0A044SL50,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,10,10,1
+Uncharacterized protein (UniProt:A0A044V9F8),http://www.uniprot.org/uniprot/A0A044V9F8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,10,10,1
+"Merozoite surface protein 7 (MSP7), putative (UniProt:A5K7Z6)",http://www.uniprot.org/uniprot/A5K7Z6,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,10,10,1
+"Pyridoxal-dependent decarboxylase, pyridoxal binding domain family protein",http://www.uniprot.org/uniprot/A0A504X2M8,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,10,19,2
+"Circumsporozoite protein, putative",http://www.uniprot.org/uniprot/A5K1G9,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,9,13,3
+Other Taenia solium (pig tapeworm) protein,https://ontology.iedb.org/taxon-protein/6204-other,Taenia solium (pig tapeworm),http://purl.obolibrary.org/obo/NCBITaxon_6204,9,10,2
+"Calpain cysteine peptidase, putative (Fragment) (UniProt:Q4CPQ6)",http://www.uniprot.org/uniprot/Q4CPQ6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,9,9,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DCD8)",http://www.uniprot.org/uniprot/Q4DCD8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,9,9,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E455)",http://www.uniprot.org/uniprot/Q4E455,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,9,9,1
+Uncharacterized protein (UniProt:A0A2K6WPE1),http://www.uniprot.org/uniprot/A0A2K6WPE1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,9,9,1
+Onchocystatin,http://www.uniprot.org/uniprot/P22085,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,9,9,1
+Uncharacterized protein (UniProt:A0A044S6B8),http://www.uniprot.org/uniprot/A0A044S6B8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,9,9,1
+"DNA repair protein RAD14, putative",http://www.uniprot.org/uniprot/A0A143ZWE7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,9,9,1
+Early transcribed membrane protein 13,http://www.uniprot.org/uniprot/Q8IEU1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,9,9,1
+Merozoite surface antigens,http://www.uniprot.org/uniprot/A5K724,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,8,8,1
+Heat shock protein 90 homolog,http://www.uniprot.org/uniprot/P46598,Candida albicans,http://purl.obolibrary.org/obo/NCBITaxon_5476,8,10,3
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I639)",http://www.uniprot.org/uniprot/Q8I639,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,8,8,4
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4CS76)",http://www.uniprot.org/uniprot/Q4CS76,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,9,2
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E380)",http://www.uniprot.org/uniprot/Q4E380,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D8D6)",http://www.uniprot.org/uniprot/Q4D8D6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+"Antigenic protein, putative (Fragment)",http://www.uniprot.org/uniprot/Q4E572,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D3W5)",http://www.uniprot.org/uniprot/Q4D3W5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DGU9)",http://www.uniprot.org/uniprot/Q4DGU9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DZS8)",http://www.uniprot.org/uniprot/Q4DZS8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+"40S ribosomal protein S9, putative",http://www.uniprot.org/uniprot/Q4DSJ7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,8,8,1
+Uncharacterized protein (UniProt:A5K3N8),http://www.uniprot.org/uniprot/A5K3N8,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,8,26,1
+"Membrane protein pf12, putative",http://www.uniprot.org/uniprot/A5K1W7,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,8,15,1
+Uncharacterized protein (UniProt:A0A044VBX6),http://www.uniprot.org/uniprot/A0A044VBX6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,8,8,1
+Serine protease inhibitor 1,http://www.uniprot.org/uniprot/A0A158N7U2,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,8,8,1
+LIM zinc-binding domain-containing protein,http://www.uniprot.org/uniprot/A0A044V9R9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,8,8,1
+Merozoite surface protein 7 (MSP7) (UniProt:A5K7Z5),http://www.uniprot.org/uniprot/A5K7Z5,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,8,8,1
+EMY162 protein,http://www.uniprot.org/uniprot/A0A068Y6Q2,Echinococcus multilocularis,http://purl.obolibrary.org/obo/NCBITaxon_6211,8,8,1
+Protective recombinant antigen (Fragment) (UniProt:Q26874),http://www.uniprot.org/uniprot/Q26874,Taenia crassiceps,http://purl.obolibrary.org/obo/NCBITaxon_6207,7,8,2
+Glutathione S-transferase class-mu 28 kDa isozyme,http://www.uniprot.org/uniprot/P09792,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,7,25,2
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I218)",http://www.uniprot.org/uniprot/Q8I218,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,7,7,2
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I098)",http://www.uniprot.org/uniprot/Q8I098,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,7,7,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D6A2)",http://www.uniprot.org/uniprot/Q4D6A2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,7,7,1
+Uncharacterized protein (UniProt:Q4CNL0),http://www.uniprot.org/uniprot/Q4CNL0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,7,7,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4CU24)",http://www.uniprot.org/uniprot/Q4CU24,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,7,7,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E442)",http://www.uniprot.org/uniprot/Q4E442,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,7,7,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DIF3)",http://www.uniprot.org/uniprot/Q4DIF3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,7,7,1
+Uncharacterized protein (UniProt:A0A044VDG0),http://www.uniprot.org/uniprot/A0A044VDG0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,7,7,1
+Uncharacterized protein (UniProt:A0A044R077),http://www.uniprot.org/uniprot/A0A044R077,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,7,7,1
+Uncharacterized protein (UniProt:A0A044RXP7),http://www.uniprot.org/uniprot/A0A044RXP7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,7,7,1
+Cystatin,http://www.uniprot.org/uniprot/Q9U9A1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,7,7,1
+Uncharacterized protein (UniProt:A0A044UU92),http://www.uniprot.org/uniprot/A0A044UU92,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,7,7,1
+Merozoite surface protein 7 (MSP7) (UniProt:A5K7Z3),http://www.uniprot.org/uniprot/A5K7Z3,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,7,7,1
+Uncharacterized protein (Fragment),http://www.uniprot.org/uniprot/A0A3P7EGK8,Wuchereria bancrofti (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6293,6,9,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IIZ4)",http://www.uniprot.org/uniprot/Q8IIZ4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,6,6,2
+Uncharacterized protein (UniProt:Q4DGM1),http://www.uniprot.org/uniprot/Q4DGM1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,6,6,2
+"ATP-dependent RNA helicase, putative (Fragment)",http://www.uniprot.org/uniprot/Q4D1F2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,6,6,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E1A7)",http://www.uniprot.org/uniprot/Q4E1A7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,6,6,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DP76)",http://www.uniprot.org/uniprot/Q4DP76,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,6,6,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DNB0)",http://www.uniprot.org/uniprot/Q4DNB0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,6,6,1
+Uncharacterized protein (UniProt:A0A044RJ74),http://www.uniprot.org/uniprot/A0A044RJ74,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,6,6,1
+Uncharacterized protein (UniProt:A0A044TDC0),http://www.uniprot.org/uniprot/A0A044TDC0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,6,6,1
+Macrophage migration inhibitory factor-2,http://www.uniprot.org/uniprot/Q963F6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,6,6,1
+Uncharacterized protein (UniProt:A0A044TBR7),http://www.uniprot.org/uniprot/A0A044TBR7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,6,6,1
+Uncharacterized protein (UniProt:Q8IEB7),http://www.uniprot.org/uniprot/Q8IEB7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,6,6,1
+PDZ domain-containing protein,http://www.uniprot.org/uniprot/O77318,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,6,6,1
+Other Leishmania braziliensis protein,https://ontology.iedb.org/taxon-protein/5660-other,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,5,7,1
+Asp f 1,http://www.uniprot.org/uniprot/P67875,Aspergillus fumigatus,http://purl.obolibrary.org/obo/NCBITaxon_746128,5,27,1
+Other Taenia saginata (beef tapeworm) protein,https://ontology.iedb.org/taxon-protein/6206-other,Taenia saginata (beef tapeworm),http://purl.obolibrary.org/obo/NCBITaxon_6206,5,41,1
+22.6kDa membrane-associated antigen,http://www.uniprot.org/uniprot/O01372,Schistosoma japonicum,http://purl.obolibrary.org/obo/NCBITaxon_6182,5,5,1
+BMN1-20,http://www.uniprot.org/uniprot/I7J5Q4,Babesia microti,http://purl.obolibrary.org/obo/NCBITaxon_5868,5,19,3
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKN8)",http://www.uniprot.org/uniprot/Q4CKN8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,5,5,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:C6KTF7)",http://www.uniprot.org/uniprot/C6KTF7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,5,5,1
+Uncharacterized protein (UniProt:Q4DCJ6),http://www.uniprot.org/uniprot/Q4DCJ6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,5,5,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D1R3)",http://www.uniprot.org/uniprot/Q4D1R3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,5,5,1
+Uncharacterized protein (UniProt:Q4DB20),http://www.uniprot.org/uniprot/Q4DB20,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,5,5,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D463)",http://www.uniprot.org/uniprot/Q4D463,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,5,5,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DBI1)",http://www.uniprot.org/uniprot/Q4DBI1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,5,5,1
+Putative proteasome regulatory ATPase subunit 2,http://www.uniprot.org/uniprot/Q4QG45,Leishmania major,http://purl.obolibrary.org/obo/NCBITaxon_5664,5,5,1
+S1/P1 Nuclease family protein (UniProt:A0A504Y863),http://www.uniprot.org/uniprot/A0A504Y863,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,5,25,1
+Dynein light chain,http://www.uniprot.org/uniprot/A0A044UWQ7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,5,5,1
+Novel immunogenic protein NIP-3,http://www.uniprot.org/uniprot/A0A2K6VYS3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,5,5,1
+Early transcribed membrane protein 5,http://www.uniprot.org/uniprot/A0A5K1K7X4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,5,5,1
+Saposin B domain-containing protein isoform 1,http://www.uniprot.org/uniprot/A0A4Z2DDJ1,Schistosoma japonicum,http://purl.obolibrary.org/obo/NCBITaxon_6182,5,5,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I220)",http://www.uniprot.org/uniprot/Q8I220,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,4,4,1
+AntigenB,http://www.uniprot.org/uniprot/U6JQF4,Echinococcus granulosus,http://purl.obolibrary.org/obo/NCBITaxon_6210,4,7,3
+Kinetoplastid membrane protein-11 (UniProt:A0A088S0A8),http://www.uniprot.org/uniprot/A0A088S0A8,Leishmania panamensis,http://purl.obolibrary.org/obo/NCBITaxon_5679,4,28,1
+Heat shock protein 70 (UniProt:Q8IB24),http://www.uniprot.org/uniprot/Q8IB24,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,4,10,2
+Repetitive organellar protein,http://www.uniprot.org/uniprot/O96133,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,4,7,1
+Putative lipophosphoglycan biosynthetic protein,http://www.uniprot.org/uniprot/A4I4C9,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,4,4,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CL90)",http://www.uniprot.org/uniprot/Q4CL90,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKC3)",http://www.uniprot.org/uniprot/Q4CKC3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+Antigen WB14,http://www.uniprot.org/uniprot/O61723,Wuchereria bancrofti (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6293,4,8,1
+Eukaryotic translation initiation factor 2 alpha subunit family protein,http://www.uniprot.org/uniprot/A0A504XBY2,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,4,8,1
+"Immunodominant antigen, putative (UniProt:Q4D7R2)",http://www.uniprot.org/uniprot/Q4D7R2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D0A4)",http://www.uniprot.org/uniprot/Q4D0A4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E281)",http://www.uniprot.org/uniprot/Q4E281,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DCT1)",http://www.uniprot.org/uniprot/Q4DCT1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DU19)",http://www.uniprot.org/uniprot/Q4DU19,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+ATP-dependent RNA helicase,http://www.uniprot.org/uniprot/Q4DFZ7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,4,4,1
+"BmGPI12, BMN1 family, BMN1-9, BmSA1 orthologue",http://www.uniprot.org/uniprot/A0A0K3AT66,Babesia microti,http://purl.obolibrary.org/obo/NCBITaxon_5868,4,11,2
+GpcrRhopsn4 domain-containing protein,http://www.uniprot.org/uniprot/A0A044TPU2,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,4,4,1
+Mitochondrial pyruvate carrier,http://www.uniprot.org/uniprot/A0A044V420,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,4,4,1
+Uncharacterized protein (UniProt:A0A044UH02),http://www.uniprot.org/uniprot/A0A044UH02,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,4,4,1
+Uncharacterized protein (UniProt:A0A044TL01),http://www.uniprot.org/uniprot/A0A044TL01,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,4,4,1
+Uncharacterized protein (UniProt:A0A044SFY3),http://www.uniprot.org/uniprot/A0A044SFY3,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,4,4,1
+SHSP domain-containing protein (UniProt:A0A044SD24),http://www.uniprot.org/uniprot/A0A044SD24,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,4,4,1
+Reticulocyte-binding protein homolog 2b,http://www.uniprot.org/uniprot/C0H5F4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,4,4,1
+Sporozoite surface protein 2,http://www.uniprot.org/uniprot/A5K806,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,4,4,1
+RanBP2-type domain-containing protein,http://www.uniprot.org/uniprot/A4HN37,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,4,16,1
+Opisthorchis viverrini (Southeast Asian liver fluke) protein,https://ontology.iedb.org/taxon-protein/6198,Opisthorchis viverrini (Southeast Asian liver fluke),http://purl.obolibrary.org/obo/NCBITaxon_6198,4,4,1
+Histone H4 (UniProt:A4HNK4),http://www.uniprot.org/uniprot/A4HNK4,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,4,8,1
+Other Trichuris trichiura (human whipworm) protein,https://ontology.iedb.org/taxon-protein/36087-other,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,4,9,1
+Other Leishmania aethiopica protein,https://ontology.iedb.org/taxon-protein/5667-other,Leishmania aethiopica,http://purl.obolibrary.org/obo/NCBITaxon_5667,3,3,1
+Kinetoplastid membrane protein 11 family protein,http://www.uniprot.org/uniprot/A0A504XA70,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,3,11,1
+Aspartate aminotransferase,http://www.uniprot.org/uniprot/Q2PD61,Leishmania aethiopica,http://purl.obolibrary.org/obo/NCBITaxon_5667,3,3,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IBD8)",http://www.uniprot.org/uniprot/Q8IBD8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,3,6,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CN05)",http://www.uniprot.org/uniprot/Q4CN05,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,3,1
+"Kinetoplastid membrane protein KMP-11, putative",http://www.uniprot.org/uniprot/Q4D7Y4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,27,8
+"Trans-sialidase, putative (UniProt:Q4D7M7)",http://www.uniprot.org/uniprot/Q4D7M7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,4,2
+Uncharacterized protein MAL13P1.304,http://www.uniprot.org/uniprot/Q8ID94,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,3,4,2
+14 kDa fatty acid-binding protein,http://www.uniprot.org/uniprot/P29498,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,3,8,1
+Candidapepsin-2,http://www.uniprot.org/uniprot/P0DJ06,Candida albicans,http://purl.obolibrary.org/obo/NCBITaxon_5476,3,5,2
+"Immunodominant antigen, putative (UniProt:Q4D528)",http://www.uniprot.org/uniprot/Q4D528,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,3,2
+Other Trypanosoma brucei protein,https://ontology.iedb.org/taxon-protein/5691-other,Trypanosoma brucei,http://purl.obolibrary.org/obo/NCBITaxon_5691,3,3,1
+"69 kDa paraflagellar rod protein, putative",http://www.uniprot.org/uniprot/Q4DIF6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,18,2
+"Paraflagellar rod component, putative (UniProt:Q4DWL5)",http://www.uniprot.org/uniprot/Q4DWL5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,17,2
+Heat shock protein 83-1,http://www.uniprot.org/uniprot/A4HL70,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,3,9,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IAS4)",http://www.uniprot.org/uniprot/Q8IAS4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,3,3,1
+Uncharacterized protein (UniProt:Q4CSA0),http://www.uniprot.org/uniprot/Q4CSA0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,3,3,1
+Elongation factor 1-alpha,http://www.uniprot.org/uniprot/Q4QEI8,Leishmania major,http://purl.obolibrary.org/obo/NCBITaxon_5664,3,3,1
+Similar to leishmania major. l411.4-like protein,http://www.uniprot.org/uniprot/Q4Q129,Leishmania major,http://purl.obolibrary.org/obo/NCBITaxon_5664,3,3,1
+"Alpha-actinin, putative",http://www.uniprot.org/uniprot/A2DKH3,Trichomonas vaginalis,http://purl.obolibrary.org/obo/NCBITaxon_5722,3,3,1
+Other Leishmania donovani protein,https://ontology.iedb.org/taxon-protein/5661-other,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,3,3,1
+Uncharacterized protein (UniProt:A0A504X632),http://www.uniprot.org/uniprot/A0A504X632,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,3,6,1
+Uncharacterized protein (UniProt:A0A2K6WLA7),http://www.uniprot.org/uniprot/A0A2K6WLA7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+Glyceraldehyde-3-phosphate dehydrogenase (UniProt:O01360),http://www.uniprot.org/uniprot/O01360,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+Histone H3 (UniProt:A0A044TMQ9),http://www.uniprot.org/uniprot/A0A044TMQ9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+ALT-3 protein,http://www.uniprot.org/uniprot/O16855,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+ZP domain-containing protein (UniProt:A0A044RMM8),http://www.uniprot.org/uniprot/A0A044RMM8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+SHSP domain-containing protein (UniProt:A0A044SD32),http://www.uniprot.org/uniprot/A0A044SD32,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+Calponin homolog OV9M (UniProt:P37801),http://www.uniprot.org/uniprot/P37801,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,3,3,1
+Metallopeptidase M24 family protein,http://www.uniprot.org/uniprot/A0A504XQH2,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,3,3,1
+Phosphopyruvate hydratase,http://www.uniprot.org/uniprot/A0A3S7WT45,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,3,6,1
+Uncharacterized protein (UniProt:Q8IHW8),http://www.uniprot.org/uniprot/Q8IHW8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,3,3,1
+"Merozoite surface protein 7 (MSP7), putative (UniProt:A5K7Z1)",http://www.uniprot.org/uniprot/A5K7Z1,Plasmodium vivax (malaria parasite P. vivax),http://purl.obolibrary.org/obo/NCBITaxon_5855,3,3,1
+Uncharacterized protein (UniProt:A4H323),http://www.uniprot.org/uniprot/A4H323,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,3,10,1
+Other Ancylostoma ceylanicum protein,https://ontology.iedb.org/taxon-protein/53326-other,Ancylostoma ceylanicum,http://purl.obolibrary.org/obo/NCBITaxon_53326,3,6,1
+"Eukaryotic initiation factor 4a, putative",http://www.uniprot.org/uniprot/A0A088RHF2,Leishmania panamensis,http://purl.obolibrary.org/obo/NCBITaxon_5679,3,9,1
+Calcium-binding protein SPEC 2C,http://www.uniprot.org/uniprot/W6UZX2,Echinococcus granulosus,http://purl.obolibrary.org/obo/NCBITaxon_6210,2,2,1
+"Mucin TcMUCII, putative (UniProt:Q4D0A3)",http://www.uniprot.org/uniprot/Q4D0A3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,3,3
+Knob-associated histidine-rich protein,http://www.uniprot.org/uniprot/Q9TY99,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Kinetoplastid membrane protein-11 (UniProt:Q9NHU4),http://www.uniprot.org/uniprot/Q9NHU4,Leishmania panamensis,http://purl.obolibrary.org/obo/NCBITaxon_5679,2,12,1
+Preprocathepsin cathepsin L,http://www.uniprot.org/uniprot/A0A504Y6Y7,Fasciola gigantica,http://purl.obolibrary.org/obo/NCBITaxon_46835,2,12,2
+Other Blastomyces dermatitidis protein,https://ontology.iedb.org/taxon-protein/5039-other,Blastomyces dermatitidis,http://purl.obolibrary.org/obo/NCBITaxon_5039,2,11,1
+"Trans-sialidase, putative (UniProt:Q4DVI7)",http://www.uniprot.org/uniprot/Q4DVI7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Trans-sialidase, putative (UniProt:Q4CMQ8)",http://www.uniprot.org/uniprot/Q4CMQ8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Trans-sialidase, putative (UniProt:Q4CQT4)",http://www.uniprot.org/uniprot/Q4CQT4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+Glyceraldehyde-3-phosphate dehydrogenase,http://www.uniprot.org/uniprot/P20287,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,2,2,1
+Putative serpin,http://www.uniprot.org/uniprot/G4V6W4,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,2,2,1
+Protein dopey homolog PFC0245c,http://www.uniprot.org/uniprot/O97239,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,3,2
+"Trans-sialidase, putative (UniProt:Q4CZ79)",http://www.uniprot.org/uniprot/Q4CZ79,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+Asparagine and aspartate rich protein 1,http://www.uniprot.org/uniprot/Q8I586,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,2
+Galactose-inhibitable lectin 170 kDa subunit,http://www.uniprot.org/uniprot/P32022,Entamoeba histolytica,http://purl.obolibrary.org/obo/NCBITaxon_5759,2,4,1
+"Trans-sialidase, putative (UniProt:Q4CR14)",http://www.uniprot.org/uniprot/Q4CR14,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Trans-sialidase, putative (UniProt:Q4CZE6)",http://www.uniprot.org/uniprot/Q4CZE6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+Uncharacterized protein,http://www.uniprot.org/uniprot/A0A183FXU3,Heligmosomoides polygyrus,http://purl.obolibrary.org/obo/NCBITaxon_6339,2,2,1
+Uncharacterized protein,http://www.uniprot.org/uniprot/A0A3P7DNC0,Wuchereria bancrofti (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6293,2,2,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IAK2)",http://www.uniprot.org/uniprot/Q8IAK2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+"Mucin TcMUCIII, putative",http://www.uniprot.org/uniprot/Q4CTF7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,8,1
+Peroxidoxin,http://www.uniprot.org/uniprot/A4HCL7,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,2,4,1
+Purine nucleoside phosphorylase,http://www.uniprot.org/uniprot/Q4DQ97,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Nucleoside phosphorylase, putative (Fragment)",http://www.uniprot.org/uniprot/Q4DAD9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DTW8)",http://www.uniprot.org/uniprot/Q4DTW8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D2N7)",http://www.uniprot.org/uniprot/Q4D2N7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D9A4)",http://www.uniprot.org/uniprot/Q4D9A4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+Leishmanolysin-like peptidase (UniProt:Q4DAG2),http://www.uniprot.org/uniprot/Q4DAG2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DTB1)",http://www.uniprot.org/uniprot/Q4DTB1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+Surface protein TolT (UniProt:Q4CM38),http://www.uniprot.org/uniprot/Q4CM38,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,2,1
+Putative ribosomal protein L3,http://www.uniprot.org/uniprot/Q4Q2Q6,Leishmania major,http://purl.obolibrary.org/obo/NCBITaxon_5664,2,2,1
+Elongation factor 1-alpha (Fragment),http://www.uniprot.org/uniprot/Q95VF2,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+"CPC cysteine peptidase, Clan CA, family C1, Cathepsin B-like",http://www.uniprot.org/uniprot/Q9GQM5,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Uncharacterized protein (UniProt:A0A504WVT0),http://www.uniprot.org/uniprot/A0A504WVT0,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,3,1
+Uncharacterized protein (UniProt:A0A504XCA7),http://www.uniprot.org/uniprot/A0A504XCA7,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,3,1
+Uncharacterized protein (UniProt:A0A504XF01),http://www.uniprot.org/uniprot/A0A504XF01,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Guanylate cyclase,http://www.uniprot.org/uniprot/A0A504XJI7,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+ATP-dependent DNA helicase,http://www.uniprot.org/uniprot/A0A504XWV3,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Uncharacterized protein (UniProt:A0A504XKE2),http://www.uniprot.org/uniprot/A0A504XKE2,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+DNA helicase,http://www.uniprot.org/uniprot/A0A504X102,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Calcineurin-like phosphoesterase family protein,http://www.uniprot.org/uniprot/A0A504X6V9,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+"Inositol 1, 4, 5-trisphosphate/ryanodine receptor family protein",http://www.uniprot.org/uniprot/A0A504XQX2,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Mitogen-activated protein kinase,http://www.uniprot.org/uniprot/A0A3S7WR45,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,3,1
+Protein kinase domain family protein,http://www.uniprot.org/uniprot/A0A504XE14,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Uncharacterized protein (UniProt:A0A504Y111),http://www.uniprot.org/uniprot/A0A504Y111,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,4,1
+Col_cuticle_N domain-containing protein (UniProt:A0A044V9C9),http://www.uniprot.org/uniprot/A0A044V9C9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,2,2,1
+Uncharacterized protein (UniProt:A0A044QS56),http://www.uniprot.org/uniprot/A0A044QS56,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,2,2,1
+GMP reductase (UniProt:A0A044SN49),http://www.uniprot.org/uniprot/A0A044SN49,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,2,2,1
+Uncharacterized protein (UniProt:A0A158N7T4),http://www.uniprot.org/uniprot/A0A158N7T4,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,2,2,1
+Triosephosphate isomerase,http://www.uniprot.org/uniprot/A0A3Q8IMM9,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,8,1
+Elongation factor Tu GTP binding domain family protein,http://www.uniprot.org/uniprot/A0A504XII2,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,2,2,1
+Separase,http://www.uniprot.org/uniprot/C0H4T3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Uncharacterized protein (UniProt:Q9U0J6),http://www.uniprot.org/uniprot/Q9U0J6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Dynein heavy chain-like protein,http://www.uniprot.org/uniprot/Q8IBG1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Protein PF3D7_1417600,http://www.uniprot.org/uniprot/Q8ILR9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Uncharacterized protein (UniProt:Q8IL70),http://www.uniprot.org/uniprot/Q8IL70,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Uncharacterized protein (UniProt:Q8IBS2),http://www.uniprot.org/uniprot/Q8IBS2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Uncharacterized protein (UniProt:O97298),http://www.uniprot.org/uniprot/O97298,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Acyl-CoA synthetase (UniProt:Q8I0X2),http://www.uniprot.org/uniprot/Q8I0X2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Asparagine-rich antigen Pfa35-2,http://www.uniprot.org/uniprot/Q8I284,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Cysteine repeat modular protein 4,http://www.uniprot.org/uniprot/Q8IK84,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+"Protein kinase, putative (UniProt:Q8ILC4)",http://www.uniprot.org/uniprot/Q8ILC4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Uncharacterized protein (UniProt:A0A144A0N6),http://www.uniprot.org/uniprot/A0A144A0N6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Acyl-CoA synthetase (UniProt:O96230),http://www.uniprot.org/uniprot/O96230,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Uncharacterized protein (UniProt:O97236),http://www.uniprot.org/uniprot/O97236,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Erythrocyte membrane-associated antigen (UniProt:Q8IFP4),http://www.uniprot.org/uniprot/Q8IFP4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Heat shock 70 kDa protein (Fragment),http://www.uniprot.org/uniprot/P11503,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,2,2,1
+Putative inositol 5'-phosphatase,http://www.uniprot.org/uniprot/A4H7W9,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,2,7,1
+"Cysteine peptidase, putative (UniProt:Q4CMU6)",http://www.uniprot.org/uniprot/Q4CMU6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,2,4,1
+Protein disulfide-isomerase,http://www.uniprot.org/uniprot/C0H4Y6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+StAR-related lipid transfer protein,http://www.uniprot.org/uniprot/Q8I298,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,2,1
+Histone H2A,http://www.uniprot.org/uniprot/A4HBV1,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,2,4,1
+Other Schistosoma mansoni protein,https://ontology.iedb.org/taxon-protein/6183-other,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,2,2,1
+Gametocyte surface protein P45/48,http://www.uniprot.org/uniprot/Q8I6T1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,2,4,1
+Uncharacterized protein (UniProt:Q4E312),http://www.uniprot.org/uniprot/Q4E312,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+Circumsporozoite protein,http://www.uniprot.org/uniprot/Q26124,Plasmodium vivax-like sp.,http://purl.obolibrary.org/obo/NCBITaxon_27990,1,1,1
+Fructose-bisphosphate aldolase,http://www.uniprot.org/uniprot/Q7KQL9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Peroxiredoxin,http://www.uniprot.org/uniprot/C4MA54,Entamoeba histolytica,http://purl.obolibrary.org/obo/NCBITaxon_5759,1,2,1
+"60S acidic ribosomal protein P2, putative (UniProt:Q4DLC3)",http://www.uniprot.org/uniprot/Q4DLC3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+Putative E3 ubiquitin-protein ligase protein PFF1365c,http://www.uniprot.org/uniprot/C6KTB7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DK48)",http://www.uniprot.org/uniprot/Q4DK48,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Hsp70 family protein,http://www.uniprot.org/uniprot/A0A504XA83,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,1,1,1
+Other Babesia microti protein,https://ontology.iedb.org/taxon-protein/5868-other,Babesia microti,http://purl.obolibrary.org/obo/NCBITaxon_5868,1,1,1
+Hydatid disease diagnostic antigen P-29,http://www.uniprot.org/uniprot/W6V2P2,Echinococcus granulosus,http://purl.obolibrary.org/obo/NCBITaxon_6210,1,5,2
+60S acidic ribosomal protein P2,http://www.uniprot.org/uniprot/A4H884,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,1,1,1
+Uncharacterized protein PF3D7_1120000,http://www.uniprot.org/uniprot/Q8IIG7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+60S acidic ribosomal protein P0,http://www.uniprot.org/uniprot/P39096,Leishmania chagasi,http://purl.obolibrary.org/obo/NCBITaxon_44271,1,2,1
+Probable ATP-dependent helicase PF08_0048,http://www.uniprot.org/uniprot/C0H4W3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,2,1
+Uncharacterized protein PF3D7_0207100,http://www.uniprot.org/uniprot/O96160,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,2,1
+"Trans-sialidase, putative (UniProt:Q4E0M8)",http://www.uniprot.org/uniprot/Q4E0M8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CNX0)",http://www.uniprot.org/uniprot/Q4CNX0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Kinetoplastid membrane protein-11 (UniProt:A4IBB3),http://www.uniprot.org/uniprot/A4IBB3,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DU23)",http://www.uniprot.org/uniprot/Q4DU23,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"Trans-sialidase, putative (UniProt:Q4D1G5)",http://www.uniprot.org/uniprot/Q4D1G5,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4E485)",http://www.uniprot.org/uniprot/Q4E485,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CPU0)",http://www.uniprot.org/uniprot/Q4CPU0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CMF4)",http://www.uniprot.org/uniprot/Q4CMF4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DMZ9)",http://www.uniprot.org/uniprot/Q4DMZ9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKZ4)",http://www.uniprot.org/uniprot/Q4CKZ4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DZC4)",http://www.uniprot.org/uniprot/Q4DZC4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"Trans-sialidase, putative (UniProt:Q4DWY8)",http://www.uniprot.org/uniprot/Q4DWY8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4D3W4)",http://www.uniprot.org/uniprot/Q4D3W4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DU42)",http://www.uniprot.org/uniprot/Q4DU42,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4D8S3)",http://www.uniprot.org/uniprot/Q4D8S3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CRY2)",http://www.uniprot.org/uniprot/Q4CRY2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKT4)",http://www.uniprot.org/uniprot/Q4CKT4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DKM3)",http://www.uniprot.org/uniprot/Q4DKM3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKC9)",http://www.uniprot.org/uniprot/Q4CKC9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CPD1)",http://www.uniprot.org/uniprot/Q4CPD1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4E0N1)",http://www.uniprot.org/uniprot/Q4E0N1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,2
+"Trans-sialidase, putative (UniProt:Q4DII4)",http://www.uniprot.org/uniprot/Q4DII4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DBC9)",http://www.uniprot.org/uniprot/Q4DBC9,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DUE6)",http://www.uniprot.org/uniprot/Q4DUE6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKY3)",http://www.uniprot.org/uniprot/Q4CKY3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Multidrug resistance protein 1,http://www.uniprot.org/uniprot/Q7K6A5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Serine--tRNA ligase, cytoplasmic",http://www.uniprot.org/uniprot/Q8I5P7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,2,1
+RING finger protein PFF0165c,http://www.uniprot.org/uniprot/Q6LFN2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein MAL8P1.12,http://www.uniprot.org/uniprot/Q8IBB8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,2,1
+Liver stage antigen 3,http://www.uniprot.org/uniprot/O96275,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,3,1
+"Trans-sialidase, putative (UniProt:Q4D825)",http://www.uniprot.org/uniprot/Q4D825,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKZ3)",http://www.uniprot.org/uniprot/Q4CKZ3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DVJ7)",http://www.uniprot.org/uniprot/Q4DVJ7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Uncharacterized protein (UniProt:Q4CXH3),http://www.uniprot.org/uniprot/Q4CXH3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Uncharacterized protein PF3D7_1205000,http://www.uniprot.org/uniprot/Q8I5Z5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,2,1
+"Zinc finger protein, putative (UniProt:O77322)",http://www.uniprot.org/uniprot/O77322,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DQR8)",http://www.uniprot.org/uniprot/Q4DQR8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CM43)",http://www.uniprot.org/uniprot/Q4CM43,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Mucin TcMUCI, putative (UniProt:Q4CS61)",http://www.uniprot.org/uniprot/Q4CS61,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Heat shock protein 70 (UniProt:Q8I2X4),http://www.uniprot.org/uniprot/Q8I2X4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q9U0I3),http://www.uniprot.org/uniprot/Q9U0I3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,2,1
+Uncharacterized protein (UniProt:A4IC39),http://www.uniprot.org/uniprot/A4IC39,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,1,1
+Interspersed repeat antigen,http://www.uniprot.org/uniprot/Q8I486,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+p270 surface immunogen-like,http://www.uniprot.org/uniprot/A2E7I1,Trichomonas vaginalis,http://purl.obolibrary.org/obo/NCBITaxon_5722,1,1,1
+Leishmanolysin,http://www.uniprot.org/uniprot/A4HUG0,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,1,1
+Uncharacterized protein (UniProt:A4I9E2),http://www.uniprot.org/uniprot/A4I9E2,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,1,1
+Asp f 6,http://www.uniprot.org/uniprot/Q92450,Aspergillus fumigatus,http://purl.obolibrary.org/obo/NCBITaxon_746128,1,2,1
+pH-regulated antigen PRA1,http://www.uniprot.org/uniprot/P87020,Candida albicans,http://purl.obolibrary.org/obo/NCBITaxon_5476,1,1,1
+60S acidic ribosomal protein P0 (UniProt:Q4E3A4),http://www.uniprot.org/uniprot/Q4E3A4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CN53)",http://www.uniprot.org/uniprot/Q4CN53,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CRD4)",http://www.uniprot.org/uniprot/Q4CRD4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CMZ8)",http://www.uniprot.org/uniprot/Q4CMZ8,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CP73)",http://www.uniprot.org/uniprot/Q4CP73,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CPN3)",http://www.uniprot.org/uniprot/Q4CPN3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4CKW6)",http://www.uniprot.org/uniprot/Q4CKW6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Eukaryotic aspartyl protease,http://www.uniprot.org/uniprot/W2TN28,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,1,1
+Bm9804,http://www.uniprot.org/uniprot/A0A0K0K0J2,Brugia malayi (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6279,1,2,1
+Bm2511,http://www.uniprot.org/uniprot/A0A0J9XTJ8,Brugia malayi (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6279,1,2,1
+Peroxiredoxin,http://www.uniprot.org/uniprot/A0A5S6PAI1,Brugia malayi (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6279,1,2,1
+"Putative exo-1,3-beta-glucanase (UniProt:A0A2D4C4Z9)",http://www.uniprot.org/uniprot/A0A2D4C4Z9,Pythium insidiosum,http://purl.obolibrary.org/obo/NCBITaxon_114742,1,1,1
+"Putative exo-1,3-beta-glucanase (UniProt:A0A2D4BV21)",http://www.uniprot.org/uniprot/A0A2D4BV21,Pythium insidiosum,http://purl.obolibrary.org/obo/NCBITaxon_114742,1,1,1
+Peroxiredoxin 1,http://www.uniprot.org/uniprot/P48822,Brugia malayi (agent of lymphatic filariasis),http://purl.obolibrary.org/obo/NCBITaxon_6279,1,2,1
+AhpC/TSA family protein,http://www.uniprot.org/uniprot/A0A504XF68,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,1,2,1
+"Variant surface glycoprotein (VSG, atypical), putative (UniProt:Q380X5)",http://www.uniprot.org/uniprot/Q380X5,Trypanosoma brucei,http://purl.obolibrary.org/obo/NCBITaxon_5691,1,1,1
+"RNA-binding protein, putative (UniProt:Q4CRD0)",http://www.uniprot.org/uniprot/Q4CRD0,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"ADP-ribosylation factor GTPase activating protein, putative",http://www.uniprot.org/uniprot/Q4DNS1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"Translation initiation factor, putative",http://www.uniprot.org/uniprot/Q4DH88,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,3,1
+Uncharacterized protein (UniProt:Q4DXQ2),http://www.uniprot.org/uniprot/Q4DXQ2,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,3,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4E2A4)",http://www.uniprot.org/uniprot/Q4E2A4,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IFQ2)",http://www.uniprot.org/uniprot/Q8IFQ2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:C6KSK8)",http://www.uniprot.org/uniprot/C6KSK8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"D-isomer specific 2-hydroxyacid dehydrogenase-protein, putative",http://www.uniprot.org/uniprot/Q4DAE1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Prostaglandin F2alpha synthase,http://www.uniprot.org/uniprot/Q4E4V7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+CPB protein (UniProt:A4H5E6),http://www.uniprot.org/uniprot/A4H5E6,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,1,4,1
+Mitogen-activated protein kinase (UniProt:A4HA94),http://www.uniprot.org/uniprot/A4HA94,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,1,3,1
+Mitogen-activated protein kinase (UniProt:A4H641),http://www.uniprot.org/uniprot/A4H641,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,1,3,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4D780)",http://www.uniprot.org/uniprot/Q4D780,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Mucin-associated surface protein (MASP), putative (Fragment) (UniProt:Q4CNN7)",http://www.uniprot.org/uniprot/Q4CNN7,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+Uncharacterized protein (UniProt:A0A144A1C7),http://www.uniprot.org/uniprot/A0A144A1C7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+YrhK domain-containing protein,http://www.uniprot.org/uniprot/Q8IL91,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein,http://www.uniprot.org/uniprot/Q0CMB8,Aspergillus terreus,http://purl.obolibrary.org/obo/NCBITaxon_33178,1,2,1
+Uncharacterized protein (UniProt:A0A3Q0KSB0),http://www.uniprot.org/uniprot/A0A3Q0KSB0,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+TLC domain-containing protein,http://www.uniprot.org/uniprot/G4V9U1,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+Uncharacterized protein (UniProt:A0A3Q0KQZ3),http://www.uniprot.org/uniprot/A0A3Q0KQZ3,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+Uncharacterized protein (UniProt:G4LWV6),http://www.uniprot.org/uniprot/G4LWV6,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+Tyramine/octopamine receptor,http://www.uniprot.org/uniprot/G4VIY7,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+DUF155 domain-containing protein,http://www.uniprot.org/uniprot/A0A504XDX0,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,1,2,1
+"BmGPI9, BMN1 Family",http://www.uniprot.org/uniprot/I7I905,Babesia microti,http://purl.obolibrary.org/obo/NCBITaxon_5868,1,1,1
+RNA cytidine acetyltransferase,http://www.uniprot.org/uniprot/A0A504Y4C7,Leishmania donovani,http://purl.obolibrary.org/obo/NCBITaxon_5661,1,2,1
+Uncharacterized protein (UniProt:A0A044RUV7),http://www.uniprot.org/uniprot/A0A044RUV7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Uncharacterized protein (UniProt:A0A044SXH1),http://www.uniprot.org/uniprot/A0A044SXH1,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+1-Cys peroxiredoxin (UniProt:A0A044SIU8),http://www.uniprot.org/uniprot/A0A044SIU8,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+PPIase cyclophilin-type domain-containing protein,http://www.uniprot.org/uniprot/A0A044S6Z0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Actin-2,http://www.uniprot.org/uniprot/P30163,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Histone H3 (UniProt:A0A044UVZ9),http://www.uniprot.org/uniprot/A0A044UVZ9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Uncharacterized protein (UniProt:A0A044V9F9),http://www.uniprot.org/uniprot/A0A044V9F9,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+ZP domain-containing protein (UniProt:A0A044QZV7),http://www.uniprot.org/uniprot/A0A044QZV7,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+ZP domain-containing protein (UniProt:A0A044QSB0),http://www.uniprot.org/uniprot/A0A044QSB0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Glutathione S-transferase Ia,http://www.uniprot.org/uniprot/A0A044UM60,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Uncharacterized protein (UniProt:A0A044V9S0),http://www.uniprot.org/uniprot/A0A044V9S0,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DR50)",http://www.uniprot.org/uniprot/Q4DR50,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4DD59)",http://www.uniprot.org/uniprot/Q4DD59,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"Mucin-associated surface protein (MASP), putative (UniProt:Q4CR59)",http://www.uniprot.org/uniprot/Q4CR59,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,2,1
+"Putative calpain-like cysteine peptidase (Putative cysteine peptidase, clan ca, family c2)",http://www.uniprot.org/uniprot/E9APT0,Leishmania mexicana,http://purl.obolibrary.org/obo/NCBITaxon_5665,1,1,1
+Uncharacterized protein (UniProt:Q8I544),http://www.uniprot.org/uniprot/Q8I544,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA helicase (UniProt:Q8IC16),http://www.uniprot.org/uniprot/Q8IC16,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+RuvB-like helicase,http://www.uniprot.org/uniprot/Q8IIU3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Plasmepsin VIII, putative",http://www.uniprot.org/uniprot/Q8IKI0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"SPRY domain, putative",http://www.uniprot.org/uniprot/Q8IB96,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Ras-like G protein,http://www.uniprot.org/uniprot/O77338,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I369),http://www.uniprot.org/uniprot/Q8I369,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:O97230),http://www.uniprot.org/uniprot/O97230,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A143ZV68),http://www.uniprot.org/uniprot/A0A143ZV68,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8ILH5),http://www.uniprot.org/uniprot/Q8ILH5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"RAP protein, putative (UniProt:Q8I3U8)",http://www.uniprot.org/uniprot/Q8I3U8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA helicase (UniProt:Q8IJ31),http://www.uniprot.org/uniprot/Q8IJ31,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A144A160),http://www.uniprot.org/uniprot/A0A144A160,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Cysteine-rich small secreted protein CSS, putative",http://www.uniprot.org/uniprot/Q8IM47,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I4Y2),http://www.uniprot.org/uniprot/Q8I4Y2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Leucine carboxyl methyltransferase 1,http://www.uniprot.org/uniprot/Q8IL72,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IFQ5)",http://www.uniprot.org/uniprot/Q8IFQ5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IL90),http://www.uniprot.org/uniprot/Q8IL90,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Kinase-related protein PKRP, putative",http://www.uniprot.org/uniprot/O77365,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+RESA-like protein with PHIST and DnaJ domains,http://www.uniprot.org/uniprot/Q8IJ23,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I3F7),http://www.uniprot.org/uniprot/Q8I3F7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Vacuolar protein sorting-associated protein 51 homolog,http://www.uniprot.org/uniprot/Q8I2A9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"AP2 domain transcription factor AP2-O2, putative",http://www.uniprot.org/uniprot/Q8I3U0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"RAP protein, putative (UniProt:C6KTC4)",http://www.uniprot.org/uniprot/C6KTC4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+NIMA related kinase 2,http://www.uniprot.org/uniprot/C0H4G2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+FeS assembly ATPase SufC,http://www.uniprot.org/uniprot/Q8ILW0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Metacaspase-3,http://www.uniprot.org/uniprot/Q8ILT4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA polymerase,http://www.uniprot.org/uniprot/Q9U0H1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+tRNA 4-demethylwyosine synthase (AdoMet-dependent),http://www.uniprot.org/uniprot/Q8I3L6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Vacuole membrane protein 1, putative",http://www.uniprot.org/uniprot/Q8IK92,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IM20),http://www.uniprot.org/uniprot/Q8IM20,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"PIH1 domain-containing protein, putative (UniProt:Q8I572)",http://www.uniprot.org/uniprot/Q8I572,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"S-adenosyl-methyltransferase, putative",http://www.uniprot.org/uniprot/Q8I556,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IK94),http://www.uniprot.org/uniprot/Q8IK94,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C6KSS9),http://www.uniprot.org/uniprot/C6KSS9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IIU1),http://www.uniprot.org/uniprot/Q8IIU1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+EMP1-trafficking protein,http://www.uniprot.org/uniprot/Q8I669,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Coatomer subunit delta,http://www.uniprot.org/uniprot/Q8II16,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"SRAP domain-containing protein, putative",http://www.uniprot.org/uniprot/A0A144A1V5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Longevity-assurance (LAG1) protein, putative",http://www.uniprot.org/uniprot/C0H4D2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Rifin (UniProt:Q8I2C5),http://www.uniprot.org/uniprot/Q8I2C5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Acyl-CoA synthetase (UniProt:Q7KQL7),http://www.uniprot.org/uniprot/Q7KQL7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"XAP-5 DNA binding protein, putative",http://www.uniprot.org/uniprot/Q8I3G2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"26S protease regulatory subunit 6B, putative",http://www.uniprot.org/uniprot/Q8I1V1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4C4),http://www.uniprot.org/uniprot/C0H4C4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8IBX3)",http://www.uniprot.org/uniprot/Q8IBX3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Alkaline phosphatase, putative",http://www.uniprot.org/uniprot/Q8I328,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IHY4),http://www.uniprot.org/uniprot/Q8IHY4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IE43),http://www.uniprot.org/uniprot/Q8IE43,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"SET domain protein, putative (UniProt:Q8IBB0)",http://www.uniprot.org/uniprot/Q8IBB0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:O96234),http://www.uniprot.org/uniprot/O96234,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Tubulin-folding cofactor C,http://www.uniprot.org/uniprot/C6S3C6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Dihydrolipoyllysine-residue succinyltransferase,http://www.uniprot.org/uniprot/Q8IEA6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IL77),http://www.uniprot.org/uniprot/Q8IL77,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A144A2Q6),http://www.uniprot.org/uniprot/A0A144A2Q6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ribosome biogenesis protein TSR1, putative",http://www.uniprot.org/uniprot/Q8IKV7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Amino acid transporter, putative",http://www.uniprot.org/uniprot/Q8I5A6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"BRO1 domain-containing protein, putative",http://www.uniprot.org/uniprot/Q8I5H5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+NEDD8-activating enzyme E1 catalytic subunit,http://www.uniprot.org/uniprot/C0H4V1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4P4),http://www.uniprot.org/uniprot/C0H4P4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Rifin (UniProt:Q8I3D4),http://www.uniprot.org/uniprot/Q8I3D4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+ATP-dependent 6-phosphofructokinase,http://www.uniprot.org/uniprot/Q8II80,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"HD superfamily phosphohydrolase protein, putative",http://www.uniprot.org/uniprot/Q8I533,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"LETM1-like protein, putative",http://www.uniprot.org/uniprot/Q8I1R5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8II86),http://www.uniprot.org/uniprot/Q8II86,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IAP6),http://www.uniprot.org/uniprot/Q8IAP6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Actin-like protein, putative",http://www.uniprot.org/uniprot/Q8IIW6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+CX3CL1-binding protein 1,http://www.uniprot.org/uniprot/Q8I2D9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ribosome-binding factor A, putative",http://www.uniprot.org/uniprot/Q8I516,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA helicase (UniProt:Q8IEE5),http://www.uniprot.org/uniprot/Q8IEE5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Phosphatidylinositol transfer protein, putative",http://www.uniprot.org/uniprot/Q8IDI9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Phosphorylated CTD interacting factor 1 WW domain-containing protein, putative",http://www.uniprot.org/uniprot/C0H4W8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K9E8),http://www.uniprot.org/uniprot/A0A5K1K9E8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"50S ribosomal protein L22, mitochondrial, putative",http://www.uniprot.org/uniprot/Q8IJT7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H5A6),http://www.uniprot.org/uniprot/C0H5A6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IIT8),http://www.uniprot.org/uniprot/Q8IIT8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Reticulocyte binding protein homologue 4,http://www.uniprot.org/uniprot/C0H496,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"ATP-dependent RNA helicase ROK1, putative",http://www.uniprot.org/uniprot/Q8IJI8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IEQ5),http://www.uniprot.org/uniprot/Q8IEQ5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Calpain,http://www.uniprot.org/uniprot/A0A5K1K8Q4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Rhoptry neck protein 2,http://www.uniprot.org/uniprot/Q8IKV6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I3J9),http://www.uniprot.org/uniprot/Q8I3J9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Rifin (UniProt:C0H5N2),http://www.uniprot.org/uniprot/C0H5N2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Falcilysin,http://www.uniprot.org/uniprot/Q76NL8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Heat shock protein 90, putative",http://www.uniprot.org/uniprot/Q8IL32,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Kinesin, putative",http://www.uniprot.org/uniprot/Q8I4X5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Ephrin_rec_like domain-containing protein,http://www.uniprot.org/uniprot/C0H518,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I5G7),http://www.uniprot.org/uniprot/Q8I5G7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IJ50),http://www.uniprot.org/uniprot/Q8IJ50,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Polypyrimidine tract-binding protein, putative",http://www.uniprot.org/uniprot/C6KSR3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"DNA helicase, putative",http://www.uniprot.org/uniprot/C0H4V8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Phosphoenolpyruvate carboxykinase (ATP),http://www.uniprot.org/uniprot/Q8IDR1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Histone deacetylase complex subunit SAP18, putative",http://www.uniprot.org/uniprot/Q8IBX6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A144A1R4),http://www.uniprot.org/uniprot/A0A144A1R4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+60 kDa chaperonin,http://www.uniprot.org/uniprot/Q8I0V3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"U3 small nucleolar RNA-associated protein 21, putative",http://www.uniprot.org/uniprot/A0A5K1K903,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"RAP protein, putative (UniProt:Q8IKU2)",http://www.uniprot.org/uniprot/Q8IKU2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:B9ZSI2),http://www.uniprot.org/uniprot/B9ZSI2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1 (PfEMP1), exon 2",http://www.uniprot.org/uniprot/A0A143ZXL1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C6KSU3),http://www.uniprot.org/uniprot/C6KSU3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"NOT family protein, putative",http://www.uniprot.org/uniprot/Q8ILS4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:O96205),http://www.uniprot.org/uniprot/O96205,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Zinc finger protein, putative (UniProt:Q8I3P9)",http://www.uniprot.org/uniprot/Q8I3P9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Apical sushi protein,http://www.uniprot.org/uniprot/Q8I1W9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Gametocyte surface protein P230,http://www.uniprot.org/uniprot/P68874,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA polymerase II subunit 2,http://www.uniprot.org/uniprot/Q8I579,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"MMS19-like protein, putative",http://www.uniprot.org/uniprot/C0H4C6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IE74),http://www.uniprot.org/uniprot/Q8IE74,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I2X8),http://www.uniprot.org/uniprot/Q8I2X8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+WD repeat-containing protein,http://www.uniprot.org/uniprot/Q8IL37,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Protein AMR3,http://www.uniprot.org/uniprot/Q8IER5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Gametocyte erythrocyte cytosolic protein,http://www.uniprot.org/uniprot/Q8I4Q6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Nuclear nucleic acid-binding protein C1D,http://www.uniprot.org/uniprot/Q8IL18,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Rifin (UniProt:O97311),http://www.uniprot.org/uniprot/O97311,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Inner membrane complex protein 1l,http://www.uniprot.org/uniprot/Q8ILS6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Nucleoporin NUP637, putative",http://www.uniprot.org/uniprot/C6KST7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"MCL1 domain-containing protein, putative",http://www.uniprot.org/uniprot/Q8IER6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"GTP-binding protein, putative (UniProt:Q8IL49)",http://www.uniprot.org/uniprot/Q8IL49,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Thioredoxin reductase,http://www.uniprot.org/uniprot/A0A143ZVU1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Formin 1,http://www.uniprot.org/uniprot/Q8I3F9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ribonuclease, putative (UniProt:Q8IJV3)",http://www.uniprot.org/uniprot/Q8IJV3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4P2),http://www.uniprot.org/uniprot/C0H4P2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Phosducin-like protein 1, putative",http://www.uniprot.org/uniprot/Q8I3U4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8II12),http://www.uniprot.org/uniprot/Q8II12,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4U6),http://www.uniprot.org/uniprot/C0H4U6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IEG2),http://www.uniprot.org/uniprot/Q8IEG2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Exonuclease 1,http://www.uniprot.org/uniprot/Q8IBK1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Pantothenate kinase 2, putative",http://www.uniprot.org/uniprot/Q8IL92,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4F8),http://www.uniprot.org/uniprot/C0H4F8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"RING zinc finger protein, putative",http://www.uniprot.org/uniprot/Q8I1S9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"PIH1 domain-containing protein, putative (UniProt:C0H581)",http://www.uniprot.org/uniprot/C0H581,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K8U0),http://www.uniprot.org/uniprot/A0A5K1K8U0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"E1-E2 ATPase, putative",http://www.uniprot.org/uniprot/A0A5K1K8L6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I643)",http://www.uniprot.org/uniprot/Q8I643,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Condensin complex subunit 1,http://www.uniprot.org/uniprot/Q8II07,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IKX1),http://www.uniprot.org/uniprot/Q8IKX1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Palmitoyltransferase,http://www.uniprot.org/uniprot/O97224,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Rifin (UniProt:Q9NFA9),http://www.uniprot.org/uniprot/Q9NFA9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Magnesium transporter,http://www.uniprot.org/uniprot/Q8ILI8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Lysine-specific histone demethylase 1, putative",http://www.uniprot.org/uniprot/Q8I5T5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ribose-phosphate pyrophosphokinase, putative",http://www.uniprot.org/uniprot/Q8IE40,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IIE1),http://www.uniprot.org/uniprot/Q8IIE1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Alkyl transferase,http://www.uniprot.org/uniprot/Q8IB97,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K8J1),http://www.uniprot.org/uniprot/A0A5K1K8J1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+mRNA-capping enzyme subunit beta,http://www.uniprot.org/uniprot/C0H484,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K8Q3),http://www.uniprot.org/uniprot/A0A5K1K8Q3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IES7),http://www.uniprot.org/uniprot/Q8IES7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K998),http://www.uniprot.org/uniprot/A0A5K1K998,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4B8),http://www.uniprot.org/uniprot/C0H4B8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A144A3L0),http://www.uniprot.org/uniprot/A0A144A3L0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Nuclear polyadenylated RNA-binding protein NAB2, putative",http://www.uniprot.org/uniprot/C6KT67,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Histidine--tRNA ligase, putative",http://www.uniprot.org/uniprot/Q8I2H8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Kinesin-5,http://www.uniprot.org/uniprot/O77382,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4B3),http://www.uniprot.org/uniprot/C0H4B3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+MORN repeat-containing protein 1,http://www.uniprot.org/uniprot/Q8IJ93,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Aurora kinase,http://www.uniprot.org/uniprot/O77328,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Parasitophorous vacuolar protein 2,http://www.uniprot.org/uniprot/Q8I5E9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A143ZY62),http://www.uniprot.org/uniprot/A0A143ZY62,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IE65),http://www.uniprot.org/uniprot/Q8IE65,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Kelch protein K13,http://www.uniprot.org/uniprot/Q8IDQ2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4U5),http://www.uniprot.org/uniprot/C0H4U5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Secreted ookinete protein, putative (UniProt:Q8I255)",http://www.uniprot.org/uniprot/Q8I255,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C0H4L9),http://www.uniprot.org/uniprot/C0H4L9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IET6),http://www.uniprot.org/uniprot/Q8IET6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8II50),http://www.uniprot.org/uniprot/Q8II50,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Protein kinase, putative (UniProt:Q8IBK6)",http://www.uniprot.org/uniprot/Q8IBK6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"HECT-like E3 ubiquitin ligase, putative",http://www.uniprot.org/uniprot/Q8IB94,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Type I signal peptidase,http://www.uniprot.org/uniprot/A0A5K1K8B7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+AP complex subunit beta,http://www.uniprot.org/uniprot/Q8IBF8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Formin 2,http://www.uniprot.org/uniprot/Q8I5L7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:O77372),http://www.uniprot.org/uniprot/O77372,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Dynein_C domain-containing protein,http://www.uniprot.org/uniprot/Q8IJE8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8I2R3),http://www.uniprot.org/uniprot/Q8I2R3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IBV1),http://www.uniprot.org/uniprot/Q8IBV1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C6KT98),http://www.uniprot.org/uniprot/C6KT98,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"TFIIS central domain-containing protein, putative",http://www.uniprot.org/uniprot/Q8II85,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IEI2),http://www.uniprot.org/uniprot/Q8IEI2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Suf domain-containing protein,http://www.uniprot.org/uniprot/Q8I3K0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein PF07_0021,http://www.uniprot.org/uniprot/Q8IC19,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Erythrocyte membrane-associated antigen (UniProt:Q8IC35),http://www.uniprot.org/uniprot/Q8IC35,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Secreted ookinete protein, putative (UniProt:A0A5K1K8A9)",http://www.uniprot.org/uniprot/A0A5K1K8A9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"AP2 domain transcription factor, putative",http://www.uniprot.org/uniprot/Q8IHX2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K7Z9),http://www.uniprot.org/uniprot/A0A5K1K7Z9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Tubulin--tyrosine ligase, putative",http://www.uniprot.org/uniprot/Q8IHP8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Zinc finger protein, putative (UniProt:O97273)",http://www.uniprot.org/uniprot/O97273,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IED3),http://www.uniprot.org/uniprot/Q8IED3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"SET domain protein, putative (UniProt:Q8I1Z0)",http://www.uniprot.org/uniprot/Q8I1Z0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Phospholipase, putative",http://www.uniprot.org/uniprot/C6KTC8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IL16),http://www.uniprot.org/uniprot/Q8IL16,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"U1 snRNP-associated protein, putative",http://www.uniprot.org/uniprot/Q8IKU9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Kinesin-19, putative",http://www.uniprot.org/uniprot/Q8IBK2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Symplekin_C domain-containing protein,http://www.uniprot.org/uniprot/Q8I5M6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I495)",http://www.uniprot.org/uniprot/Q8I495,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"U3 small nucleolar RNA-associated protein 6, putative",http://www.uniprot.org/uniprot/Q8IEP4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q8I640)",http://www.uniprot.org/uniprot/Q8I640,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Nucleolar protein 56, putative",http://www.uniprot.org/uniprot/Q8III3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C6KT58),http://www.uniprot.org/uniprot/C6KT58,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ubiquitin-protein ligase, putative",http://www.uniprot.org/uniprot/O77341,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IKR6),http://www.uniprot.org/uniprot/Q8IKR6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ribonuclease P protein subunit p29, putative",http://www.uniprot.org/uniprot/C6KTB5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Stevor (UniProt:A0A143ZXI1),http://www.uniprot.org/uniprot/A0A143ZXI1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Tyrosine kinase-like protein,http://www.uniprot.org/uniprot/Q8IIF4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Chromodomain-helicase-DNA-binding protein 1 homolog, putative",http://www.uniprot.org/uniprot/Q8IJG6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Transportin,http://www.uniprot.org/uniprot/C6KTB3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA topoisomerase (ATP-hydrolyzing),http://www.uniprot.org/uniprot/Q8I0X3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+DNA-directed RNA polymerase subunit beta,http://www.uniprot.org/uniprot/A0A140KXX5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K9F8),http://www.uniprot.org/uniprot/A0A5K1K9F8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"DnaJ protein, putative",http://www.uniprot.org/uniprot/C0H4Z5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IBZ0),http://www.uniprot.org/uniprot/Q8IBZ0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+J domain-containing protein,http://www.uniprot.org/uniprot/Q8IHU4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ribonuclease, putative (UniProt:C6KSZ5)",http://www.uniprot.org/uniprot/C6KSZ5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+ATP-dependent RNA helicase UAP56,http://www.uniprot.org/uniprot/Q9TY94,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Acyl-CoA synthetase (UniProt:O96232),http://www.uniprot.org/uniprot/O96232,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:C6KSX8),http://www.uniprot.org/uniprot/C6KSX8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Erythrocyte membrane protein 1, PfEMP1 (UniProt:Q9U0G6)",http://www.uniprot.org/uniprot/Q9U0G6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IL40),http://www.uniprot.org/uniprot/Q8IL40,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8ILE1),http://www.uniprot.org/uniprot/Q8ILE1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Heterochromatin protein 1,http://www.uniprot.org/uniprot/Q8I5K4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Protein transport protein YIF1, putative",http://www.uniprot.org/uniprot/Q8IB40,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A5K1K9A2),http://www.uniprot.org/uniprot/A0A5K1K9A2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+GYF domain-containing protein,http://www.uniprot.org/uniprot/C6KSP3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"OST-HTH associated domain protein, putative",http://www.uniprot.org/uniprot/A0A144A3K9,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Protein kinase PK4,http://www.uniprot.org/uniprot/C6KTB8,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Geranylgeranyl transferase type-2 subunit beta,http://www.uniprot.org/uniprot/C6S3K4,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Ras GTPAse, putative",http://www.uniprot.org/uniprot/C6KT08,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Nucleoside-diphosphatase, putative",http://www.uniprot.org/uniprot/Q8IE96,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"WD repeat-containing protein, putative",http://www.uniprot.org/uniprot/O97292,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IAY3),http://www.uniprot.org/uniprot/Q8IAY3,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"AAA family ATPase, putative",http://www.uniprot.org/uniprot/Q9U0K7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IL30),http://www.uniprot.org/uniprot/Q8IL30,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+AP2 domain transcription factor,http://www.uniprot.org/uniprot/Q8I5J1,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"CCR4 domain-containing protein 1, putative",http://www.uniprot.org/uniprot/Q8I3R5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Nucleic acid binding protein, putative",http://www.uniprot.org/uniprot/Q8IIT2,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Esterase, putative",http://www.uniprot.org/uniprot/Q8I4R0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Structural maintenance of chromosomes protein 5,http://www.uniprot.org/uniprot/Q8IIC5,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Heme O synthase,http://www.uniprot.org/uniprot/Q8I0W6,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"Calcium-binding protein, putative",http://www.uniprot.org/uniprot/Q8IHY7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8II33),http://www.uniprot.org/uniprot/Q8II33,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IKD0),http://www.uniprot.org/uniprot/Q8IKD0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:Q8IB82),http://www.uniprot.org/uniprot/Q8IB82,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+"ABC1 family, putative",http://www.uniprot.org/uniprot/Q8IAT7,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+OV-16 antigen,http://www.uniprot.org/uniprot/P31729,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Uncharacterized protein (UniProt:A0A044TBB6),http://www.uniprot.org/uniprot/A0A044TBB6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+60S ribosomal protein L23,http://www.uniprot.org/uniprot/A0A044V939,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Glutamate--cysteine ligase,http://www.uniprot.org/uniprot/Q9NFN6,Onchocerca volvulus,http://purl.obolibrary.org/obo/NCBITaxon_6282,1,1,1
+Uncharacterized protein (UniProt:A4H4P7),http://www.uniprot.org/uniprot/A4H4P7,Leishmania braziliensis,http://purl.obolibrary.org/obo/NCBITaxon_5660,1,4,1
+"Trans-sialidase, putative (Fragment) (UniProt:Q4D7D6)",http://www.uniprot.org/uniprot/Q4D7D6,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4DR49)",http://www.uniprot.org/uniprot/Q4DR49,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4D8B3)",http://www.uniprot.org/uniprot/Q4D8B3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CYG1)",http://www.uniprot.org/uniprot/Q4CYG1,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Trans-sialidase, putative (UniProt:Q4CPQ3)",http://www.uniprot.org/uniprot/Q4CPQ3,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+"Cysteine peptidase, putative (UniProt:Q4DW03)",http://www.uniprot.org/uniprot/Q4DW03,Trypanosoma cruzi,http://purl.obolibrary.org/obo/NCBITaxon_5693,1,1,1
+MSP7-like protein (UniProt:Q8IDY0),http://www.uniprot.org/uniprot/Q8IDY0,Plasmodium falciparum (malaria parasite P. falciparum),http://purl.obolibrary.org/obo/NCBITaxon_5833,1,1,1
+Uncharacterized protein (UniProt:A0A381M9M8),http://www.uniprot.org/uniprot/A0A381M9M8,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,2,1
+Putative eukaryotic initiation factor 5a,http://www.uniprot.org/uniprot/A4I1B5,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,2,1
+Prohibitin,http://www.uniprot.org/uniprot/A4IAQ8,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,2,1
+Uncharacterized protein (UniProt:A4IB22),http://www.uniprot.org/uniprot/A4IB22,Leishmania infantum,http://purl.obolibrary.org/obo/NCBITaxon_5671,1,2,1
+Uncharacterized protein (UniProt:A0A077Z1H0),http://www.uniprot.org/uniprot/A0A077Z1H0,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Hexosyltransferase,http://www.uniprot.org/uniprot/W2TB67,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,1,1
+"3 ketoacyl coenzyme A thiolase, mitochondrial",http://www.uniprot.org/uniprot/A0A077ZJA3,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Phospholipase A(2),http://www.uniprot.org/uniprot/A0A077Z068,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+MEG-12,http://www.uniprot.org/uniprot/A0A3Q0KQ41,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,5,1
+"Zinc finger, C3HC4 type (Fragment)",http://www.uniprot.org/uniprot/A0A0C2H6G3,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,3,1
+Protein vertebrate piccolo,http://www.uniprot.org/uniprot/A0A077Z3Q3,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Putative polyribonucleotide nucleotidyltransferase (Fragment),http://www.uniprot.org/uniprot/A0A0C2GE87,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,2,1
+Putative erythrocyte membrane protein,http://www.uniprot.org/uniprot/A0A3Q0KE79,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,4,1
+PAP2_C domain-containing protein,http://www.uniprot.org/uniprot/W2TQR8,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,1,1
+Putative zinc finger protein,http://www.uniprot.org/uniprot/G4VMH7,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,2,1
+Uncharacterized protein (UniProt:A0A0C2DL13),http://www.uniprot.org/uniprot/A0A0C2DL13,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,1,1
+Sas10 domain-containing protein,http://www.uniprot.org/uniprot/A0A0C2FVW4,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,1,1
+DNA_pol_D_N domain-containing protein,http://www.uniprot.org/uniprot/A0A077ZLH3,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,2,1
+Uncharacterized protein (Fragment),http://www.uniprot.org/uniprot/A0A0C2CDQ5,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,2,1
+205 kDa Pk1(B+)1+ SICAvar antigen,http://www.uniprot.org/uniprot/A0A077ZK78,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Uncharacterized protein (Fragment) (UniProt:W2TB84),http://www.uniprot.org/uniprot/W2TB84,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,1,1
+Xenotropic and polytropic retrovirus receptor 1,http://www.uniprot.org/uniprot/A0A077ZJ59,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+HEAT repeat protein,http://www.uniprot.org/uniprot/W2TUJ0,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,3,1
+Uncharacterized protein,http://www.uniprot.org/uniprot/W2TLM2,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,3,1
+Anaphase-promoting complex subunit 1,http://www.uniprot.org/uniprot/A0A5K4ESG5,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+TCP family transcription factor (Fragment),http://www.uniprot.org/uniprot/A0A077ZHW5,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+RNA polymerase III subunit C3,http://www.uniprot.org/uniprot/A0A0M3JZ62,Anisakis simplex (herring worm),http://purl.obolibrary.org/obo/NCBITaxon_6269,1,2,1
+"EGF-like domain-containing protein, Uncharacterized protein",http://www.uniprot.org/uniprot/W2SXR1,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,2,1
+Uncharacterized protein (Fragment) (UniProt:W2SIE5),http://www.uniprot.org/uniprot/W2SIE5,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,1,1
+Uncharacterized protein (UniProt:A0A0C2H3X2),http://www.uniprot.org/uniprot/A0A0C2H3X2,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,2,1
+COesterase domain-containing protein,http://www.uniprot.org/uniprot/A0A0C2BNB7,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,1,1
+Ribosome biogenesis protein WDR12 homolog (inferred by orthology to a C. elegans protein),http://www.uniprot.org/uniprot/A0A0M3JU71,Anisakis simplex (herring worm),http://purl.obolibrary.org/obo/NCBITaxon_6269,1,1,1
+UBR-type domain-containing protein,http://www.uniprot.org/uniprot/A0A5K4ETP0,Schistosoma mansoni,http://purl.obolibrary.org/obo/NCBITaxon_6183,1,1,1
+Uncharacterized protein (UniProt:A0A0C2CNU3),http://www.uniprot.org/uniprot/A0A0C2CNU3,Ancylostoma duodenale,http://purl.obolibrary.org/obo/NCBITaxon_51022,1,1,1
+Alkylated DNA repair protein alkB homolog 8,http://www.uniprot.org/uniprot/A0A077Z310,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Beta-lactamase,http://www.uniprot.org/uniprot/W2T8R5,Necator americanus (New World hookworm),http://purl.obolibrary.org/obo/NCBITaxon_51031,1,1,1
+Uncharacterized protein (UniProt:A0A077Z9V6),http://www.uniprot.org/uniprot/A0A077Z9V6,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Methyltransf 31 and Hist deacetyl and tRNA U5-met h tr domain containing protein,http://www.uniprot.org/uniprot/A0A077ZIW4,Trichuris trichiura (human whipworm),http://purl.obolibrary.org/obo/NCBITaxon_36087,1,1,1
+Saposin B domain-containing protein isoform 3,http://www.uniprot.org/uniprot/A0A4Z2DDU3,Schistosoma japonicum,http://purl.obolibrary.org/obo/NCBITaxon_6182,1,1,1
