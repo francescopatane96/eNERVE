@@ -73,11 +73,18 @@ def epitope(final_proteins, autoimmunity, mouse, mouse_peptides_sum_limit, antig
                 
                 # promiscuous binders mhc1
                 results_mhc1_raw = base.results_from_csv(path=new_dir_path+'mhci_epitopes_{}.csv'.format(p.accession))
-                #filtered_binders1 = mhci_predictor.get_binders(names=results_mhc1_raw)
+                ###
+                
+                score_threshold = results_mhc1_raw['score'].quantile(0.95)
+                filtered_binders1 = results_mhc1_raw.loc[results_mhc1_raw['score'] >= score_threshold]
+                ###
+                
+                #filtered_binders1 = mhci_predictor.get_binders(names=results_mhc1_raw, cutoff=0.95)  #non funziona, vedi sopra
+                
                 #save filtered binders
-                #filtered_binders1.to_csv(new_dir_path+'MHC1_epitopes_FILTERED{}.csv'.format(p.accession), index=False)
+                filtered_binders1.to_csv(new_dir_path+'MHC1_epitopes_FILTERED{}.csv'.format(p.accession), index=False) #####
                 # find promiscuous binders
-                pb1 = mhci_predictor.promiscuous_binders()
+                pb1 = mhci_predictor.promiscuous_binders(cutoff=.95, cutoff_method='score')  #cutoff=.95, cutoff_method='score'
                 # save pbs
                 pb1.to_csv(new_dir_path+'Promiscuous_binders_MHC1_{}.csv'.format(p.accession), index=False)
                 
