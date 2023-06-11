@@ -4,7 +4,7 @@
 import tensorflow
 from tensorflow.keras.models import load_model
 from tensorflow.python.ops.numpy_ops import np_config
-from utils import *
+from Utils import *
 from Protein import *
 
 def euspaan(list_of_proteins, working_dir, NERVE_dir) -> list:

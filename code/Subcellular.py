@@ -1,7 +1,7 @@
 
 """ Runs subcellular localization prediction """
 
-from utils import *
+from Utils import *
 from Protein import *
 import joblib
 

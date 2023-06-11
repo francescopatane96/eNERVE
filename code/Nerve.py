@@ -17,9 +17,9 @@ import tensorflow
 logging.basicConfig(level=logging.WARNING)
 import time
 from Subcellular import *
-from adhesin import *
-from antigenicity import *
-from topology import *
+from Adhesin import *
+from Antigenicity import *
+from Topology import *
 from Razor import *
 from Function import *
 from Immunity import *

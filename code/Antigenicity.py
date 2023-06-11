@@ -10,7 +10,7 @@ from tensorflow import keras
 from keras.models import load_model
 from tensorflow.keras.models import load_model
 from tensorflow.python.ops.numpy_ops import np_config
-from utils import *
+from Utils import *
 from Protein import *
 
 

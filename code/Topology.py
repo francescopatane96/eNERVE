@@ -5,7 +5,7 @@ import logging
 import os
 import tmhmm
 from Protein import *
-from topology import *
+
 
 def tmhelices(list_of_proteins, working_dir) -> list:
     "Runs TMhelices"
