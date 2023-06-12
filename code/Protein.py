@@ -27,22 +27,10 @@ class Protein:
         self.sapiens_peptides_sum = None
         self.model_raw_data = []
         self.model_raw_data1 = []
-        self.HLA_A_01_01 = []
-        self.HLA_A_02_01 = []
-        self.HLA_A_03_01 = []
-        self.HLA_A_24_02 = []
-        self.HLA_B_07_02 = []
-        self.HLA_B_44_03 = []
-        self.HLA_DRB1_01_01 = []
-        self.HLA_DRB1_03_01 = []
-        self.HLA_DRB1_04_01 = []
-        self.HLA_DRB1_07_01 = []
-        self.HLA_DRB1_08_01 = []
-        self.HLA_DRB1_11_01 = []
-        self.HLA_DRB1_13_01 = []
-        self.HLA_DRB1_15_01 = []
-        self.pb1 = []
-        self.pb2 = []
+        self.MHC1_binders = []
+        self.MHC2_binders = []
+        self.MHC1_pb_binders = []
+        self.MHC2_pb_binders = []
 
 
     def print_information(self):
@@ -178,22 +166,11 @@ class Protein:
                     str("".join([
                                     str(protein.original_sequence_if_razor) if protein.original_sequence_if_razor != None else ""])),
                     str("".join([str(protein.tmhmm_seq) if "M" in str(protein.tmhmm_seq) else ""])),
-                    str("".join([str(protein.HLA_A_01_01) if protein.HLA_A_01_01 != None else ""])),
-                    str("".join([str(protein.HLA_A_02_01) if protein.HLA_A_02_01 != None else ""])),
-                    str("".join([str(protein.HLA_A_03_01) if protein.HLA_A_03_01 != None else ""])),
-                    str("".join([str(protein.HLA_A_24_02) if protein.HLA_A_24_02 != None else ""])),
-                    str("".join([str(protein.HLA_B_07_02) if protein.HLA_B_07_02 != None else ""])),
-                    str("".join([str(protein.HLA_B_44_03) if protein.HLA_B_44_03 != None else ""])),
-                    str("".join([str(protein.HLA_A_01_01) if protein.HLA_A_01_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_01_01) if protein.HLA_DRB1_01_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_03_01) if protein.HLA_DRB1_03_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_04_01) if protein.HLA_DRB1_04_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_07_01) if protein.HLA_DRB1_08_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_11_01) if protein.HLA_DRB1_11_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_13_01) if protein.HLA_DRB1_13_01 != None else ""])),
-                    str("".join([str(protein.HLA_DRB1_15_01) if protein.HLA_DRB1_15_01 != None else ""])),
-                    str("".join([str(protein.pb1) if protein.pb1 != None else ""])),
-                    str("".join([str(protein.pb2) if protein.pb2 != None else ""]))
+                    str("".join([str(protein.MHC1_binders) if protein.MHC1_binders != None else ""])),
+                    str("".join([str(protein.MHC2_binders) if protein.MHC2_binders != None else ""])),
+                    
+                    str("".join([str(protein.MHC1_pb_binders) if protein.MHC1_pb_binders != None else ""])),
+                    str("".join([str(protein.MHC2_pb_binders) if protein.MHC2_pb_binders != None else ""]))
                     ] for protein in list_of_proteins
                    ],
                   columns=['id ',
@@ -216,21 +193,9 @@ class Protein:
                            'sequence',
                            'original_sequence_if_razor',
                            'tmhmm_seq',
-                           'MHC1_HLA_A_01_01',
-                           'MHC1_HLA_A_02_01',
-                           'MHC1_HLA_A_03_01',
-                           'MHC1_HLA_A_24_02',
-                           'MHC1_HLA_B_07_02',
-                           'MHC1_HLA_B_44_03',
-                           'MHC2_HLA_DRB1_01_01',
-                           'MHC2_HLA_DRB1_03_01',
-                           'MHC2_HLA_DRB1_04_01',
-                           'MHC2_HLA_DRB1_07_01',
-                           'MHC2_HLA_DRB1_08_01',
-                           'MHC2_HLA_DRB1_11_01',
-                           'MHC2_HLA_DRB1_13_01',
-                           'MHC2_HLA_DRB1_15_01',
-                           'promiscuous_binders_MHC1',
-                           'promiscuous_binders_MHC2'
+                           'MHC1_binders',
+                           'MHC2_binders',
+                           'MHC1_pb_binders',
+                           'MHC2_pb_binders'
                            ]
                   ).to_csv(outfile)
