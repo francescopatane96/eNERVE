@@ -1,5 +1,6 @@
 """Class and methods to store entry information"""
 import numpy as np
+import re
 
 class Protein:
 
@@ -68,16 +69,40 @@ class Protein:
         reduced_dataset = std_dataset.dot(projection_matrix)
         return reduced_dataset
 
-    def provide_raw_loops(self):
-        conds = ['o', 'O', 'i', 'I', 'm', 'M']
-        new_seq = ""
-        for i in range(self.length):
-            if self.tmhmm_seq[i] in conds:
-                if self.tmhmm_seq[i] in ['o', 'O']:
+    def provide_raw_loops(self, transmem_doms_limit):
+    
+        if transmem_doms_limit == 0:
+        
+        
+            new_seq = ''
+            i_lengths = []
+            for t, label in zip(self.sequence, self.tmhmm_seq):
+                if label in ['o', 'O']:
+                    new_seq += t
+                elif label in ['m', 'M']:
+                    new_seq += 'X'
+                elif label in ['i', 'I']:
+                    new_seq += '.'
+                    i_lengths.append(1)
+                
+            avg_i_length = sum(i_lengths) / len(i_lengths) if i_lengths else 0
+      
+        
+            new_seq = new_seq.replace('X', '')
+        
+            
+            return new_seq
+        else:
+            conds = ['o', 'O']
+            if self.localization == "out":
+                conds += ['i', 'I']
+            new_seq = ""
+            for i in range(self.length):
+                if self.tmhmm_seq[i] in conds:
                     new_seq += self.sequence[i]
-                else:
+                elif len(new_seq) > 0 and not new_seq[len(new_seq)-1] == "X":
                     new_seq += "X"
-        return new_seq.split('X')
+            return new_seq.split('X')
 
 
     @staticmethod

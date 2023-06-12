@@ -17,12 +17,12 @@ def razor(list_of_proteins, working_dir, transmem_doms_limit, min_loop_length) -
     for protein in list_of_proteins:
         if protein.transmembrane_doms >= transmem_doms_limit:
             
-            new_loop = protein.provide_raw_loops()
-            #new_loop = 'G' * 6 + 'GGGGGG'.join(raw_loops) + 'G' * 6
+            new_loop = protein.provide_raw_loops(transmem_doms_limit)
+            
             
             
             if len(new_loop) > min_loop_length:
-                logging.debug(f'Substituting {str(protein.id)} sequence with its longest loop')
+                logging.debug(f'Substituting {str(protein.id)} sequence with its outer loops')
                 protein.original_sequence_if_razor = protein.sequence
                 protein.sequence = new_loop
                 protein.razored = True
