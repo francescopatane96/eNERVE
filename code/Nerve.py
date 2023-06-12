@@ -26,6 +26,7 @@ from Immunity import *
 from Epitope import *
 from Protein import *
 import requests
+from Protparam import *
 
 
 def dir_path(path:str) -> str:
@@ -579,6 +580,9 @@ def main():
         print("=" * 50)
         print("{:^50}".format('Annotation acquired'))
         print("=" * 50)
+        
+    # calculate instability index and charge 
+    list_of_proteins = protparam(list_of_proteins)
 
     # 11.Protein selection module
     final_proteins = list_of_proteins

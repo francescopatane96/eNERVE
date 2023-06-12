@@ -1,6 +1,8 @@
 """Class and methods to store entry information"""
 import numpy as np
 import re
+from Bio.SeqUtils.ProtParam import ProteinAnalysis
+
 
 class Protein:
 
@@ -32,6 +34,8 @@ class Protein:
         self.MHC2_binders = []
         self.MHC1_pb_binders = []
         self.MHC2_pb_binders = []
+        self.instability_index = []
+        self.charge_at_pH_7 = []
 
 
     def print_information(self):
@@ -68,6 +72,12 @@ class Protein:
         std_dataset = (dataset - means) / std_devs
         reduced_dataset = std_dataset.dot(projection_matrix)
         return reduced_dataset
+    
+   
+            
+      
+     
+
 
     def provide_raw_loops(self, transmem_doms_limit):
     
@@ -195,7 +205,9 @@ class Protein:
                     str("".join([str(protein.MHC2_binders) if protein.MHC2_binders != None else ""])),
                     
                     str("".join([str(protein.MHC1_pb_binders) if protein.MHC1_pb_binders != None else ""])),
-                    str("".join([str(protein.MHC2_pb_binders) if protein.MHC2_pb_binders != None else ""]))
+                    str("".join([str(protein.MHC2_pb_binders) if protein.MHC2_pb_binders != None else ""])),
+                    str("".join([str(protein.instability_index) if str(protein.instability_index) != None else ''])),
+                    str("".join([str(protein.charge_at_pH_7) if str(protein.charge_at_pH_7) != None else '']))
                     ] for protein in list_of_proteins
                    ],
                   columns=['id ',
@@ -221,6 +233,8 @@ class Protein:
                            'MHC1_binders',
                            'MHC2_binders',
                            'MHC1_pb_binders',
-                           'MHC2_pb_binders'
+                           'MHC2_pb_binders',
+                           'Instability_index',
+                           'charge_at_pH7'
                            ]
                   ).to_csv(outfile)
