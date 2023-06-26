@@ -47,7 +47,7 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  12. Output generation module
  ***
  
- ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub:
+ ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub (preferred method):
 
 eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems.
 
