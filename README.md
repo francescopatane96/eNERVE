@@ -47,7 +47,8 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  12. Output generation module
  ***
  
- ### Instructions for stand-alone usage with docker: under development
+ ### :accessibility: Instructions for stand-alone usage with docker :accessibility:
+
 eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems.
 
 1) install Docker following [these instructions](https://docs.docker.com/engine/install/) and [the post-installation procedure](https://docs.docker.com/engine/install/linux-postinstall/)
