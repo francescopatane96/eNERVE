@@ -213,7 +213,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
                 -prt (epitope binders percentile), [float, default=0.9]
-![#f03c15](ciao) `#f03c15`
+![#f03c15] `#f03c15`
        
 Remember that required and essential parameters are [-wd] and [-p1]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False
 
