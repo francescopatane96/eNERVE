@@ -49,7 +49,7 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  
  ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub (preferred method):
 
-eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems.
+eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems. This method ensures no dependencies related issues.
 
 1) install Docker following [these instructions](https://docs.docker.com/engine/install/) and [the post-installation procedure](https://docs.docker.com/engine/install/linux-postinstall/)
 2) install docker-compose as explained [here](https://docs.docker.com/compose/install/linux/)
