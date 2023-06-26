@@ -224,12 +224,14 @@ usage: nerve.py [-h] [-lol] [adl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
 Remember that required and essential parameters are [-wd], [-p1] and [-nd] if using Local installation. Dockerized version needs only [-wd]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False 
 :warning:
 
-```
- ⛑️ Examples: 
+⛑️ Examples: 
 To run eNERVE with all modules:
-python3 nerve.py -wd /workdir -p1 proteome.fasta
 
+```
+python3 nerve.py -wd /workdir -p1 proteome.fasta
+```
 To run eNERVE without annotation (-a) module, mhc1 ligands length of 10, mhc2 ligands length of 15 and epitope percentile of 80:
+```
 python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l 15
 ```
 
