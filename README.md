@@ -30,7 +30,7 @@ eNERVE is designed to assist experimental research activities in vaccine discove
 Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit NERVE (```bNERVE```) repository, [here](https://nicolagulmini.github.io/NERVE/) and [here]( https://github.com/FranceCosta/NERVE) .
  
  ***
- ### Pipeline architecture and data flow:
+ ### 💻 Pipeline architecture and data flow:
  ![alt text](https://github.com/francescopatane96/eNERVE/blob/main/workflow.png)
  
  1. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
@@ -47,7 +47,7 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  12. Output generation module
  ***
  
- ### :accessibility: Instructions for stand-alone usage with docker :accessibility:
+ ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub:
 
 eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems.
 
@@ -79,7 +79,7 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
 
  
  ***
- ### Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in linux/ubuntu/unix os environment):
+ ### 🏠 Instructions for local installation (tested with python3.10.6 and 3.7.14 versions in Linux/Ubuntu/Unix OS environments):
  
  1. Open the terminal, move to the location in which you would save eNERVE:
  ```
@@ -131,7 +131,7 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ```
  
 ***
-### Instructions for creating a virtual environment with venv (linux/unix/mac os):
+### 🤖 Instructions for creating a virtual environment with Python venv (Linux/Unix/Mac OS):
 1. open a terminal or a terminal from an IDE (pyCharm or visual code studio);
 2. move to destination folder:
 ```
@@ -165,7 +165,7 @@ cd eNERVE/code
 ```
 8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
 
-### We recommend using conda for creating a virtual environment
+### 🔴 We recommend using conda for creating a virtual environment:
 
 1. from the terminal, digit: 
 ```
@@ -180,7 +180,7 @@ conda activate enerve
 4. install dependencies as in previous sections.
 
 ***
-### Usage:
+### 🦮 Usage:
 ```
 usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 [-mpsl] -p1 [-p2] [-pl] [-rz] [-ig] [-rl] [-s]
@@ -223,7 +223,7 @@ Remember that required and essential parameters are [-wd], [-p1] and [-nd]. By d
 :warning:
 
 ```
-examples: 
+ ⛑️ Examples: 
 To run eNERVE with all modules:
 python3 nerve.py -wd /workdir -p1 proteome.fasta
 
@@ -252,7 +252,7 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  
  
  ***
-### References and contacts:
+### 📲 References and contacts:
  eNERVE was developed by ```Francesco Patanè``` during his master thesis and internship under the supervision of Prof. ```Francesco Filippini```, at ```University of Padova```, Synthetic Biology and Biotechnology unit (SynBio) .
  
  Special thanks to [Francesco Costa](https://github.com/FranceCosta), [Nicola Gulmini](https://github.com/nicolagulmini) and ```Andrea Conte``` for their help and collaboration in this project.
