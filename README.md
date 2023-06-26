@@ -243,7 +243,7 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  
  ***
 ### References and contacts:
- eNERVE was developed by ```Francesco Patanè``` during his master thesis and internship under the supervision of Prof. ```Francesco Filippini```, at ```University of Padova```.
+ eNERVE was developed by ```Francesco Patanè``` during his master thesis and internship under the supervision of Prof. ```Francesco Filippini```, at ```University of Padova```, Synthetic Biology and Biotechnology unit (SynBio) .
  
  Special thanks to [Francesco Costa](https://github.com/FranceCosta), [Nicola Gulmini](https://github.com/nicolagulmini) and ```Andrea Conte``` for their help and collaboration in this project.
  
