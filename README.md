@@ -29,6 +29,7 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  
  ***
  ### Pipeline architecture and data flow:
+ ![alt text](https://github.com/francescopatane96/eNERVE/blob/main/workflow.png)
  
  1. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
  2. Descriptors calculator module: this module uses [iFeature library](https://github.com/Superzchen/iFeature) to calculate protein descriptors for every protein in the input proteome;
