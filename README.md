@@ -15,6 +15,8 @@
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <img alt="Issues" src="https://camo.githubusercontent.com/3093fdb6f8038165918c5338bb94d4b9983114e635e34f396c03b3063ff206fc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f77696e7465726c6f6f642f726561646d652d737469636b6572733f636f6c6f723d303038386666" data-canonical-src="https://img.shields.io/github/issues/winterlood/readme-stickers?color=0088ff" style="max-width: 100%;">
 
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#ciao`
+
 eNERVE is a dynamic, high-throughput and standalone in silico pipeline for ```PVCs``` (protein vaccine candidates) discovery in ```eukaryotic``` organisms, by a ```reverse vaccinology``` approach. 
  
 The tool is capable of identifying candidate ```antigens``` (immunogens) and their ```epitopes``` with ```ML``` (machine learning) and ```alignment``` analysis methods, using a tree based approach, from entire proteomes as input (```FASTA``` file of proteomes downloaded from Uniprot and other databases or generated from proteome experiments).
@@ -213,7 +215,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
                 -prt (epitope binders percentile), [float, default=0.9]
-![#f03c15] `#f03c15`
+
        
 Remember that required and essential parameters are [-wd] and [-p1]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False
 
