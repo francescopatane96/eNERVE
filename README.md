@@ -256,6 +256,8 @@ Have you encountered any problems installing or using the pipeline, or have any 
  francesco.patane.1@studenti.unipd.it
  ```
  or open an [issue](https://github.com/francescopatane96/eNERVE/issues) 
+
+ References: 
  
  ```
 1. Vivona S, Bernante F, Filippini F. NERVE: new enhanced reverse vaccinology environment. BMC Biotechnol. 2006 Jul 18;6:35. doi: 10.1186/1472-6750-6-35. PMID: 16848907; PMCID: PMC1570458.
