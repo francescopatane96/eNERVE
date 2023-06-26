@@ -2,7 +2,7 @@
 
 [![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
 [![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)
-[!](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=black)
+
 <img alt="Issues" src="https://camo.githubusercontent.com/3093fdb6f8038165918c5338bb94d4b9983114e635e34f396c03b3063ff206fc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f77696e7465726c6f6f642f726561646d652d737469636b6572733f636f6c6f723d303038386666" data-canonical-src="https://img.shields.io/github/issues/winterlood/readme-stickers?color=0088ff" style="max-width: 100%;">
 
 eNERVE is a dynamic, high-throughput and standalone in silico pipeline for ```PVCs``` (protein vaccine candidates) discovery in ```eukaryotic``` organisms, by a ```reverse vaccinology``` approach. 
