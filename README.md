@@ -224,7 +224,8 @@ usage: nerve.py [-h] [-lol] [adl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
 Remember that required and essential parameters are [-wd], [-p1] and [-nd] if using Local installation. Dockerized version needs only [-wd]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False 
 :warning:
 
-⛑️ Examples: 
+### ⛑️ Examples
+
 To run eNERVE with all modules:
 
 ```
