@@ -32,7 +32,7 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  
  1. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
  2. Descriptors calculator module: this module uses [iFeature library](https://github.com/Superzchen/iFeature) to calculate protein descriptors for every protein in the input proteome;
- 3. Subcellular location module: RandomForest based model (scikit-learn) to predict the probability of being 'outer' (training dataset from [UniProt]( https://www.uniprot.org/));
+ 3. Subcellular location module: Random Forest-based model (scikit-learn) to predict the probability of being 'outer' (training dataset from [UniProt]( https://www.uniprot.org/));
  4. Transmembrane topology prediction module: TMHMM (Hidden markov model). Predicts the probability of each aminoacid to be 'i', 'o' or 'M'. For more informations, please visit tmhmm [repository](https://github.com/dansondergaard/tmhmm.py) ;
  5. Razor module: virtual scissors that cut outer protein pieces and rejoin them. This is useful to retrieve the outer segments of proteins with many transmembrane domains and to discard the latter.
  6. Adhesin and adhesin-like predictor module: feed-forward neural network (Tensorflow/Keras). Training dataset obtained from literature and [InterPro](https://www.ebi.ac.uk/interpro/);
@@ -247,7 +247,7 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  
  Special thanks to [Francesco Costa](https://github.com/FranceCosta), [Nicola Gulmini](https://github.com/nicolagulmini) and ```Andrea Conte``` for their help and collaboration in this project.
  
- This pipeline was also implemented through the use of packages and libraries created by others (iFeature, epitopepredict, tmhmm, ncbi-blast+, tensorflow and many others), so thanks to [dansondergaard](https://github.com/dansondergaard), [dmnfarrell](https://github.com/dmnfarrell/epitopepredict), [superzchen](https://github.com/Superzchen/iFeature) for their pretty and useful tools to predict transmembrane protein topology, linear epitopesand, and thanks to all the open source community (in particular, the machine learning one).
+ This pipeline was also implemented through the use of packages and libraries created by others (iFeature, epitopepredict, tmhmm, ncbi-blast+, tensorflow and many others), so thanks to [dansondergaard](https://github.com/dansondergaard), [dmnfarrell](https://github.com/dmnfarrell/epitopepredict), [superzchen](https://github.com/Superzchen/iFeature) for their pretty and useful tools to predict transmembrane protein topology, linear epitopes and thanks to all the open source community (in particular, the machine learning one).
  
 Have you encountered any problems installing or using the pipeline, or have any suggestions for improving eNERVE? please contact me at the following addresses:
 
