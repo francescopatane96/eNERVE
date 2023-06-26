@@ -218,7 +218,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
 
 ```
 :warning:
-Remember that required and essential parameters are [-wd] and [-p1]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False 
+Remember that required and essential parameters are [-wd], [-p1] and [-nd]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False 
 :warning:
 
 ```
@@ -242,8 +242,10 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  4. In the terminal, digit and run:
  ```
  python3 nerve.py -arg1 -arg2 -args**
- ``` 
- REMEMBER TO SPECIFY -wd (WORKING_DIR) and -nd (NERVE_DIR). Place your fasta inputs into the wd
+ ```
+:warning:
+ REMEMBER TO SPECIFY -wd (WORKING_DIR), -nd (NERVE_DIR) and -p1 (eventually also -p2). Place your fasta inputs into the wd
+ :warning:
  
  5. Output files will be saved in the working directory at the end of the computation
  
