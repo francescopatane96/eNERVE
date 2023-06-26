@@ -197,7 +197,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -mm (mismatch, maximal number of not compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module, [int, default=1];
                 -m (mouse autoimmunity and allergenicity module), [True, False, default=True];
                 -mpsl (mouse peptides sum limit, parameter used by selection module. protein with sum of shared peptides of the i protein with mouse proteins/number of aminoacids of the i protein <= mouse peptides sum limit and with absence of match mhc-I and mhc-II mouse ligands are selected), [float, default=0.15];
-                -p1 (proteome 1 fasta filename or path), [filename.fasta] --> required;
+                -p1 (proteome 1 fasta filename or path), [filename.fasta] --> 🔴required🔴;
                 -p2 (proteome 2 fasta filename or path), [filename.fasta];
                 -rz (razor module), [True, False, default=True];
                 -ig (antigenlimit, cutoff value for antigen module), [float, default=0.80];
@@ -206,8 +206,8 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -ss (substitution, maximal number of compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module), [int, default=3];
                 -tdl (transmembrane doms limit) [int, default=0];
                 -ang (antigen module), [True, False, default=True];
-                -wd [path/to/workdir] --> recommended;
-                -nd [path/to/NERVEdir] --> recommended;
+                -wd [path/to/workdir] --> 🟠recommended🟠;
+                -nd [path/to/NERVEdir] --> 🟠recommended🟠;
                 -id (iFeature directory), [path/to/ifeature_dir, default=./iFeature];
                 -dfd (DeepFri directory), [path/to/deepfri_dir, default=./DeepFRI];
                 -ep (epitope prediction module), [True, False, default=True];
