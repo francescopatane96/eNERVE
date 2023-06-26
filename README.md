@@ -182,15 +182,17 @@ conda activate enerve
 ***
 ### 🦮 Usage:
 ```
-usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
-                [-mpsl] -p1 [-p2] [-pl] [-rz] [-ig] [-rl] [-s]
+usage: nerve.py [-h] [-lol] [adl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
+                [-mpsl] -p1 [-p2] [-rz] [-ig] [-rl] [-s]
                 [-ss] [-tdl] [-ang] [-wd] [-nd] [-id] [-dfd]
                 [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]
                 
                 where:
                 -h (help), [];
+                -lol (loclimit, localization prediction threshold outer class), [float, default=0.60],
+                -adl (adhlimit, Retrieve internal proteins if having adh probability > adl), [float, default=0.80];
                 -a (Protein functional annotation with DeepFRI), [True, False, default=True];
-                -ai (autoimmunity and allergenicity module), [True, False, default=True];
+                -ai (human autoimmunity and allergenicity module), [True, False, default=True];
                 -tp (topology), [tmhmm];
                 -ev (e-value for blastp), [float, default=1e-10];
                 -ml (minlength required for shared peptides to be extracted in comparison analysis versus human and/or mouse) [int, default=9];
@@ -200,12 +202,12 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -p1 (proteome 1 fasta filename or path), [filename.fasta] --> 🔴required🔴;
                 -p2 (proteome 2 fasta filename or path), [filename.fasta];
                 -rz (razor module), [True, False, default=True];
-                -ig (antigenlimit, cutoff value for antigen module), [float, default=0.80];
+                -ig (antigenlimit, cutoff value for antigen module), [float, default=0.80] --> 🔵Experimental/Beta🔵;
                 -rl (min loop length considered in razor module), [int, default=9];
                 -s (selection module), [True, False, default=True];
                 -ss (substitution, maximal number of compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module), [int, default=3];
-                -tdl (transmembrane doms limit) [int, default=0];
-                -ang (antigen module), [True, False, default=True];
+                -tdl (transmembrane doms limit) [int, default=0] --> 🔵For whole protein vaccines, use a number != 0. For epitope-based predictions, use 0🔵;
+                -ang (antigen module), [True, False, default=False] --> 🔵Experimental/Beta🔵;
                 -wd [path/to/workdir] --> 🟠recommended🟠;
                 -nd [path/to/NERVEdir] --> 🟠recommended🟠;
                 -id (iFeature directory), [path/to/ifeature_dir, default=./iFeature];
@@ -215,7 +217,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -m2l (mhc2 ligands length), [9,11,13,15, default=11];
                 -m1ovr (mhc1 ligands max overlap), [1,2,default=1];
                 -m2ovr (mhc2 ligands max overlap), [1,2, default=1];
-                -prt (epitope binders percentile), [float, default=0.9]
+                -prt (epitope binders percentile), [float, default=0.80]
 
 ```
 :warning:
