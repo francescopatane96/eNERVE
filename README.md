@@ -200,7 +200,7 @@ usage: nerve.py [-h] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -rl (min loop length considered in razor module), [int, default=9];
                 -s (selection module), [True, False, default=True];
                 -ss (substitution, maximal number of compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module), [int, default=3];
-                -tdl (transmembrane doms limit) [int, default=30];
+                -tdl (transmembrane doms limit) [int, default=0];
                 -ang (antigen module), [True, False, default=True];
                 -wd [path/to/workdir] --> recommended;
                 -nd [path/to/NERVEdir] --> recommended;
