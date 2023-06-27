@@ -43,9 +43,8 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  7. Razor module: virtual scissors that cut outer protein pieces and rejoin them. This is useful to retrieve the outer segments of proteins with many transmembrane domains and to discard the latter.
  9. Conservation module: if also the proteome2 is added to the analysis, proteomes are compared.
  10. Selection and scoring module: external proteins are saved in the "vaccine_candidates" file, while internal proteins are saved in the "discarded_proteins" one. Internal proteins with a P_ad > padlimit threshold are retained and saved in the candidates file.
- 11. Linear epitope predictor module: [epitopepredict library](https://github.com/dmnfarrell/epitopepredict). For every protein the module predicts 
- 12. Conservation module between proteome1 and proteome2, if proteome2 is added to the analysis
- 13. Output generation module
+ 11. Linear epitope predictor module: [epitopepredict library](https://github.com/dmnfarrell/epitopepredict). For every protein the module predicts its linear epitopes and promiscuous epitopes considering only the 'supertypes alleles' defined by Sette et al.;
+ 12. Output generation module: a .CSV file is generated which contains every protein instance with all predictions (columns) like score, p_ad, p_loc_out, transmem doms, epitopes, lenght, instability index etc...
  ***
  
  ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub (preferred method):
