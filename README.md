@@ -222,7 +222,8 @@ Remember that required and essential parameters are [-wd], [-p1] and [-nd] if us
 ***
 ### ⛑️ Examples
 
-To run eNERVE in a local environment or in a virtual one (no docker) with all modules:
+# To run eNERVE in a local environment or in a virtual one (no docker) with all modules:
+Digit on the command line:
 
 ```
 python3 code/Nerve.py -p1 proteome.fasta
@@ -231,6 +232,7 @@ To run eNERVE without annotation (-a) module, mhc1 ligands length of 10, mhc2 li
 ```
 python3 code/Nerve.py -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l 15
 ```
+If you want to create a workid directory in which save outputs, please specify [-wd] (eg. -wd /workdir)
 
  1. digit:
  ```
@@ -243,7 +245,7 @@ python3 code/Nerve.py -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l 15
  python3 code/Nerve.py -arg1 -arg2 -args**
  ```
 :warning:
- REMEMBER TO SPECIFY -wd (WORKING_DIR), -p1 (eventually also -p2). Place your fasta inputs into the wd
+ REMEMBER TO SPECIFY -wd (WORKING_DIR) if desired, -p1 (eventually also -p2). Place your fasta inputs into the workdir if just exist.
  :warning:
  
  4. Output files will be saved in the working directory at the end of the computation
