@@ -32,19 +32,20 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  ***
  ### 💻 Pipeline architecture and data flow:
  ![alt text](https://github.com/francescopatane96/eNERVE/blob/main/workflow.png)
- 
- 1. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
- 2. Descriptors calculator module: this module uses [iFeature library](https://github.com/Superzchen/iFeature) to calculate protein descriptors for every protein in the input proteome;
+
+ 1. Proteins or entire proteomes downloaded by Databases and proteomic experiments and in .FASTA format are passed to the pipeline;
+ 2. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
+ Descriptors are calculated using [iFeature library](https://github.com/Superzchen/iFeature) to generate protein descriptors for every protein in the input proteome;
  3. Subcellular location module: Random Forest-based model (scikit-learn) to predict the probability of being 'outer' (training dataset from [UniProt]( https://www.uniprot.org/));
- 4. Transmembrane topology prediction module: TMHMM (Hidden markov model). Predicts the probability of each aminoacid to be 'i', 'o' or 'M'. For more informations, please visit tmhmm [repository](https://github.com/dansondergaard/tmhmm.py) ;
- 5. Razor module: virtual scissors that cut outer protein pieces and rejoin them. This is useful to retrieve the outer segments of proteins with many transmembrane domains and to discard the latter.
- 6. Adhesin and adhesin-like predictor module: feed-forward neural network (Tensorflow/Keras). Training dataset obtained from literature and [InterPro](https://www.ebi.ac.uk/interpro/);
- 7. Antigenicity predictor module: feed-forward neural network (Tensorflow/Keras). Training data obtained from [IEDB database](https://www.iedb.org/)
- 8. Autoimmunity and allergenicity module: Alignment based method (ncbi blast+)
- 9. Selection and scoring module
- 10. Linear epitope predictor module: [epitopepredict library](https://github.com/dmnfarrell/epitopepredict)
- 11. Conservation module between proteome1 and proteome2, if proteome2 is added to the analysis
- 12. Output generation module
+ 4. Adhesin and adhesin-like predictor module: feed-forward neural network (Tensorflow/Keras). Training dataset obtained from literature and [InterPro](https://www.ebi.ac.uk/interpro/);
+ 5. Autoimmunity and allergenicity module: Alignment based method (ncbi blast+). Input proteins are aligned with human and mouse proteome in order to catch the level of similarity. What is more, a list of autoimmune and allergenic peptides are screened on the input proteome;
+ 6. Transmembrane topology prediction module: TMHMM (Hidden markov model). Predicts the probability of each aminoacid to be 'i', 'o' or 'M'. For more informations, please visit tmhmm [repository](https://github.com/dansondergaard/tmhmm.py) ;
+ 7. Razor module: virtual scissors that cut outer protein pieces and rejoin them. This is useful to retrieve the outer segments of proteins with many transmembrane domains and to discard the latter.
+ 9. Conservation module: if also the proteome2 is added to the analysis, proteomes are compared.
+ 10. Selection and scoring module: external proteins are saved in the "vaccine_candidates" file, while internal proteins are saved in the "discarded_proteins" one. Internal proteins with a P_ad > padlimit threshold are retained and saved in the candidates file.
+ 11. Linear epitope predictor module: [epitopepredict library](https://github.com/dmnfarrell/epitopepredict). For every protein the module predicts 
+ 12. Conservation module between proteome1 and proteome2, if proteome2 is added to the analysis
+ 13. Output generation module
  ***
  
  ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub (preferred method):
