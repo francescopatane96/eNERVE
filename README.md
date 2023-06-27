@@ -178,15 +178,15 @@ conda activate enerve
 ***
 ### 🦮 Usage:
 ```
-usage: nerve.py [-h] [-lol] [adl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
+usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 [-mpsl] -p1 [-p2] [-rz] [-ig] [-rl] [-s]
                 [-ss] [-tdl] [-ang] [-wd] [-nd] [-id] [-dfd]
                 [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]
                 
                 where:
                 -h (help), [];
-                -lol (loclimit, localization prediction threshold outer class), [float, default=0.60],
-                -adl (adhlimit, Retrieve internal proteins if having adh probability > adl), [float, default=0.80];
+                -locl (loclimit, localization prediction threshold outer class), [float, default=0.60],
+                -pl (adhlimit, Retrieve internal proteins if having adh probability > adl), [float, default=0.80];
                 -a (Protein functional annotation with DeepFRI), [True, False, default=True];
                 -ai (human autoimmunity and allergenicity module), [True, False, default=True];
                 -tp (topology), [tmhmm];
