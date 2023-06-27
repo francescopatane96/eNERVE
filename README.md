@@ -89,9 +89,9 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ``` 
  git clone https://github.com/francescopatane96/eNERVE.git
  ``` 
- 3. move to the code directory:
+ 3. move to the directory:
  ``` 
- cd eNERVE/code 
+ cd eNERVE
  ```
  4. Clone DeepFri repository:
  ``` 
@@ -159,11 +159,7 @@ source enerve/bin/activate
 ```
 After venv activation, the terminal will shows virtual environment name between ```()```, eg. ```(nerve)```;
 
-7. move to code directory:
-```
-cd eNERVE/code
-```
-8. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
+7. Now, you have to install dependencies (from point 4 of the previous section) needed for the pipeline.
 ***
 ### 🔴 We recommend using conda for creating a virtual environment:
 
