@@ -65,7 +65,7 @@ chmod 777 /path/to/output
 
 6) Run docker image and select a volume for sharing input from local machine and output from virtual machine:
 ```
-sudo docker run --rm -it -v /path/to/output_directory:/workdir -v francescopatane/enerve:tag
+sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:tag
 ```
 7) go to root folder with:
 ```
