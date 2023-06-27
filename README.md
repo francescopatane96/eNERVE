@@ -222,14 +222,14 @@ Remember that required and essential parameters are [-wd], [-p1] and [-nd] if us
 ***
 ### ⛑️ Examples
 
-To run eNERVE with all modules:
+To run eNERVE in a local environment or in a virtual one (no docker) with all modules:
 
 ```
-python3 nerve.py -wd /workdir -p1 proteome.fasta
+python3 code/Nerve.py -p1 proteome.fasta
 ```
 To run eNERVE without annotation (-a) module, mhc1 ligands length of 10, mhc2 ligands length of 15 and epitope percentile of 80:
 ```
-python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l 15
+python3 code/Nerve.py -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l 15
 ```
 
  1. digit:
@@ -237,19 +237,18 @@ python3 nerve.py -wd /workdir -p1 proteome.fasta -a False -prt 0.80 -m1l 10 -m2l
  cd eNERVE
  ```
  2. create your working directory (where you will put in fasta.file to be analyze and where outputs will be saved);
- 3. move to ```code``` directory:
+ 
+ 3. In the terminal, digit and run:
  ```
- cd code
- ```
- 4. In the terminal, digit and run:
- ```
- python3 nerve.py -arg1 -arg2 -args**
+ python3 code/Nerve.py -arg1 -arg2 -args**
  ```
 :warning:
- REMEMBER TO SPECIFY -wd (WORKING_DIR), -nd (NERVE_DIR) and -p1 (eventually also -p2). Place your fasta inputs into the wd
+ REMEMBER TO SPECIFY -wd (WORKING_DIR), -p1 (eventually also -p2). Place your fasta inputs into the wd
  :warning:
  
- 5. Output files will be saved in the working directory at the end of the computation
+ 4. Output files will be saved in the working directory at the end of the computation
+
+If you are using Docker version of eNERVE:
  
  
  ***
