@@ -226,7 +226,7 @@ Remember that required and essential parameters are [-wd], [-p1] and [-nd] if us
 ***
 ### ⛑️ Examples
 
-# To run eNERVE in a local environment or in a virtual one (no docker) with all modules:
+## To run eNERVE in a local environment or in a virtual one (no docker) with all modules:
 Digit on the command line:
 
 ```
