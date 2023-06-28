@@ -29,7 +29,7 @@ eNERVE is designed to assist experimental research activities in vaccine discove
 
 Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit NERVE (```bNERVE```) repository, [here](https://nicolagulmini.github.io/NERVE/) and [here]( https://github.com/FranceCosta/NERVE) .
 
-Before executing the pipeline, please read 
+Before executing the pipeline, please read the Installation Section and the Usage and Examples sections
  
  ***
  ### 💻 Pipeline architecture and data flow
