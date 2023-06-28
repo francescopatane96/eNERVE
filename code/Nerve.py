@@ -601,7 +601,7 @@ def main():
         print("=" * 50)
 
     # 12.Epitope prediction
-    if args.epitopes == "True" and args.transmem_doms_limit != 0:
+    if args.epitopes == "True" and args.transmem_doms_limit == 0:
         print("=" * 50)
         print("{:^50}".format('Epitope prediction of best candidates with epitopepredict starts'))
         print("=" * 50)
