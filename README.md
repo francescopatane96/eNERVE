@@ -28,6 +28,8 @@ eNERVE is a flexible tool that allows you to select specific modules and cutoffs
 eNERVE is designed to assist experimental research activities in vaccine discovery and vaccine formulation for eucaryotic targets, making use of the data available to the scientific community and using it to create machine learning models that can facilitate and economize the process of antigens discovery to formulate protein and subunit vaccines.
 
 Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit NERVE (```bNERVE```) repository, [here](https://nicolagulmini.github.io/NERVE/) and [here]( https://github.com/FranceCosta/NERVE) .
+
+Before executing the pipeline, please read 
  
  ***
  ### 💻 Pipeline architecture and data flow
@@ -46,6 +48,7 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
  11. Linear epitope predictor module: [epitopepredict library](https://github.com/dmnfarrell/epitopepredict). For every protein the module predicts its linear epitopes and promiscuous epitopes considering only the 'supertypes alleles' defined by Sette et al.;
  12. Output generation module: a .CSV file is generated which contains every protein instance with all predictions (columns) like score, p_ad, p_loc_out, transmem doms, epitopes, lenght, instability index etc...
  ***
+ #  🔥🔥🔥Installation section🔥🔥🔥
  
  ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub (preferred method)
 
@@ -176,6 +179,7 @@ conda activate enerve
 4. install dependencies as in previous sections.
 
 ***
+# 🖥️🖥️🖥️Usage Section🖥️🖥️🖥️
 ### 🦮 Usage
 ```
 usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
@@ -255,6 +259,7 @@ If you want to create a workid directory in which save outputs, please specify [
  
  
  ***
+ # 🆘🆘🆘Help and Contacts section🆘🆘🆘
 ### 📲 References and contacts
  eNERVE was developed by ```Francesco Patanè``` during his master thesis and internship under the supervision of Prof. ```Francesco Filippini```, at ```University of Padova```, Synthetic Biology and Biotechnology unit (SynBio) .
  
