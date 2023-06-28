@@ -51,31 +51,31 @@ Are you searching for a ```bacteria``` vaccine discovery pipeline? Please visit 
 
 eNERVE can be used as a stand-alone version taking advantage of [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/engine/reference/commandline/compose/) in linux systems. This method ensures no dependencies related issues.
 
-1) install Docker following [these instructions](https://docs.docker.com/engine/install/) and [the post-installation procedure](https://docs.docker.com/engine/install/linux-postinstall/)
-2) install docker-compose as explained [here](https://docs.docker.com/compose/install/linux/)
-3) open the terminal and digit:
+1. install Docker following [these instructions](https://docs.docker.com/engine/install/) and [the post-installation procedure](https://docs.docker.com/engine/install/linux-postinstall/)
+
+2. open the terminal and digit:
 ```
 sudo docker pull francescopatane/enerve:tag
 ```
-4) create a directory (eg. on Desktop) called 'output' and give it permissions with:
+3. create a directory (eg. on Desktop) called 'output' and give it permissions with:
 ```
 chmod 777 /path/to/output
 ```
-5) Then, put your input FASTA files in the directory;
+4. Then, put your input FASTA files in the directory;
 
-6) Run docker image and select a volume for sharing input from local machine and output from virtual machine:
+5. Run docker image and select a volume for sharing input from local machine and output from virtual machine:
 ```
 sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:tag
 ```
-7) go to root folder with:
+6. go to root folder with:
 ```
 cd ..
 ```
-8) run eNERVE pipeline with:
+7. run eNERVE pipeline with:
 ```
 python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
 ```
-9) At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
+8. At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
 
  
  ***
