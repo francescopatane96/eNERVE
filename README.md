@@ -33,7 +33,7 @@ eNERVE is designed to assist experimental research activities in vaccine discove
  
  ***
  ### 💻 Pipeline architecture and data flow
- ![alt text](https://github.com/francescopatane96/eNERVE/blob/main/workflow_design.png)
+ ![alt text](https://github.com/francescopatane96/eNERVE/blob/main/workflow.png)
 
  1. Proteins or entire proteomes downloaded by Databases and proteomic experiments and in .FASTA format are passed to the pipeline;
  2. Quality control of proteome module and generation of protein instances: proteins that do not pass QC process are discarded (discarded_sequences.fasta);
