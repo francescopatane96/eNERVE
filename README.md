@@ -224,7 +224,7 @@ usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
 Remember that required and essential parameters are [-wd], [-p1] and [-nd] if using Local installation. Dockerized version needs only [-wd]. By default, every module is active and will be run. To personalized and deactivate single modules, digit -parameter** False 
 :warning:
 ***
-## ⛑️ Examples
+## ⛑️ Examples section
 ### Run eNERVE in a dockerized environment with all modules
 
 ### Run eNERVE in a local environment or in a virtual one (no docker) with all modules
@@ -259,7 +259,7 @@ If you want to create a workid directory in which save outputs, please specify [
  
  
  ***
- # 🆘🆘🆘Help and Contacts section🆘🆘🆘
+ ## 🆘🆘🆘Help and Contacts section🆘🆘🆘
 ### 📲 References and contacts
  eNERVE was developed by ```Francesco Patanè``` during his master thesis and internship under the supervision of Prof. ```Francesco Filippini```, at ```University of Padova```, Synthetic Biology and Biotechnology unit (SynBio) .
  
