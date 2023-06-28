@@ -48,7 +48,7 @@ Before executing the pipeline, please read
  11. Linear epitope predictor module: [epitopepredict library](https://github.com/dmnfarrell/epitopepredict). For every protein the module predicts its linear epitopes and promiscuous epitopes considering only the 'supertypes alleles' defined by Sette et al.;
  12. Output generation module: a .CSV file is generated which contains every protein instance with all predictions (columns) like score, p_ad, p_loc_out, transmem doms, epitopes, lenght, instability index etc...
  ***
- #  🔥🔥🔥Installation section🔥🔥🔥
+ ##  🔥🔥🔥Installation section🔥🔥🔥
  
  ### :accessibility: Instructions for stand-alone usage with Docker and dockerhub (preferred method)
 
@@ -179,7 +179,7 @@ conda activate enerve
 4. install dependencies as in previous sections.
 
 ***
-# 🖥️🖥️🖥️Usage Section🖥️🖥️🖥️
+## 🖥️🖥️🖥️Usage Section🖥️🖥️🖥️
 ### 🦮 Usage
 ```
 usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
@@ -225,8 +225,9 @@ Remember that required and essential parameters are [-wd], [-p1] and [-nd] if us
 :warning:
 ***
 ### ⛑️ Examples
+# Run eNERVE in a dockerized environment with all modules
 
-## To run eNERVE in a local environment or in a virtual one (no docker) with all modules:
+# Run eNERVE in a local environment or in a virtual one (no docker) with all modules
 Digit on the command line:
 
 ```
@@ -254,7 +255,6 @@ If you want to create a workid directory in which save outputs, please specify [
  
  4. Output files will be saved in the working directory at the end of the computation
 
-# If you are using Docker version of eNERVE:
 
  
  
