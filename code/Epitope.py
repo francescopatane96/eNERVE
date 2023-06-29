@@ -132,20 +132,24 @@ def epitope(final_proteins, autoimmunity, mouse, mouse_peptides_sum_limit, antig
                 for name in names_i:
                    ax = plotting.plot_tracks([mhci_predictor], name=name)
                    ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC1_{}.png'.format(p.accession))
+                   plt.close('all')
                    
                 names_ii = mhcii_predictor.get_names()
                 for name in names_ii:
                    ax = plotting.plot_tracks([mhcii_predictor], name=name)
                    ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC2_{}.png'.format(p.accession))
+                   plt.close('all')
                 
                 # plot heatmap colored by ranks
                 for name in names_i:
                    ax = plotting.plot_binder_map(mhci_predictor, name=name)
                    ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC1_{}.png'.format(p.accession))
+                   plt.close('all')
                 
                 for name in names_ii:
                    ax = plotting.plot_binder_map(mhcii_predictor, name=name)
                    ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC2_{}.png'.format(p.accession))
+                   plt.close('all')
                 
 
 
