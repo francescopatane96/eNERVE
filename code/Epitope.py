@@ -96,10 +96,9 @@ def epitope(final_proteins, autoimmunity, mouse, mouse_peptides_sum_limit, antig
                 binders_pb1 = pd.read_csv(new_dir_path + 'Promiscuous_binders_MHC1_{}.csv'.format(p.accession))
                 if not binders_pb1.empty:
                     best_binders_pb1 = binders_pb1.groupby('name').apply(lambda x: x.loc[x['score'].idxmax()])
-                    best_binders_pb1 = best_binders_pb1.loc[:, ['alleles', 'score', 'peptide']]
+                    best_binders_pb1 = best_binders_pb1.loc[:, ['peptide']]
                     p.MHC1_pb_binders = best_binders_pb1
-                else:
-                    p.MHC1_pb_binders = 'None'
+                
                 # promiscuous binders mhc2
                 results_mhc2_raw = base.results_from_csv(path=new_dir_path+'mhcii_epitopes_{}.csv'.format(p.accession))
                 filtered_binders2 = mhcii_predictor.get_binders(names=results_mhc2_raw, cutoff=0.95)
