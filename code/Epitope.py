@@ -8,7 +8,7 @@ from Utils import *
 from Select import *
 
 
-def epitope(final_proteins, autoimmunity, mouse, mouse_peptides_sum_limit, antigen, working_dir,
+def epitope(final_proteins, autoimmunity, mouse, antigen, working_dir,
             mhci_length, mhcii_length, mhci_overlap, mhcii_overlap, epitope_percentile) -> list:
     """Module to run epitopes prediction"""
     
@@ -30,7 +30,7 @@ def epitope(final_proteins, autoimmunity, mouse, mouse_peptides_sum_limit, antig
     protein_scores = []
     
     for protein in final_proteins:
-        score = scorer(protein, mouse_peptides_sum_limit, mouse, autoimmunity, antigen)
+        score = scorer(protein, mouse, autoimmunity, antigen)
         protein_scores.append(score)
 
     if len(protein_scores) != 0:
