@@ -4,7 +4,7 @@
 import pandas as pd
 from Protein import *
 
-def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse, mouse_peptides_sum_limit, antigenlimit, antigen, annotation) -> list:
+def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse, antigenlimit, antigen, annotation) -> list:
     """ Selection of suitable vaccine candidate proteins """
     # protein annotations to exclude
     annotations2exclude = ['structural constituent of ribosome', 'DNA binding',
@@ -34,7 +34,7 @@ def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse,
             if p.sapiens_peptides_sum > .15: continue
             if len(p.list_of_peptides_from_comparison_with_mhcpep_sapiens) >= 1: continue
             if mouse == "True":
-                if p.mouse_peptides_sum > mouse_peptides_sum_limit: continue
+                if p.mouse_peptides_sum > .15: continue
                 if len(p.list_of_peptides_from_comparison_with_mhcpep_mouse) >= 1: continue
 
         annotation_flag = "False"
@@ -47,7 +47,7 @@ def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse,
         final_list.append(p)
     return final_list
 
-def scorer(protein: Protein, mouse_peptides_sum_limit: float, mouse: str, autoimmunity: str, antigen: str) -> float:
+def scorer(protein: Protein, mouse: str, autoimmunity: str, antigen: str) -> float:
     """Provides a score for candidate proteins"""
 
     if mouse == "True" and autoimmunity == "True" and antigen == "True":
@@ -56,7 +56,7 @@ def scorer(protein: Protein, mouse_peptides_sum_limit: float, mouse: str, autoim
                     (1 - len(protein.list_of_peptides_from_comparison_with_mhcpep_sapiens)) + \
                     (1 - (protein.sapiens_peptides_sum / .15)) + \
                     (1 - len(protein.list_of_peptides_from_comparison_with_mhcpep_mouse)) + \
-                    (1 - (protein.mouse_peptides_sum / mouse_peptides_sum_limit))) / 7
+                    (1 - (protein.mouse_peptides_sum / .15))) / 7
     if mouse != "True" and autoimmunity == "True" and antigen == "True":
         score = (protein.p_ad + protein.p_antigen + \
                     ((protein.reliability_out)) + \
@@ -70,17 +70,17 @@ def scorer(protein: Protein, mouse_peptides_sum_limit: float, mouse: str, autoim
                  (1 - len(protein.list_of_peptides_from_comparison_with_mhcpep_sapiens)) + \
                  (1 - (protein.sapiens_peptides_sum / .15)) + \
                  (1 - len(protein.list_of_peptides_from_comparison_with_mhcpep_mouse)) + \
-                 (1 - (protein.mouse_peptides_sum / mouse_peptides_sum_limit))) / 6
+                 (1 - (protein.mouse_peptides_sum / .15))) / 6
     if mouse != "True" and autoimmunity != "True" and antigen != "True":
         score = (protein.p_ad + protein.reliability_out) / 2
 
     return score
 
-def output(list_of_proteins: list, outfile, mouse_peptides_sum_limit: float, mouse: str, autoimmunity: str, antigen: str):
+def output(list_of_proteins: list, outfile, mouse: str, autoimmunity: str, antigen: str):
     """Produces output .csv table"""
     df = pd.DataFrame([[str(protein.id),
                         str("".join([str(protein.accession) if protein.accession != None else ""])),
-                        (round(scorer(protein, mouse_peptides_sum_limit, mouse, autoimmunity, antigen), 4)),
+                        (round(scorer(protein, mouse, autoimmunity, antigen), 4)),
                         str(protein.length),
                         str(protein.transmembrane_doms),
                         str(protein.localization),
