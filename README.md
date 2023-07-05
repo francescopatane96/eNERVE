@@ -182,8 +182,8 @@ conda activate enerve
 ## 🖥️🖥️🖥️Usage Section🖥️🖥️🖥️
 ### 🦮 Usage
 ```
-usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
-                [-mpsl] -p1 [-p2] [-rz] [-ig] [-rl] [-s]
+usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml]
+                [-mm] [-m] -p1 [-p2] [-rz] [-ig] [-rl] [-s]
                 [-ss] [-tdl] [-ang] [-wd] [-nd] [-id] [-dfd]
                 [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]
                 
@@ -198,7 +198,6 @@ usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml] [-mm] [-m]
                 -ml (minlength required for shared peptides to be extracted in comparison analysis versus human and/or mouse) [int, default=9];
                 -mm (mismatch, maximal number of not compatible substitutions allowed in shared peptides alignment windows of minlength size in immunity module, [int, default=1];
                 -m (mouse autoimmunity and allergenicity module), [True, False, default=True];
-                -mpsl (mouse peptides sum limit, parameter used by selection module. protein with sum of shared peptides of the i protein with mouse proteins/number of aminoacids of the i protein <= mouse peptides sum limit and with absence of match mhc-I and mhc-II mouse ligands are selected), [float, default=0.15];
                 -p1 (proteome 1 fasta filename or path), [filename.fasta] --> 🔴required🔴;
                 -p2 (proteome 2 fasta filename or path), [filename.fasta];
                 -rz (razor module), [True, False, default=True];
