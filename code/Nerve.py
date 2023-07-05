@@ -45,7 +45,6 @@ class Args(NamedTuple):
     minlength:int
     mismatch:int
     mouse:str
-    mouse_peptides_sum_limit:float
     proteome1:str
     proteome2:str
     padlimit:float
@@ -78,7 +77,6 @@ class Args(NamedTuple):
                     minlength: {self.minlength}, 
                     mismatch: {self.mismatch},
                     mouse: {self.mouse},
-                    mouse_peptides_sum_limit: {self.mouse_peptides_sum_limit},
                     proteome1: {self.proteome1},
                     proteome2: {self.proteome2},
                     padlimit: {self.padlimit},
@@ -156,13 +154,6 @@ def get_args() -> Args:
                         help="Activation (True) or deactivation (False) of the mouse immunity module. This module compares proteome1 with mouse proteome and a further analysis of the eventual shared peptides is carried out as in the autoimmunity module",
                         type=str,
                         default="True",
-                        required=False,
-                        )
-    parser.add_argument('-mpsl', '--mouse_peptides_sum_limit',
-                        metavar='\b',
-                        help="Parameter calculated in mouse module and used by select module. Protein with 'sum of shared peptides of the i-protein with mouse proteins/number of aminoacids of the i-protein' <= mouse_peptides_sum_limit and with absence of match mhc-I and Mhc-II mouse ligands are selected",
-                        type=float,
-                        default=0.15,
                         required=False,
                         )
     parser.add_argument('-p1', '--proteome1',
@@ -319,8 +310,7 @@ def get_args() -> Args:
     args = parser.parse_args()
 
     return Args(args.annotation, args.autoimmunity, args.topology, args.e_value, args.minlength, args.mismatch,
-                args.mouse, args.mouse_peptides_sum_limit, args.proteome1, args.proteome2,
-                args.padlimit, args.razor, args.antigenlimit, args.loclimit,
+                args.mouse, args.proteome1, args.proteome2, args.padlimit, args.razor, args.antigenlimit, args.loclimit,
                 args.min_loop_length, args.select, args.substitution, args.transmem_doms_limit,
                 args.antigen, args.working_dir, args.NERVE_dir, args.iFeature_dir, args.DeepFri_dir, args.epitopes,
                 args.mhci_length, args.mhcii_length, args.mhci_overlap, args.mhcii_overlap, args.epitope_percentile)
@@ -593,7 +583,7 @@ def main():
         logging.debug('Selection module starts ...')
         start = time.time()
         final_proteins = select(list_of_proteins, args.autoimmunity, args.transmem_doms_limit, args.padlimit, args.mouse,
-                                args.mouse_peptides_sum_limit, args.antigenlimit, args.antigen, args.annotation)
+                                args.antigenlimit, args.antigen, args.annotation)
         end = time.time()
         logging.debug(f'Selection done in {end - start} seconds')
         print("=" * 50)
@@ -607,7 +597,7 @@ def main():
         print("=" * 50)
         start = time.time()
         logging.debug('Epitope prediction starts ...')
-        final_proteins = epitope(final_proteins, args.autoimmunity, args.mouse, args.mouse_peptides_sum_limit,
+        final_proteins = epitope(final_proteins, args.autoimmunity, args.mouse,
                                  args.antigen, args.working_dir, args.mhci_length, args.mhcii_length,
                                  args.mhci_overlap, args.mhcii_overlap, args.epitope_percentile)
         end = time.time()
@@ -622,12 +612,12 @@ def main():
 
     # Return csv file with outputs
     output(final_proteins, os.path.join(args.working_dir, 'eu_vaccine_candidates.csv'),
-           args.mouse_peptides_sum_limit, args.mouse, args.autoimmunity, args.antigen)
+           args.mouse, args.autoimmunity, args.antigen)
     # collect also discarded proteins
     final_proteins_names = [p.id for p in final_proteins]
     discarded_proteins = [p for p in list_of_proteins if p.id not in final_proteins_names]
     output(discarded_proteins, os.path.join(args.working_dir, 'discarded_proteins.csv'),
-           args.mouse_peptides_sum_limit, args.mouse, args.autoimmunity, args.antigen)
+           args.mouse, args.autoimmunity, args.antigen)
 
     enerve_end = time.time()
     logging.debug(f'eNERVE has finished its analysis in: {enerve_end - enerve_start} seconds')
