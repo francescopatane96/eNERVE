@@ -27,7 +27,9 @@ def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse,
             if p.localization == 'in' and p.p_antigen < antigenlimit and p.p_ad < padlimit: continue
         if antigen != "True":
             if p.localization == 'in' and p.p_ad < padlimit: continue
-        #if (p.transmembrane_doms >= transmem_doms_limit) and (p.original_sequence_if_razor is None): continue
+        if razor == 'False':
+            if (p.transmembrane_doms >= transmem_doms_limit) and (p.original_sequence_if_razor is None): continue
+        
         if autoimmunity == "True":
             if p.sapiens_peptides_sum > .15: continue
             if len(p.list_of_peptides_from_comparison_with_mhcpep_sapiens) >= 1: continue
