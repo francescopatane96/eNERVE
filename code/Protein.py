@@ -11,6 +11,7 @@ class Protein:
         self.accession = identifier.split('|')[1] if identifier.count("|") == 2 else None
         self.sequence = sequence_string  # the sequence used for the analyses
         self.original_sequence_if_razor = None  # put the original sequence if razor is performed
+	self.sequence_out = None
         self.length = len(sequence_string)
         self.localization = None
         self.reliability_out = 0
@@ -211,8 +212,8 @@ class Protein:
                     str(", ".join(list(set(protein.list_of_peptides_from_comparison_with_mhcpep_sapiens)))),
                     str(", ".join(list(set(protein.list_of_peptides_from_comparison_with_mhcpep_mouse)))),
                     str(protein.sequence),
-                    str("".join([
-                                    str(protein.original_sequence_if_razor) if protein.original_sequence_if_razor != None else ""])),
+                    str("".join([str(protein.original_sequence_if_razor) if protein.original_sequence_if_razor != None else ""])),
+		    str("".join([str(protein.sequence_out) if protein.sequence_out != None else ""])),
                     str("".join([str(protein.tmhmm_seq) if "M" in str(protein.tmhmm_seq) else ""])),
                     str("".join([str(protein.MHC1_binders) if protein.MHC1_binders != None else ""])),
                     str("".join([str(protein.MHC2_binders) if protein.MHC2_binders != None else ""])),
@@ -242,6 +243,7 @@ class Protein:
                            'list_of_peptides_from_comparison_with_mhcpep_mouse',
                            'sequence',
                            'original_sequence_if_razor',
+			   'sequence_out',
                            'tmhmm_seq',
                            'MHC1_binders',
                            'MHC2_binders',
