@@ -221,7 +221,7 @@ def get_args() -> Args:
                         metavar='\b',
                         help="Parameter of select module. Proteins with trasmembrane domains >= transmem_doms_limit are discarded",
                         type=int,
-                        default=0,
+                        default=2,
                         required=False,
                         )
     parser.add_argument('-ang', '--antigen',
