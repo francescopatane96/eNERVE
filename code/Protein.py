@@ -11,7 +11,7 @@ class Protein:
         self.accession = identifier.split('|')[1] if identifier.count("|") == 2 else None
         self.sequence = sequence_string  # the sequence used for the analyses
         self.original_sequence_if_razor = None  # put the original sequence if razor is performed
-	self.sequence_out = None
+        self.sequence_out = None
         self.length = len(sequence_string)
         self.localization = None
         self.reliability_out = 0
@@ -80,17 +80,17 @@ class Protein:
      
 
     def provide_raw_loops_std(self):
-		#print("Warning: this method uses X as a exclusive symbol to split the final protein. Check if X is used inside the protein sequence!")
-		conds = ['o', 'O']
-		if self.localization == "out":
-			conds += ['i', 'I'] 
-		new_seq = ""
-		for i in range(self.length):
-			if self.tmhmm_seq[i] in conds:
-				new_seq += self.sequence[i]
-			elif len(new_seq) > 0 and not new_seq[len(new_seq)-1] == "X":
-				new_seq += "X"
-		return new_seq.split('X')
+        #print("Warning: this method uses X as a exclusive symbol to split the final protein. Check if X is used inside the protein sequence!")
+        conds = ['o', 'O']
+        if self.localization == "out":
+            conds += ['i', 'I']
+        new_seq = ""
+        for i in range(self.length):
+            if self.tmhmm_seq[i] in conds:
+                new_seq += self.sequence[i]
+            elif len(new_seq) > 0 and not new_seq[len(new_seq)-1] == "X":
+                new_seq += "X"
+        return new_seq.split('X')
 
     
     def provide_raw_loops(self, transmem_doms_limit):
@@ -213,7 +213,7 @@ class Protein:
                     str(", ".join(list(set(protein.list_of_peptides_from_comparison_with_mhcpep_mouse)))),
                     str(protein.sequence),
                     str("".join([str(protein.original_sequence_if_razor) if protein.original_sequence_if_razor != None else ""])),
-		    str("".join([str(protein.sequence_out) if protein.sequence_out != None else ""])),
+                    str("".join([str(protein.sequence_out) if protein.sequence_out != None else ""])),
                     str("".join([str(protein.tmhmm_seq) if "M" in str(protein.tmhmm_seq) else ""])),
                     str("".join([str(protein.MHC1_binders) if protein.MHC1_binders != None else ""])),
                     str("".join([str(protein.MHC2_binders) if protein.MHC2_binders != None else ""])),

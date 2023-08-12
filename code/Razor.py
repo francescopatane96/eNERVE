@@ -23,16 +23,16 @@ def razor(list_of_proteins, working_dir, transmem_doms_limit, min_loop_length) -
             if protein.transmembrane_doms > 0:
                 new_loop_out = p.provide_raw_loops()
             
-            p.sequence_out = new_loop_out
+                p.sequence_out = new_loop_out
             
-            if len(new_loop) > min_loop_length:
-                logging.debug(f'Substituting {str(protein.id)} sequence with its outer loops')
-                protein.original_sequence_if_razor = protein.sequence
-                protein.sequence = new_loop
-                protein.razored = True
-            else:
-                logging.debug(f"No replacement found for {str(protein.id)}")
-                protein.razored = False
+                if len(new_loop) > min_loop_length:
+                    logging.debug(f'Substituting {str(protein.id)} sequence with its outer loops')
+                    protein.original_sequence_if_razor = protein.sequence
+                    protein.sequence = new_loop
+                    protein.razored = True
+                else:
+                    logging.debug(f"No replacement found for {str(protein.id)}")
+                    protein.razored = False
         
     return list_of_proteins
 
