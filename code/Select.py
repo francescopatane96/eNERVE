@@ -4,7 +4,7 @@
 import pandas as pd
 from Protein import *
 
-def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse, antigenlimit, antigen, annotation) -> list:
+def select(list_of_proteins, autoimmunity, transmem_doms_limit, padlimit, mouse, antigenlimit, antigen, annotation, razor) -> list:
     """ Selection of suitable vaccine candidate proteins """
     # protein annotations to exclude
     annotations2exclude = ['structural constituent of ribosome', 'DNA binding',

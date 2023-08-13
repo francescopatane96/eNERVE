@@ -228,7 +228,7 @@ def get_args() -> Args:
                         metavar='\b',
                         help="Activation (True) or deactivation (False) of euANTIGEN module, predictor of the probability of being an antigen",
                         type=str,
-                        default="True",
+                        default="False",
                         required=False,
                         )
     parser.add_argument('-wd', '--working_dir',
@@ -303,7 +303,7 @@ def get_args() -> Args:
                         type=float,
                         help='percentile decision threshold on whick to predict epitopes from full length proteins',
                         required=False,
-                        default=0.9
+                        default=0.75
                         )
                         
                           
@@ -410,9 +410,7 @@ def main():
 
     print(f'{len(list_of_fasta_proteins)} proteins loaded')
 
-    print("=" * 50)
-    print("{:^50}".format('Quality control of proteome ends'))
-    print("=" * 50)
+    
 
     print("=" * 50)
     print("{:^50}".format('Descriptors calculation for built-in ML models starts'))
@@ -498,7 +496,7 @@ def main():
     # 7.Razor module
     if args.razor == "True":
         print("=" * 50)
-        print("{:^50}".format('Outer loops with Razor starts'))
+        print("{:^50}".format('loops with Razor starts'))
         print("=" * 50)
         logging.debug("Loop-razor starts ...")
         start = time.time()
@@ -506,7 +504,7 @@ def main():
         end = time.time()
         logging.debug(f'Razor done in {end - start} seconds')
         print("=" * 50)
-        print("{:^50}".format('Outer loops acquired with razor'))
+        print("{:^50}".format('loops acquired with razor'))
         print("=" * 50)
 
     # 8.Autoimmunity/allergenicity module
@@ -583,7 +581,7 @@ def main():
         logging.debug('Selection module starts ...')
         start = time.time()
         final_proteins = select(list_of_proteins, args.autoimmunity, args.transmem_doms_limit, args.padlimit, args.mouse,
-                                args.antigenlimit, args.antigen, args.annotation)
+                                args.antigenlimit, args.antigen, args.annotation, args.razor)
         end = time.time()
         logging.debug(f'Selection done in {end - start} seconds')
         print("=" * 50)
@@ -591,7 +589,7 @@ def main():
         print("=" * 50)
 
     # 12.Epitope prediction
-    if args.epitopes == "True" and args.transmem_doms_limit == 0:
+    if args.epitopes == "True":
         print("=" * 50)
         print("{:^50}".format('Epitope prediction of best candidates with epitopepredict starts'))
         print("=" * 50)
