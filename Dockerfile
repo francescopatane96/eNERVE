@@ -53,8 +53,8 @@ WORKDIR /
 COPY requirements.txt .
 RUN pip install -r ./requirements.txt && \
     python -m pip install git+https://github.com/nicolagulmini/tmhmm.py
-RUN pip install tensorflow
-RUN pip install -U scikit-learn
+#RUN pip install tensorflow
+#RUN pip install -U scikit-learn
 
 FROM intermediate AS dependencies
 
@@ -66,9 +66,6 @@ RUN mv enerve_code/* . && rm -r enerve_code
 RUN mv eNERVE/* . && rm -r eNERVE
 
 	
-
-     
-
 RUN apt-get update 
 RUN apt-get install -y apt-utils ncbi-blast+ 
 RUN apt-get install nano
