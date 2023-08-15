@@ -82,6 +82,7 @@ WORKDIR /workdir
 # Create a volume to share files
 VOLUME ["/workdir/user"]
 RUN chmod -R 777 /workdir
+RUN chmod -R 777 /eNERVE
 
 #CMD ["chmod", "777", "/home/newuser/workdir"]
 
