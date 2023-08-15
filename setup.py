@@ -16,6 +16,6 @@ setup(
     'joblib == 1.2.0',
     'matplotlib == 3.5.0',
     'ncbi-blast+',
-    'https://github.com/francescopatane96/tmhmm.py.git' 
+    'git+https://github.com/francescopatane96/tmhmm.py.git' 
     ],
 )
