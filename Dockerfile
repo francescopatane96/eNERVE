@@ -51,6 +51,7 @@ WORKDIR /
 
 # install python dependencies
 COPY requirements.txt .
+RUN pip install requests 
 RUN pip install -r ./requirements.txt && \
     python -m pip install git+https://github.com/nicolagulmini/tmhmm.py
 #RUN pip install tensorflow
@@ -73,16 +74,15 @@ RUN apt-get install nano
 FROM dependencies AS setting
 
 # Create new user
-RUN useradd -ms /bin/bash newuser
-USER newuser
+#RUN useradd -ms /bin/bash newuser
+#USER newuser
 
 # Create workingdir
 WORKDIR /workdir
 
 # Create a volume to share files
-VOLUME ["/workdir/user"]
-RUN chmod -R 777 /workdir
-
+VOLUME ["/workdir"]
+RUN chmod 777 /workdir
 
 #CMD ["chmod", "777", "/home/newuser/workdir"]
 
