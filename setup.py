@@ -15,7 +15,7 @@ setup(
     'tensorflow == 2.13.0',
     'joblib == 1.2.0',
     'matplotlib == 3.5.0',
-    'ncbi-blast+',
-    'git+https://github.com/francescopatane96/tmhmm.py.git' 
+    'ncbi-blast+'
+    
     ],
 )
