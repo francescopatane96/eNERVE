@@ -58,7 +58,7 @@ eNERVE can be used as a stand-alone version taking advantage of [Docker](https:/
 
 2. open the terminal and digit:
 ```
-sudo docker pull francescopatane/enerve:tag
+sudo docker pull francescopatane/enerve:last
 ```
 3. create a directory (eg. on Desktop) called 'output' and give it permissions with:
 ```
@@ -68,7 +68,7 @@ chmod 777 /path/to/output
 
 5. Run docker image and select a volume for sharing input from local machine and output from the virtual machine:
 ```
-sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:tag
+sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:last
 ```
 6. go to root folder with:
 ```
@@ -102,31 +102,23 @@ python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
  ```
  5. Download pre-trained models from [flatironinstitute](https://users.flatironinstitute.org/~renfrew/DeepFRI_data/newest_trained_models.tar.gz), then uncompress ```tar.gz file``` into the ```DeepFRI directory```:
  ```
- tar xvzf newest_trained_models.tar.gz -C /path/to/DeepFRI
+ tar xvzf newest_trained_models.tar.gz -C ./DeepFRI
  ```
  6. clone iFeature repository:
  ``` 
  git clone https://github.com/francescopatane96/iFeature.git
  ``` 
- and install numpy:
+
  ```
- pip install numpy
- ```
- 7. install tmhmm library:
- ``` 
- pip install git+https://github.com/francescopatane96/tmhmm.py.git 
+
  ```
  8. install ncbi-blast +:
  ``` 
  sudo apt-get install ncbi-blast+ 
  ```
- 9. install tensorflow:
- ``` 
- pip install tensorflow 
- ```
- 10. install scikit-learn library:
- ``` 
- pip install -U scikit-learn 
+
+
+
  ```
  11. finally, install remaining dependencies:
  ``` 
@@ -190,7 +182,7 @@ usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml]
                 where:
                 -h (help), [];
                 -locl (loclimit, localization prediction threshold outer class), [float, default=0.60],
-                -pl (adhlimit, Retrieve internal proteins if having adh probability > adl), [float, default=0.80];
+                -adl (adhlimit, Retrieve internal proteins if having adh probability > adl), [float, default=0.80];
                 -a (Protein functional annotation with DeepFRI), [True, False, default=True];
                 -ai (human autoimmunity and allergenicity module), [True, False, default=True];
                 -tp (topology), [tmhmm];
