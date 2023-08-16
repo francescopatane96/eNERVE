@@ -62,21 +62,17 @@ sudo docker pull francescopatane/enerve:v1.0
 ```
 3. create a directory (eg. on Desktop) called 'output' 
 
-4. Then, put your input FASTA files in the directory;
+4. Then, put your input FASTA files in the just created directory;
 
 5. Run docker image and select a volume for sharing input from local machine and output from the virtual machine:
 ```
 sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:v1.0
 ```
-6. go to root folder with:
-```
-cd ..
-```
-7. run eNERVE pipeline with:
+6. run eNERVE pipeline with:
 ```
 python3 nerve.py -wd /workdir, -p1 [filename.fasta] -args**
 ```
-8. At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
+7. At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
 
  
  ***
@@ -106,19 +102,11 @@ python3 nerve.py -wd /workdir, -p1 [filename.fasta] -args**
  ``` 
  git clone https://github.com/francescopatane96/iFeature.git
  ``` 
-
- ```
-
- ```
- 8. install ncbi-blast +:
+ 7. install ncbi-blast +:
  ``` 
  sudo apt-get install ncbi-blast+ 
  ```
-
-
-
- ```
- 11. finally, install remaining dependencies:
+ 8. finally, install remaining dependencies:
  ``` 
  pip install -r requirements.txt 
  ```
