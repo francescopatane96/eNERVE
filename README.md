@@ -60,10 +60,8 @@ eNERVE can be used as a stand-alone version taking advantage of [Docker](https:/
 ```
 sudo docker pull francescopatane/enerve:v1.0
 ```
-3. create a directory (eg. on Desktop) called 'output' and give it permissions with:
-```
-chmod 777 /path/to/output
-```
+3. create a directory (eg. on Desktop) called 'output' 
+
 4. Then, put your input FASTA files in the directory;
 
 5. Run docker image and select a volume for sharing input from local machine and output from the virtual machine:
