@@ -10,7 +10,6 @@ FROM python:3.10 AS base
  # set where NERVE is contained
 ENV PYTHONPATH "${PYTHONPATH}:/eNERVE"
 
-
 ENV LANG C
 
 FROM base AS intermediate
@@ -24,8 +23,9 @@ RUN apt-get install -y sudo curl git
 RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 RUN sudo apt-get install git-lfs
 RUN sudo git lfs install 
-RUN sudo git lfs clone https://github.com/FranceCosta/nerve_data.git
+RUN sudo git lfs clone https://github.com/francescopatane96/nerve_data.git
 
+WORKDIR ./DeepFri
 
 RUN mv /nerve_data/DeepFri.tar.gz DeepFri.tar.gz && \
     tar xvzf ./DeepFri.tar.gz
@@ -41,31 +41,24 @@ RUN mv /nerve_data/iFeature.tar.gz iFeature.tar.gz && \
 RUN sudo apt-get update
 RUN pip install --upgrade pip
 
-WORKDIR ./DeepFri
-#RUN sudo pip install .
 
 WORKDIR /
-#COPY code /workdir
-#COPY models /workdir/models
-#COPY database /workdir/database
 
 # install python dependencies
 COPY requirements.txt .
 RUN pip install requests 
 RUN pip install -r ./requirements.txt && \
     python -m pip install git+https://github.com/nicolagulmini/tmhmm.py
-#RUN pip install tensorflow
-#RUN pip install -U scikit-learn
+
 
 FROM intermediate AS dependencies
 
 # clone repositories
-#RUN git clone https://github.com/Superzchen/iFeature.git 
+ 
 RUN git clone https://github.com/francescopatane96/eNERVE
 RUN git clone https://github.com/francescopatane96/enerve_code.git
 RUN mv enerve_code/* . && rm -r enerve_code
 RUN mv eNERVE/* . && rm -r eNERVE
-
 	
 RUN apt-get update 
 RUN apt-get install -y apt-utils ncbi-blast+ 
@@ -73,23 +66,21 @@ RUN apt-get install nano
 
 FROM dependencies AS setting
 
-# Create new user
-#RUN useradd -ms /bin/bash newuser
-#USER newuser
 
 # Create workingdir
 WORKDIR /workdir
 
 # Create a volume to share files
 VOLUME ["/workdir"]
-RUN chmod 777 /workdir
 
-#CMD ["chmod", "777", "/home/newuser/workdir"]
+# Create new user
+RUN useradd -ms /bin/bash newuser
+RUN chown -R newuser:newuser /workdir
+# change user
+USER newuser
 
+RUN chmod 755 /workdir
 
-#RUN chown newuser:newuser newuser
-
-#RUN chown -R newuser:newuser /home
 
 CMD ["bash"]
 
