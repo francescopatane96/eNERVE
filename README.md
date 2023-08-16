@@ -58,7 +58,7 @@ eNERVE can be used as a stand-alone version taking advantage of [Docker](https:/
 
 2. open the terminal and digit:
 ```
-sudo docker pull francescopatane/enerve:last
+sudo docker pull francescopatane/enerve:v1.0
 ```
 3. create a directory (eg. on Desktop) called 'output' and give it permissions with:
 ```
@@ -68,7 +68,7 @@ chmod 777 /path/to/output
 
 5. Run docker image and select a volume for sharing input from local machine and output from the virtual machine:
 ```
-sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:last
+sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/enerve:v1.0
 ```
 6. go to root folder with:
 ```
@@ -76,7 +76,7 @@ cd ..
 ```
 7. run eNERVE pipeline with:
 ```
-python3 nerve.py -wd [], -dfd [./], -p1 [filename.fasta] -args**
+python3 nerve.py -wd /workdir, -p1 [filename.fasta] -args**
 ```
 8. At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
 
