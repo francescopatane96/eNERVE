@@ -174,7 +174,7 @@ conda activate enerve
 ## 🖥️🖥️🖥️Usage Section🖥️🖥️🖥️
 ### 🦮 Usage
 ```
-usage: nerve.py [-h] [-locl] [pl] [-a] [-ai] [-tp] [-ev] [-ml]
+usage: nerve.py [-h] [-locl] [adl] [-a] [-ai] [-tp] [-ev] [-ml]
                 [-mm] [-m] -p1 [-p2] [-rz] [-ig] [-rl] [-s]
                 [-ss] [-tdl] [-ang] [-wd] [-nd] [-id] [-dfd]
                 [-ep] [-m1l] [-m2l] [-m1ovr] [-m2ovr] [-prt]
