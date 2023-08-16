@@ -76,13 +76,16 @@ WORKDIR /workdir
 # Create a volume to share files
 VOLUME ["/workdir"]
 
+
 # Create new user
 RUN useradd -ms /bin/bash newuser
-RUN chown -R newuser:newuser /
+RUN chown -R newuser:newuser /workdir
 # change user
 USER newuser
 
 RUN chmod 755 /workdir
+
+WORKDIR /
 
 
 CMD ["bash"]
