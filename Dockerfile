@@ -25,24 +25,29 @@ RUN sudo apt-get install git-lfs
 RUN sudo git lfs install 
 RUN sudo git lfs clone https://github.com/francescopatane96/nerve_data.git
 
-WORKDIR ./DeepFri
+RUN mkdir /DeepFRI
+WORKDIR ./DeepFRI
 
 RUN mv /nerve_data/DeepFri.tar.gz DeepFri.tar.gz && \
     tar xvzf ./DeepFri.tar.gz
+RUN rm -r DeepFri.tar.gz
+
+RUN mv DeepFri/* .
 
 RUN mv /nerve_data/newest_trained_models.tar.gz trained_models.tar.gz && \
     tar xvzf trained_models.tar.gz
 RUN rm -r trained_models.tar.gz
-RUN mv trained_models/* DeepFri && rm -r trained_models
+#RUN mv trained_models/* DeepFri && rm -r trained_models
+
+WORKDIR /
 
 RUN mv /nerve_data/iFeature.tar.gz iFeature.tar.gz && \
     tar xvzf iFeature.tar.gz
+RUN rm -r iFeature.tar.gz
     
 RUN sudo apt-get update
 RUN pip install --upgrade pip
 
-
-WORKDIR /
 
 # install python dependencies
 COPY requirements.txt .
@@ -50,14 +55,13 @@ RUN pip install requests
 RUN pip install -r ./requirements.txt && \
     python -m pip install git+https://github.com/nicolagulmini/tmhmm.py
 
-
 FROM intermediate AS dependencies
 
 # clone repositories
  
 RUN git clone https://github.com/francescopatane96/eNERVE
-RUN git clone https://github.com/francescopatane96/enerve_code.git
-RUN mv enerve_code/* . && rm -r enerve_code
+
+RUN mv eNERVE/code/* . #&& rm -r enerve_code
 RUN mv eNERVE/* . && rm -r eNERVE
 	
 RUN apt-get update 
@@ -65,7 +69,6 @@ RUN apt-get install -y apt-utils ncbi-blast+
 RUN apt-get install nano
 
 FROM dependencies AS setting
-
 
 # Create workingdir
 WORKDIR /workdir
@@ -75,7 +78,7 @@ VOLUME ["/workdir"]
 
 # Create new user
 RUN useradd -ms /bin/bash newuser
-RUN chown -R newuser:newuser /workdir
+RUN chown -R newuser:newuser /
 # change user
 USER newuser
 
