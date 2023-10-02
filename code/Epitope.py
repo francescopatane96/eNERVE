@@ -128,32 +128,36 @@ def epitope(final_proteins, autoimmunity, mouse, antigen, working_dir,
 
                     p.MHC2_pb_binders = best_binders_pb2
                 # plot binders in a sequence
+                
                 names_i = mhci_predictor.get_names()
                 for name in names_i:
+                  
                    ax = plotting.plot_tracks([mhci_predictor], name=name)
-                   ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC1_{}.png'.format(p.accession))
+                   if ax != None:
+                      ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC1_{}.png'.format(p.accession))
                   
                    
                 names_ii = mhcii_predictor.get_names()
                 for name in names_ii:
+                   
                    ax = plotting.plot_tracks([mhcii_predictor], name=name)
-                   ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC2_{}.png'.format(p.accession))
+                   if ax != None:
+                      ax.figure.savefig(fname=new_dir_path+'tracks_plot_pbs_MHC2_{}.png'.format(p.accession))
                    
                 
                 # plot heatmap colored by ranks
                 for name in names_i:
+                   
                    ax = plotting.plot_binder_map(mhci_predictor, name=name)
-                   ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC1_{}.png'.format(p.accession))
+                   if ax != None:
+                      ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC1_{}.png'.format(p.accession))
                   
                 
                 for name in names_ii:
+                   
                    ax = plotting.plot_binder_map(mhcii_predictor, name=name)
-                   ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC2_{}.png'.format(p.accession))
-                  
-                
-
-
-
-
+                   if ax != None:
+                      ax.figure.savefig(fname=new_dir_path+'heatmap_pbs_MHC2_{}.png'.format(p.accession))
+                         
                 
     return final_proteins

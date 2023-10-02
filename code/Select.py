@@ -73,6 +73,8 @@ def scorer(protein: Protein, mouse: str, autoimmunity: str, antigen: str) -> flo
                  (1 - (protein.mouse_peptides_sum / .15))) / 6
     if mouse != "True" and autoimmunity != "True" and antigen != "True":
         score = (protein.p_ad + protein.reliability_out) / 2
+    if mouse == "True" and autoimmunity != "True" and antigen != "True":
+        score = (protein.p_ad + protein.reliability_out) / 2
 
     return score
 
