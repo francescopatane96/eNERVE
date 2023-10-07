@@ -42,7 +42,7 @@ def epitope(final_proteins, autoimmunity, mouse, antigen, working_dir,
         percentile = sorted_scores[percentile_index]
 
         for p, score in zip(final_proteins, protein_scores):
-            if score >= epitope_percentile:
+            if score >= percentile:
                 # create a dir for every protein
                 new_dir_path = working_dir+'{}/'.format(p.accession)
                 if os.path.isfile(new_dir_path):
