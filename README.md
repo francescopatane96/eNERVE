@@ -70,7 +70,7 @@ sudo docker run --rm -it -v /path/to/output_directory:/workdir francescopatane/e
 ```
 6. run eNERVE pipeline with:
 ```
-python3 nerve.py -wd /workdir, -p1 [filename.fasta] -args**
+python3 Nerve.py -wd /workdir -p1 [filename.fasta] -args**
 ```
 7. At the end of the computation you will find output files in your 'output' directory in the local machine, in this case in your Desktop in the directory ```output```
 
